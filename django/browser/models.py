@@ -7,6 +7,25 @@ class Gene(models.Model):
     # entrez id
     slug = models.SlugField()
 
+    # gene name upper
+    gene_name_upper = models.CharField(max_length=30)
+
+    # gene name display
+    gene_name = models.CharField(max_length=30)
+
+    # chrom
+    chrom = models.CharField(max_length=20)
+
+    # strand
+    strand = models.CharField(max_length=1)
+
+    # start
+    start = models.IntegerField()
+
+    # end
+    end = models.IntegerField()
+
+
 class GeneUserData(models.Model):
     """
     `GeneUserData` model
