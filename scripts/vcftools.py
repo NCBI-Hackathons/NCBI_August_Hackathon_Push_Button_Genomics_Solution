@@ -70,9 +70,12 @@ def vcf_to_json(vcf_file):
     vcf_reader = vcf.Reader(filename=vcf_file)
 
     # iterate over every record
+    sys.stdout.write("[\n")
     for record in vcf_reader:
         sys.stdout.write(json.dumps(flatten_vcf(record), sort_keys=True, indent=4, separators=(',', ': ')))
         sys.stdout.write("\n")
+    sys.stdout.write("]\n")
+
 
 def flatten_vcf(record):
     """
