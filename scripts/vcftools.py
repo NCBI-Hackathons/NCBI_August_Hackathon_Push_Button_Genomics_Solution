@@ -84,7 +84,8 @@ def flatten_vcf(record):
     """
 
     # gather field values
-    d = {}
+    d = {'id': '{chrom}-{pos}'.format(chrom=record.CHROM, pos=record.POS)}
+
     for _id in _IDS:
         field_name = _id['field_name']
         db_name = _id['db_name']
