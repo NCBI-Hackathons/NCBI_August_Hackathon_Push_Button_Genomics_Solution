@@ -1,0 +1,48 @@
+from env import *
+import sys
+
+samples = "dummy_1 dummy_2".split() #creates array of your input files
+samples = {}
+samples['dummy_1']=['dummy_1.fastq','dummy_2.fastq']
+#samples['dummy_2']=['dummy_1.fastq','dummy_2.fastq']
+
+def sample2fastq(wc):
+    return samples[wc.sample]
+
+rule final:
+    input: expand("results/{sample}.rmdup.bam",sample=samples.keys()),
+           expand("results/{sample}.rmdup.bam.bai",sample=samples.keys()),
+           expand("results/{sample}.rmdup",sample=samples.keys()),	
+           expand("results/{sample}.vcf",sample=samples.keys())
+
+rule vcf_filter:
+     input:  "{wildcard}.rmdup"
+     output: "{wildcard}.vcf"
+     threads: 1
+     shell:  "{VCFILTER} -f {input} > {output}"
+
+rule var_calls:
+    input:  "{wildcard}.rmdup.bam"
+    output: temp("{wildcard}.rmdup")
+    threads: 1
+    shell:  "{FREEBAYES} -f /home/ubuntu/refs/fasta/GCF_000001405.30_GRCh38.p4_genomic.fna {input} > {output}"
+    
+rule indexBam:
+    input: "{wildcard}.rmdup.bam"
+    output: "{wildcard}.rmdup.bam.bai"
+    threads: 1
+    shell: "{SAMTOOLS} index {input}"
+
+rule rmdups:
+    input: "{wildcard}.bam"
+    output: "{wildcard}.rmdup.bam"
+    threads: 1
+    shell: "{SAMTOOLS} rmdup {input} {output}"
+
+rule map_reads:
+    input: reads = sample2fastq
+    output: temp("results/{sample}.bam")
+    params: ref=REF, outprefix = "results/{sample}"
+    threads: 4
+    message: "executing command following output {output} and input {input}"
+    shell: "{BWA} mem -t {threads} {params.ref} {input.reads} | {SAMTOOLS} view -Shu - | {SAMTOOLS} sort - {params.outprefix}"
