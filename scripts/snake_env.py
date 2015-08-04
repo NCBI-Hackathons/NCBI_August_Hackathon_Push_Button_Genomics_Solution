@@ -1,0 +1,5 @@
+REF= "/home/ubuntu/refs/bwa_index/GCF_000001405.30_GRCh38.p4_genomic.fna"
+BWA="/opt/biobuilds/bin/bwa"
+SAMTOOLS="/opt/biobuilds/bin/samtools"
+FREEBAYES="/home/ubuntu/freebayes/bin/freebayes"
+VCFILTER="/home/ubuntu/vcflib/bin/vcffilter"

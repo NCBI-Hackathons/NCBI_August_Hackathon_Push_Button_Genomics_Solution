@@ -42,22 +42,86 @@ _IDS = [
     }
 ]
 
-_INFO_IDS = [
+_ANN_IDS = [
     {
-        'field_name': 'SNPEFF_GENE_NAME',
-        'db_name': 'gene_name_s'
+        'field_name': 'ALLELE',
+        'db_name': 'allele_s'
     },
     {
-        'field_name': 'SNPEFF_IMPACT',
-        'db_name': 'impact_s'
+        'field_name': 'ANNOTATION',
+        'db_name': 'annotation_s'
 
     },
     {
-        'field_name': 'SNPEFF_CODON_CHANGE',
-        'db_name': 'codon_change_s'
+        'field_name': 'PUTATIVE_IMPACT',
+        'db_name': 'putative_impact_s'
 
     }
+{
+        'field_name': 'GENE_NAME_HGNC',
+        'db_name': 'gene_name_hgnc_s'
 
+    }
+{
+        'field_name': 'GENE_ID',
+        'db_name': 'gene_id_s'
+
+    }
+{
+        'field_name': 'FEATURE_TYPE',
+        'db_name': 'feature_type_s'
+
+    }
+{
+        'field_name': 'FEATURE_ID',
+        'db_name': 'feature_id_s'
+
+    }
+{
+        'field_name': 'TRANSCRIPT_BIOTYPE',
+        'db_name': 'transcript_biotype_s'
+
+    }    
+{
+        'field_name': 'RANK_TOTAL',
+        'db_name': 'rank_total_s'
+
+    }
+{
+        'field_name': 'HGVS.c',
+        'db_name': 'hgvs.c_s'
+
+    }    
+{
+        'field_name': 'HGVS.p',
+        'db_name': 'hgvs.p_s'
+
+    }  
+{
+        'field_name': 'cDNA_POSITION',
+        'db_name': 'cdna_position_s'
+
+    }  
+{
+        'field_name': 'CDS_POSITION',
+        'db_name': 'cds_position_s'
+
+    }  
+{
+        'field_name': 'PROTEIN_POSITION',
+        'db_name': 'protein_position_s'
+
+    }      
+{
+        'field_name': 'DISTANCE_TO_FEATURE',
+        'db_name': 'distance_to_feature_i'
+
+    }      
+{
+        'field_name': 'ERROR_MESSAGE',
+        'db_name': 'error_message_s'
+
+    }          
 ]
 
 @command('vcf-to-json')
@@ -109,12 +173,12 @@ def flatten_vcf(record):
 
         d[db_name] = field
 
-    for _id in _INFO_IDS:
+    for _id in _ANN_IDS:
         field_name = _id['field_name']
         db_name = _id['db_name']
 
-        if field_name in record.INFO and record.INFO[field_name] is not None:
-            d[db_name] = record.INFO[field_name]
+        if field_name in record.ANN and record.ANN[field_name] is not None:
+            d[db_name] = record.ANN[field_name]
 
     return d
 
