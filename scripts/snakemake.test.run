@@ -1,4 +1,4 @@
-from env import *
+from snake_env import *
 import sys
 
 samples = "dummy_1 dummy_2".split() #creates array of your input files
