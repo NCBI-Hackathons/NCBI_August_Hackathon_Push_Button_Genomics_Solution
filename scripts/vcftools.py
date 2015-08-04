@@ -162,12 +162,12 @@ def flatten_vcf(record):
 
         d[db_name] = field
 
-    for _id in _INFO_IDS:
+    for _id in _ANN_IDS:
         field_name = _id['field_name']
         db_name = _id['db_name']
 
-        if field_name in record.INFO and record.INFO[field_name] is not None:
-            d[db_name] = record.INFO[field_name]
+        if field_name in record.ANN and record.ANN[field_name] is not None:
+            d[db_name] = record.ANN[field_name]
 
     return d
 
