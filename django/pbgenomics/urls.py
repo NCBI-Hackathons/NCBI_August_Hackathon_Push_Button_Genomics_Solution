@@ -18,5 +18,5 @@ from django.contrib import admin
 
 urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
-    url(r'^browser/', include('browser.urls'))
+    url(r'', include('browser.urls'), name='browser')
 ]
