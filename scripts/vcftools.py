@@ -18,11 +18,11 @@ _IDS = [
     },
     {
         'field_name': 'QUAL',
-        'db_name': 'qual_s'
+        'db_name': 'qual_f'
     },
     {
         'field_name': 'POS',
-        'db_name': 'pos_s'
+        'db_name': 'pos_i'
     },
     {
         'field_name': 'ALT',
@@ -54,7 +54,7 @@ _INFO_IDS = [
     },
     {
         'field_name': 'SNPEFF_CODON_CHANGE',
-        'db_name': 'codon_change_i'
+        'db_name': 'codon_change_s'
 
     }
 
@@ -71,9 +71,16 @@ def vcf_to_json(vcf_file):
 
     # iterate over every record
     sys.stdout.write("[\n")
-    for record in vcf_reader:
+
+    record = vcf_reader.next()
+    while record:
         sys.stdout.write(json.dumps(flatten_vcf(record), sort_keys=True, indent=4, separators=(',', ': ')))
-        sys.stdout.write("\n")
+        try:
+            record = vcf_reader.next()
+        except StopIteration:
+            break
+        sys.stdout.write(",\n")
+
     sys.stdout.write("]\n")
 
 

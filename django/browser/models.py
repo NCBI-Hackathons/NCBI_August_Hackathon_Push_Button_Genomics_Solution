@@ -5,7 +5,7 @@ class Gene(models.Model):
     `Gene` model
     """
     # entrez id
-    slug = models.SlugField()
+    slug = models.SlugField(unique=True)
 
     # gene name upper
     gene_name_upper = models.CharField(max_length=30)
