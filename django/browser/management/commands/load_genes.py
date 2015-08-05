@@ -98,10 +98,6 @@ def load_genes_helper(tabix_reader, features=None):
         if record.feature not in features:
             continue
 
-        # skip extra chromosomes contigs
-        if not re.match(r'(?P<chrom>[0-9MTXY]+)', record.contig):
-            continue
-
         attrs = dict()
         for attr in record.attributes.split(';'):
             if attr != '':
