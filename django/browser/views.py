@@ -138,6 +138,8 @@ class ResultsPlanBView(generic.TemplateView):
               'facet.pivot=gene_name_hgnc_s,annotation_s'.format(solr_host=settings.SOLR_HOST)
         response = requests.request('GET', url)
 
+        context['url'] = url
+
         solr_data = json.loads(response.content)
 
         context['solr_data'] = {}
