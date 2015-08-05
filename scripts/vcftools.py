@@ -42,6 +42,17 @@ _IDS = [
     }
 ]
 
+_INFO_IDS = [
+    {
+        'field_name': 'RS',
+        'db_name': 'rs_i'
+    },
+    {
+        'field_name': 'dbSNPBuildID',
+        'db_name': 'dbsnp_build_id_i'
+    }
+]
+
 _ANN_IDS = [
     {
         'field_name': 'ALLELE',
@@ -56,72 +67,72 @@ _ANN_IDS = [
         'field_name': 'PUTATIVE_IMPACT',
         'db_name': 'putative_impact_s'
 
-    }
-{
+    },
+    {
         'field_name': 'GENE_NAME_HGNC',
         'db_name': 'gene_name_hgnc_s'
 
-    }
-{
+    },
+    {
         'field_name': 'GENE_ID',
         'db_name': 'gene_id_s'
 
-    }
-{
+    },
+    {
         'field_name': 'FEATURE_TYPE',
         'db_name': 'feature_type_s'
 
-    }
-{
+    },
+    {
         'field_name': 'FEATURE_ID',
         'db_name': 'feature_id_s'
 
-    }
-{
+    },
+    {
         'field_name': 'TRANSCRIPT_BIOTYPE',
         'db_name': 'transcript_biotype_s'
 
-    }    
-{
+    },
+    {
         'field_name': 'RANK_TOTAL',
         'db_name': 'rank_total_s'
 
-    }
-{
+    },
+    {
         'field_name': 'HGVS.c',
         'db_name': 'hgvs.c_s'
 
-    }    
-{
+    },
+    {
         'field_name': 'HGVS.p',
         'db_name': 'hgvs.p_s'
 
-    }  
-{
+    },
+    {
         'field_name': 'cDNA_POSITION',
         'db_name': 'cdna_position_s'
 
-    }  
-{
+    },
+    {
         'field_name': 'CDS_POSITION',
         'db_name': 'cds_position_s'
 
-    }  
-{
+    },
+    {
         'field_name': 'PROTEIN_POSITION',
         'db_name': 'protein_position_s'
 
-    }      
-{
+    },
+    {
         'field_name': 'DISTANCE_TO_FEATURE',
         'db_name': 'distance_to_feature_i'
 
-    }      
-{
+    },
+    {
         'field_name': 'ERROR_MESSAGE',
         'db_name': 'error_message_s'
 
-    }          
+    },
 ]
 
 @command('vcf-to-json')
@@ -173,21 +184,29 @@ def flatten_vcf(record):
 
         d[db_name] = field
 
-    for _id in _ANN_IDS:
+    # grab snpEff annotations
+    annotations = record.INFO['ANN']
+    for ann in annotations:
+        # split piped annotation's fields
+        fields = ann.split('|')
+
+        for i, _id in enumerate(_ANN_IDS):
+            db_name = _id['db_name']
+
+            # grab field value
+            field = fields[i]
+            if field != '':
+                d[db_name] = field
+    # grab extra info fields
+    for _id in _INFO_IDS:
         field_name = _id['field_name']
         db_name = _id['db_name']
 
-        if field_name in record.ANN and record.ANN[field_name] is not None:
-            d[db_name] = record.ANN[field_name]
+        if field_name in record.INFO:
+            d[db_name] = record.INFO[field_name]
 
     return d
 
-def flatten_list(l):
-    return l[0] if type(l) == list else l
-
-def name_field(field, value=None):
-    if value is None:
-        return field
 
 if __name__ == "__main__":
     main()
