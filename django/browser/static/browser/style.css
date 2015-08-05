@@ -1,0 +1,45 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#left-col {
+	clear: left;
+	float: left;
+	width: 250px;
+}
+
+#right-col {
+	float: left;
+	margin-left: 20px;
+}
+
+
+fieldset fieldset {
+	border: 0px;
+}
+
+fieldset fieldset ul {
+	display: list-item;
+	list-style: none;
+}
+
+#filters-fieldset fieldset {
+	float: left;
+}
+
+#filters-fieldset fieldset ul {
+	margin-left: -30px;
+}
+
+#email-fieldset, #format-fieldset, #file-to-upload-fieldset {
+	width: 240px;
+}
+
+#format-fieldset label {
+	clear: right;
+}
+
+#upload {
+	float: right;
+	margin-top: 15px;
+}
