@@ -1,5 +1,6 @@
 import json
 import logging
+import requests
 import sys
 import vcf
 
@@ -57,6 +58,10 @@ _INFO_IDS = [
     {
         'field_name': 'dbSNPBuildID',
         'db_name': 'dbsnp_build_id_i'
+    },
+    {
+        'field_name': 'CLNSIG',
+        'db_name': 'clin_sig_i'
     }
 ]
 
@@ -176,13 +181,15 @@ def flatten_vcf(record, upload_hash=None):
     :param upload_hash: hash identifying the upload.
     :return dict: all fields as a flat dictionary, including those fields in rec.INFO
     """
+    # create variant id
+    v_id = '{chrom}-{pos}'.format(chrom=record.CHROM, pos=record.POS)
 
-    # gather field values
-    d = {'id': '{chrom}-{pos}'.format(chrom=record.CHROM, pos=record.POS)}
+    d = {'id': v_id}
 
     # add upload hash
     if upload_hash is not None:
         d['upload_hash_s'] = upload_hash
+        d['id'] += '--{hash}'.format(hash=upload_hash)
 
     for _id in _IDS:
         field_name = _id['field_name']
