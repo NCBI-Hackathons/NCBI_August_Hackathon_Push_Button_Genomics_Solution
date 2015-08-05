@@ -7,6 +7,13 @@ from mando import command, main
 
 logger = logging.getLogger('vcf_to_json')
 
+IMPACTS = {
+    'LOW': 0,
+    'MODIFIER': 1,
+    'MODERATE': 2,
+    'HIGH': 3
+}
+
 _IDS = [
     {
         'field_name': 'CHROM',
@@ -136,12 +143,14 @@ _ANN_IDS = [
 ]
 
 @command('vcf-to-json')
-def vcf_to_json(vcf_file):
+def vcf_to_json(vcf_file, upload_hash=None):
     """
     VCF to json converter.
 
     :param vcf_file: VCF file.
+    :param upload_hash: hash identifying the upload.
     """
+
     vcf_reader = vcf.Reader(filename=vcf_file)
 
     # iterate over every record
@@ -149,7 +158,9 @@ def vcf_to_json(vcf_file):
 
     record = vcf_reader.next()
     while record:
-        sys.stdout.write(json.dumps(flatten_vcf(record), sort_keys=True, indent=4, separators=(',', ': ')))
+        sys.stdout.write(
+            json.dumps(flatten_vcf(record, upload_hash=upload_hash), sort_keys=True, indent=4, separators=(',', ': '))
+        )
         try:
             record = vcf_reader.next()
         except StopIteration:
@@ -159,14 +170,19 @@ def vcf_to_json(vcf_file):
     sys.stdout.write("]\n")
 
 
-def flatten_vcf(record):
+def flatten_vcf(record, upload_hash=None):
     """
     :param VCFRecord record: VCFRecord object
+    :param upload_hash: hash identifying the upload.
     :return dict: all fields as a flat dictionary, including those fields in rec.INFO
     """
 
     # gather field values
     d = {'id': '{chrom}-{pos}'.format(chrom=record.CHROM, pos=record.POS)}
+
+    # add upload hash
+    if upload_hash is not None:
+        d['upload_hash_s'] = upload_hash
 
     for _id in _IDS:
         field_name = _id['field_name']
@@ -190,13 +206,19 @@ def flatten_vcf(record):
         # split piped annotation's fields
         fields = ann.split('|')
 
+        d_ann = {}
         for i, _id in enumerate(_ANN_IDS):
             db_name = _id['db_name']
 
             # grab field value
             field = fields[i]
             if field != '':
-                d[db_name] = field
+                d_ann[db_name] = field
+
+        # only update the annotations if it is a higher impact
+        if 'putative_impact_s' not in d or IMPACTS[d['putative_impact_s']] < IMPACTS[d_ann['putative_impact_s']]:
+            d.update(d_ann)
+
     # grab extra info fields
     for _id in _INFO_IDS:
         field_name = _id['field_name']
@@ -206,7 +228,6 @@ def flatten_vcf(record):
             d[db_name] = record.INFO[field_name]
 
     return d
-
 
 if __name__ == "__main__":
     main()
