@@ -1,0 +1,72 @@
+<html>
+	<head>
+		<title>Upload and filter variants - Variant Interpreter</title>
+		<link type="text/css" rel="stylesheet" href="css/style.css"/>
+		<link type="text/css" rel="stylesheet" href="js/main.js"/>
+	</head>
+	<body>
+		<h1>Upload and filter variants | Variant Interpreter</h1>
+		<div id="left-col">
+			<fieldset id="email-fieldset">
+				<legend>Email address</legend>
+				<input name="email" id="email" class="required">
+			</fieldset>
+			<fieldset id="format-fieldset">
+				<legend>Format</legend>
+				<input type="radio" name="format" id="format-vcf" >
+				<label for="format-vcf">VCF</label>
+				<input type="radio" name="format" id="format-bam">
+				<label for="format-bam">BAM</label>
+				<input type="radio" name="format" id="format-fastq">
+				<label for="format-fastq">FASTQ</label>
+			</fieldset>
+
+			<fieldset id="file-to-upload-fieldset">
+				<legend>File to upload</legend>
+				<input name="file" type="file">
+			</fieldset>
+		</div>
+		<div id="right-col">
+			<fieldset id="filters-fieldset">
+				<legend>Filters</legend>
+				<fieldset>
+					<legend>Clinical significance</legend>
+					<ul>
+						<li><input type="checkbox" id="clinsig_pathogenic"/><label>Pathogenic</label></li>
+						<li><input type="checkbox" id="clinsig_likely-pathogenic"/>Likely pathogenic</li>
+						<li><input type="checkbox" id="clinsig_uncertain-significance"/>Uncertain significance</li>
+						<li><input type="checkbox" id="clinsig_likely-benign"/>Likely benign</li>
+						<li><input type="checkbox" id="clinsig_benign"/>Benign</li>
+					</ul>
+				</fieldset>
+				<fieldset>
+					<legend>Variant type</legend>
+					<ul>
+						<li><input type="checkbox" id="vartype_single-nucleotide-variant"/>Single nucleotide variant</li>
+						<li><input type="checkbox" id="vartype_insertion"/>Insertion</li>
+						<li><input type="checkbox" id="vartype_deletion"/>Deletion</li>
+						<li><input type="checkbox" id="vartype_indel"/>Indel</li>
+					</ul>
+				</fieldset>
+				<fieldset>
+					<legend>Molecular consequence</legend>
+					<ul>
+						<li><input type="checkbox" id="molcons_missense"><label>Missense</label></li>
+						<li><input type="checkbox" id="molcons_nonsense"><label>Nonsense</label></li>
+						<li><input type="checkbox" id="molcons_frameshift"><label>Frameshift</label></li>
+						<li><input type="checkbox" id="molcons_synonymous"><label>Synonymous variant</label></li>
+					</ul>
+				</fieldset>
+				<fieldset>
+					<legend>Predicted impact</legend>
+					<ul>
+						<li><input type="checkbox" id="predictedimpact_high"><label>High</label></li>
+						<li><input type="checkbox" id="predictedimpact_medium"><label>Medium</label></li>
+						<li><input type="checkbox" id="predictedimpact_low"><label>Low</label></li>
+					</ul>
+				</fieldset>
+			</fieldset>
+			<button id="upload">Upload</button>
+		</div>
+	</body>
+</html>
