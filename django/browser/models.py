@@ -1,5 +1,6 @@
 from django.db import models
 
+
 class Gene(models.Model):
     """
     `Gene` model
@@ -25,6 +26,9 @@ class Gene(models.Model):
     # end
     end = models.IntegerField()
 
+    def __unicode__(self):
+        return self.gene_name
+
 
 class GeneUserData(models.Model):
     """
@@ -35,3 +39,6 @@ class GeneUserData(models.Model):
 
     # foreign key to gene
     gene = models.ForeignKey(to=Gene, related_name='gene_user_data')
+
+    def __unicode__(self):
+        return self.upload_hash
