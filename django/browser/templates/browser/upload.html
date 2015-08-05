@@ -2,11 +2,13 @@
 <html>
 	<head>
 		<title>Upload and filter variants - Variant Interpreter</title>
-		<link type="text/css" rel="stylesheet" href="{%static 'browser/style.css' %}"/>
+		<link type="text/css" rel="stylesheet" href="{% static 'browser/style.css' %}"/>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+		<script src="{% static 'browser/upload.js' %}"></script>
 	</head>
 	<body>
 		<h1>Upload and filter variants | Variant Interpreter</h1>
+		<form id="uploadForm" onsubmit="return validateForm();" action="/uploadfile/" method="post" enctype="multipart/form-data"> 
 		<div id="left-col">
 			<fieldset id="email-fieldset">
 				<legend>Email address</legend>
@@ -14,11 +16,11 @@
 			</fieldset>
 			<fieldset id="format-fieldset">
 				<legend>Format</legend>
-				<input type="radio" name="format" id="format-vcf" >
+				<input type="radio" name="format" id="format-vcf" value="VCF">
 				<label for="format-vcf">VCF</label>
-				<input type="radio" name="format" id="format-bam">
+				<input type="radio" name="format" id="format-bam" value="BAM">
 				<label for="format-bam">BAM</label>
-				<input type="radio" name="format" id="format-fastq">
+				<input type="radio" name="format" id="format-fastq" value="FASTQ">
 				<label for="format-fastq">FASTQ</label>
 			</fieldset>
 
@@ -67,7 +69,9 @@
 					</ul>
 				</fieldset>
 			</fieldset>
-			<button id="upload">Upload</button>
+			<input type="submit" value="Upload">
 		</div>
+		<input type="hidden" id="uploadID" name="uploadID"/>
+		</form>
 	</body>
 </html>
