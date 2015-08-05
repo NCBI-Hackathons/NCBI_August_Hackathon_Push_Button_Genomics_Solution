@@ -2,7 +2,8 @@ import json
 import requests
 
 from django.views import generic
-from django.shortcuts import render
+from django.shortcuts import render, redirect
+from django.views.decorators.csrf import csrf_exempt
 from django.conf import settings
 
 from .models import Gene
@@ -12,6 +13,21 @@ class IndexView(generic.TemplateView):
     template_name = 'browser/index.html'
 
 
+    '''
+    def post(self, request):
+        email = request.POST.get("email", "")
+        uploadID = request.POST.get("uploadID", "")
+	fileFormat = request.POST.get("format", "")
+        print "email:"
+        print email
+        print ""
+        print "uploadID:"
+        print uploadID
+        print ""
+        print "format:"
+        print fileFormat
+    '''
+
 class UploadView(generic.TemplateView):
     template_name = "browser/upload.html"
 
@@ -19,11 +35,40 @@ class UploadView(generic.TemplateView):
         return render(request, self.template_name, {"foo": "asdfasdf"})
 
 
+class UploadFormView(generic.TemplateView):
+    def get(self, request): 
+        email = request.GET.get("email")
+        uploadID = request.GET.get("uploadID")
+	fileFormat = request.GET.get("format")
+        fileUrl = request.GET.get("fileUrl")
+        print "email:"
+        print email
+        print ""
+        print "uploadID:"
+        print uploadID
+        print ""
+        print "format:"
+        print fileFormat
+        print ""
+        print "fileUrl:"
+        print fileUrl
+
+	# Call SnakeMake
+	# snakemake -s ABSOLUTE_PATH_TO_FILE
+
+	# Upon return, data is in Solr and user can be redirected 
+        # to /results/<uploadID>
+
+	# 
+        return redirect('ResultsView', uploadID=uploadID)
+
 class ResultsView(generic.TemplateView):
     template_name = "browser/results.html"
 
     def get_context_data(self, **kwargs):
         context = super(ResultsView, self).get_context_data()
+
+	kwargs["uploadID"]
 
         context['genes_all'] = Gene.objects.all()[:5]
 
