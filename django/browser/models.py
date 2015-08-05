@@ -26,6 +26,10 @@ class Gene(models.Model):
     # end
     end = models.IntegerField()
 
+    @property
+    def length(self):
+        return self.end - self.start
+
     def __unicode__(self):
         return self.gene_name
 
