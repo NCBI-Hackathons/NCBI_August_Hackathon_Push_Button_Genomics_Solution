@@ -141,3 +141,6 @@ LOGGING = {
         },
     }
 }
+
+# pbgenomics settings
+SOLR_HOST = 'http://localhost:8983/solr/sequence'

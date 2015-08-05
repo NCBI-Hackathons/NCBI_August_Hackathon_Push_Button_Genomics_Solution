@@ -1,5 +1,9 @@
+import json
+import requests
+
 from django.views import generic
 from django.shortcuts import render
+from django.conf import settings
 
 from .models import Gene
 
@@ -57,5 +61,18 @@ class ResultsView(generic.TemplateView):
                 "synonymous_variants": "0"
             }
         ]
+
+        # call to solr
+        url = '{solr_host}/select?' \
+              'q=*%3A*&' \
+              'rows=0&' \
+              'wt=json&' \
+              'indent=true&' \
+              'facet=true&' \
+              'facet.pivot=gene_name_hgnc_s,putative_impact_s&' \
+              'facet.pivot=gene_name_hgnc_s,annotation_s'.format(solr_host=settings.SOLR_HOST)
+        response = requests.request('GET', url)
+
+        solr_data = json.loads(response.content)
 
         return context
