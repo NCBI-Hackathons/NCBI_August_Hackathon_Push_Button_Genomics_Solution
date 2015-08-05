@@ -32,4 +32,3 @@ java -jar $BASE_DIR/SnpSift.jar annotate -clinvar $BASE_DIR"/"temp1.vcf > $2
 #java -jar SnpSift.jar annotate -clinvar $BASE_DIR"/"temp.vcf > $BASE_DIR"/"out.vcf
 #add carlos's gff
 #java -Xmx4G -jar snpEff.jar -c ./snpEff.config -v -interval ./data/GGRCh38.p4_gene.gff test.GRCh38.dbsnp.clinvar.chr22.vcf > test.GRCh38.dbsnp.clinvar.gene.chr22.vcf
-
