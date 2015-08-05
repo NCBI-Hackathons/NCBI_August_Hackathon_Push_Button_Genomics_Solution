@@ -39,7 +39,7 @@ class UploadFormView(generic.TemplateView):
     def get(self, request): 
         email = request.GET.get("email")
         uploadID = request.GET.get("uploadID")
-	fileFormat = request.GET.get("format")
+        fileFormat = request.GET.get("format")
         fileUrl = request.GET.get("fileUrl")
         print "email:"
         print email
@@ -53,13 +53,13 @@ class UploadFormView(generic.TemplateView):
         print "fileUrl:"
         print fileUrl
 
-	# Call SnakeMake
-	# snakemake -s ABSOLUTE_PATH_TO_FILE
+        # Call SnakeMake
+        # snakemake -s ABSOLUTE_PATH_TO_FILE
 
-	# Upon return, data is in Solr and user can be redirected 
+        # Upon return, data is in Solr and user can be redirected
         # to /results/<uploadID>
 
-	# 
+        #
         return redirect('ResultsView', uploadID=uploadID)
 
 class ResultsView(generic.TemplateView):
@@ -67,8 +67,6 @@ class ResultsView(generic.TemplateView):
 
     def get_context_data(self, **kwargs):
         context = super(ResultsView, self).get_context_data()
-
-	kwargs["uploadID"]
 
         context['genes_all'] = Gene.objects.all()[:5]
 
