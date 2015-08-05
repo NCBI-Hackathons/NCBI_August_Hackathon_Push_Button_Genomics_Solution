@@ -30,7 +30,15 @@
 				<td>{{ gene.synonymous_variants }}</td>
 			</tr>
 		{% endfor %}
+		{% for gene in genes_all %}
+			<tr>
+				<td>{{ gene.slug }}</td>
+				<td>{{ gene.length }}</td>
+				<td><a href="http://www.ncbi.nlm.nih.gov/gtr/genes/{{ gene.id }}" target="_blank">GTR</a> | <a href="http://www.ncbi.nlm.nih.gov/variation/view/?q={{ gene.gene_name }}" target="_blank">Variation Viewer</a></td>
+			</tr>
+		{% endfor %}
                 </tbody>
 	    </table>
+
 	</body>
 </html>
