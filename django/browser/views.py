@@ -1,6 +1,7 @@
 import json
 import requests
 
+from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 from django.views import generic
 from django.shortcuts import render, redirect
 from django.views.decorators.csrf import csrf_exempt
@@ -117,5 +118,51 @@ class ResultsView(generic.TemplateView):
         response = requests.request('GET', url)
 
         solr_data = json.loads(response.content)
+
+        return context
+
+class ResultsPlanBView(generic.TemplateView):
+    template_name = "browser/results_plan_b.html"
+
+    def get_context_data(self, **kwargs):
+        context = super(ResultsPlanBView, self).get_context_data()
+
+        # call to solr
+        url = '{solr_host}/select?' \
+              'q=*%3A*&' \
+              'rows=0&' \
+              'wt=json&' \
+              'indent=true&' \
+              'facet=true&' \
+              'facet.pivot=gene_name_hgnc_s,putative_impact_s&' \
+              'facet.pivot=gene_name_hgnc_s,annotation_s'.format(solr_host=settings.SOLR_HOST)
+        response = requests.request('GET', url)
+
+        solr_data = json.loads(response.content)
+
+        context['solr_data'] = {}
+        for g_data in solr_data['facet_counts']['facet_pivot']['gene_name_hgnc_s,annotation_s']:
+            gene = g_data['value']
+            count = g_data['count']
+            annotations = {a['value']: a['count'] for a in g_data['pivot']}
+            context['solr_data'][gene] = {'count': count, 'annotations': annotations}
+
+        for g_data in solr_data['facet_counts']['facet_pivot']['gene_name_hgnc_s,putative_impact_s']:
+            gene = g_data['value']
+            impacts = {a['value']: a['count'] for a in g_data['pivot']}
+            context['solr_data'][gene].update({'impacts': impacts})
+
+        genes_paginator = Paginator(Gene.objects.filter(gene_name__in=context['solr_data'].keys()), 10)
+        page = self.request.GET.get('page')
+        try:
+            genes = genes_paginator.page(page)
+        except PageNotAnInteger:
+            # If page is not an integer, deliver first page.
+            genes = genes_paginator.page(1)
+        except EmptyPage:
+            # If page is out of range (e.g. 9999), deliver last page of results.
+            genes = genes_paginator.page(genes_paginator.num_pages)
+
+        context['genes_all'] = genes
 
         return context

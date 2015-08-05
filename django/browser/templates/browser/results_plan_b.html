@@ -1,0 +1,44 @@
+{% load staticfiles %}
+
+{% load filters %}
+
+<html>
+	<head>
+		<title>Variant results by gene - Variant Interpreter</title>
+ <link type="text/css" rel="stylesheet" href="{%static 'browser/style.css' %}"/>
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+	</head>
+	<body>
+		<h1>Variant results by gene | Variant Interpreter</h1>
+		<p>Genes matching your filter selections: {{ filters }}</p>
+		<table>
+			<thead>
+				<tr>
+				<th>Gene</th>
+				<th>Length</th>
+				<th>View in</th>
+				<th>Pathogenic</th>
+				<th>Benign</th>
+				<th>Missense</th>
+				<th>Synonymous</th>
+				</tr>
+			</thead>
+		<tbody>
+
+		{% for gene in genes_all %}
+			<tr>
+				<td>{{ gene }}</td>
+				<td>{{ gene.length }}</td>
+				<td><a href="http://www.ncbi.nlm.nih.gov/gtr/genes/{{ gene.slug }}" target="_blank">GTR</a> | <a href="http://www.ncbi.nlm.nih.gov/variation/view/?q={{ gene }}" target="_blank">Variation Viewer</a></td>
+                <td>
+                    {% with solr_data|get_or_none:gene.gene_name as gene_data %}
+                    {{ gene_data }}
+                    {% endwith %}
+                </td>
+			</tr>
+		{% endfor %}
+                </tbody>
+	    </table>
+
+	</body>
+</html>
