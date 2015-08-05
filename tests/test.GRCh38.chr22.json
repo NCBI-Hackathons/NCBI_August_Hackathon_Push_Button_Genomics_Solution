@@ -1,1 +1,6669 @@
-python scripts/vcftools.py vcf-to-json --upload_hash 000010 tests/test.GRCh38.chr22.vcf
+[
+{
+    "allele_s": "T",
+    "alt_ss": [
+        "T"
+    ],
+    "annotation_s": "intergenic_region",
+    "chrom_s": "22",
+    "clin_sig_i": [
+        "0"
+    ],
+    "dbsnp_build_id_i": 136,
+    "feature_id_s": "ANKRD62P1-PARP4P3.gene47281-VWFP1.gene47282",
+    "feature_type_s": "intergenic_region",
+    "gene_id_s": "ANKRD62P1-PARP4P3.gene47281-VWFP1.gene47282",
+    "gene_name_hgnc_s": "ANKRD62P1-PARP4P3-VWFP1",
+    "id": "22-16686514--000001",
+    "id_s": "rs207477892",
+    "pos_i": 16686514,
+    "putative_impact_s": "MODIFIER",
+    "ref_s": "C",
+    "rs_i": 207477892,
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "C",
+    "alt_ss": [
+        "C"
+    ],
+    "annotation_s": "intergenic_region",
+    "chrom_s": "22",
+    "feature_id_s": "CECR7.gene47296-IL17RA.gene47297",
+    "feature_type_s": "intergenic_region",
+    "gene_id_s": "CECR7.gene47296-IL17RA.gene47297",
+    "gene_name_hgnc_s": "CECR7-IL17RA",
+    "id": "22-17071756--000001",
+    "pos_i": 17071756,
+    "putative_impact_s": "MODIFIER",
+    "ref_s": "T",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "T",
+    "alt_ss": [
+        "T"
+    ],
+    "annotation_s": "intergenic_region",
+    "chrom_s": "22",
+    "feature_id_s": "CECR7.gene47296-IL17RA.gene47297",
+    "feature_type_s": "intergenic_region",
+    "gene_id_s": "CECR7.gene47296-IL17RA.gene47297",
+    "gene_name_hgnc_s": "CECR7-IL17RA",
+    "id": "22-17072035--000001",
+    "pos_i": 17072035,
+    "putative_impact_s": "MODIFIER",
+    "ref_s": "C",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "A",
+    "alt_ss": [
+        "A"
+    ],
+    "annotation_s": "intergenic_region",
+    "chrom_s": "22",
+    "feature_id_s": "CECR7.gene47296-IL17RA.gene47297",
+    "feature_type_s": "intergenic_region",
+    "gene_id_s": "CECR7.gene47296-IL17RA.gene47297",
+    "gene_name_hgnc_s": "CECR7-IL17RA",
+    "id": "22-17072258--000001",
+    "pos_i": 17072258,
+    "putative_impact_s": "MODIFIER",
+    "ref_s": "C",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "A",
+    "alt_ss": [
+        "A"
+    ],
+    "annotation_s": "intergenic_region",
+    "chrom_s": "22",
+    "feature_id_s": "CECR7.gene47296-IL17RA.gene47297",
+    "feature_type_s": "intergenic_region",
+    "gene_id_s": "CECR7.gene47296-IL17RA.gene47297",
+    "gene_name_hgnc_s": "CECR7-IL17RA",
+    "id": "22-17072674--000001",
+    "pos_i": 17072674,
+    "putative_impact_s": "MODIFIER",
+    "ref_s": "G",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "C",
+    "alt_ss": [
+        "C"
+    ],
+    "annotation_s": "intergenic_region",
+    "chrom_s": "22",
+    "feature_id_s": "CECR7.gene47296-IL17RA.gene47297",
+    "feature_type_s": "intergenic_region",
+    "gene_id_s": "CECR7.gene47296-IL17RA.gene47297",
+    "gene_name_hgnc_s": "CECR7-IL17RA",
+    "id": "22-17072747--000001",
+    "pos_i": 17072747,
+    "putative_impact_s": "MODIFIER",
+    "ref_s": "T",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "T",
+    "alt_ss": [
+        "T"
+    ],
+    "annotation_s": "intergenic_region",
+    "chrom_s": "22",
+    "feature_id_s": "CECR7.gene47296-IL17RA.gene47297",
+    "feature_type_s": "intergenic_region",
+    "gene_id_s": "CECR7.gene47296-IL17RA.gene47297",
+    "gene_name_hgnc_s": "CECR7-IL17RA",
+    "id": "22-17072781--000001",
+    "pos_i": 17072781,
+    "putative_impact_s": "MODIFIER",
+    "ref_s": "C",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "T",
+    "alt_ss": [
+        "T"
+    ],
+    "annotation_s": "intergenic_region",
+    "chrom_s": "22",
+    "feature_id_s": "CECR7.gene47296-IL17RA.gene47297",
+    "feature_type_s": "intergenic_region",
+    "gene_id_s": "CECR7.gene47296-IL17RA.gene47297",
+    "gene_name_hgnc_s": "CECR7-IL17RA",
+    "id": "22-17073043--000001",
+    "pos_i": 17073043,
+    "putative_impact_s": "MODIFIER",
+    "ref_s": "C",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "G",
+    "alt_ss": [
+        "G"
+    ],
+    "annotation_s": "intergenic_region",
+    "chrom_s": "22",
+    "feature_id_s": "CECR7.gene47296-IL17RA.gene47297",
+    "feature_type_s": "intergenic_region",
+    "gene_id_s": "CECR7.gene47296-IL17RA.gene47297",
+    "gene_name_hgnc_s": "CECR7-IL17RA",
+    "id": "22-17073066--000001",
+    "pos_i": 17073066,
+    "putative_impact_s": "MODIFIER",
+    "ref_s": "A",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "T",
+    "alt_ss": [
+        "T"
+    ],
+    "annotation_s": "intergenic_region",
+    "chrom_s": "22",
+    "feature_id_s": "CECR7.gene47296-IL17RA.gene47297",
+    "feature_type_s": "intergenic_region",
+    "gene_id_s": "CECR7.gene47296-IL17RA.gene47297",
+    "gene_name_hgnc_s": "CECR7-IL17RA",
+    "id": "22-17073119--000001",
+    "pos_i": 17073119,
+    "putative_impact_s": "MODIFIER",
+    "ref_s": "C",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "T",
+    "alt_ss": [
+        "T"
+    ],
+    "annotation_s": "intergenic_region",
+    "chrom_s": "22",
+    "feature_id_s": "CECR7.gene47296-IL17RA.gene47297",
+    "feature_type_s": "intergenic_region",
+    "gene_id_s": "CECR7.gene47296-IL17RA.gene47297",
+    "gene_name_hgnc_s": "CECR7-IL17RA",
+    "id": "22-17073131--000001",
+    "pos_i": 17073131,
+    "putative_impact_s": "MODIFIER",
+    "ref_s": "C",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "A",
+    "alt_ss": [
+        "A"
+    ],
+    "annotation_s": "intergenic_region",
+    "chrom_s": "22",
+    "feature_id_s": "CECR7.gene47296-IL17RA.gene47297",
+    "feature_type_s": "intergenic_region",
+    "gene_id_s": "CECR7.gene47296-IL17RA.gene47297",
+    "gene_name_hgnc_s": "CECR7-IL17RA",
+    "id": "22-17073134--000001",
+    "pos_i": 17073134,
+    "putative_impact_s": "MODIFIER",
+    "ref_s": "C",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "G",
+    "alt_ss": [
+        "G"
+    ],
+    "annotation_s": "intergenic_region",
+    "chrom_s": "22",
+    "feature_id_s": "CECR7.gene47296-IL17RA.gene47297",
+    "feature_type_s": "intergenic_region",
+    "gene_id_s": "CECR7.gene47296-IL17RA.gene47297",
+    "gene_name_hgnc_s": "CECR7-IL17RA",
+    "id": "22-17073145--000001",
+    "pos_i": 17073145,
+    "putative_impact_s": "MODIFIER",
+    "ref_s": "T",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "A",
+    "alt_ss": [
+        "A"
+    ],
+    "annotation_s": "intergenic_region",
+    "chrom_s": "22",
+    "feature_id_s": "CECR7.gene47296-IL17RA.gene47297",
+    "feature_type_s": "intergenic_region",
+    "gene_id_s": "CECR7.gene47296-IL17RA.gene47297",
+    "gene_name_hgnc_s": "CECR7-IL17RA",
+    "id": "22-17073148--000001",
+    "pos_i": 17073148,
+    "putative_impact_s": "MODIFIER",
+    "ref_s": "G",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "T",
+    "alt_ss": [
+        "T"
+    ],
+    "annotation_s": "intergenic_region",
+    "chrom_s": "22",
+    "feature_id_s": "CECR7.gene47296-IL17RA.gene47297",
+    "feature_type_s": "intergenic_region",
+    "gene_id_s": "CECR7.gene47296-IL17RA.gene47297",
+    "gene_name_hgnc_s": "CECR7-IL17RA",
+    "id": "22-17073150--000001",
+    "pos_i": 17073150,
+    "putative_impact_s": "MODIFIER",
+    "ref_s": "C",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "C",
+    "alt_ss": [
+        "C"
+    ],
+    "annotation_s": "intergenic_region",
+    "chrom_s": "22",
+    "feature_id_s": "CECR7.gene47296-IL17RA.gene47297",
+    "feature_type_s": "intergenic_region",
+    "gene_id_s": "CECR7.gene47296-IL17RA.gene47297",
+    "gene_name_hgnc_s": "CECR7-IL17RA",
+    "id": "22-17073153--000001",
+    "pos_i": 17073153,
+    "putative_impact_s": "MODIFIER",
+    "ref_s": "G",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "T",
+    "alt_ss": [
+        "T"
+    ],
+    "annotation_s": "intergenic_region",
+    "chrom_s": "22",
+    "feature_id_s": "CECR7.gene47296-IL17RA.gene47297",
+    "feature_type_s": "intergenic_region",
+    "gene_id_s": "CECR7.gene47296-IL17RA.gene47297",
+    "gene_name_hgnc_s": "CECR7-IL17RA",
+    "id": "22-17073178--000001",
+    "pos_i": 17073178,
+    "putative_impact_s": "MODIFIER",
+    "ref_s": "C",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "T",
+    "alt_ss": [
+        "T"
+    ],
+    "annotation_s": "intergenic_region",
+    "chrom_s": "22",
+    "feature_id_s": "CECR7.gene47296-IL17RA.gene47297",
+    "feature_type_s": "intergenic_region",
+    "gene_id_s": "CECR7.gene47296-IL17RA.gene47297",
+    "gene_name_hgnc_s": "CECR7-IL17RA",
+    "id": "22-17073198--000001",
+    "pos_i": 17073198,
+    "putative_impact_s": "MODIFIER",
+    "ref_s": "C",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "A",
+    "alt_ss": [
+        "A"
+    ],
+    "annotation_s": "intergenic_region",
+    "chrom_s": "22",
+    "feature_id_s": "CECR7.gene47296-IL17RA.gene47297",
+    "feature_type_s": "intergenic_region",
+    "gene_id_s": "CECR7.gene47296-IL17RA.gene47297",
+    "gene_name_hgnc_s": "CECR7-IL17RA",
+    "id": "22-17073275--000001",
+    "pos_i": 17073275,
+    "putative_impact_s": "MODIFIER",
+    "ref_s": "G",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "T",
+    "alt_ss": [
+        "T"
+    ],
+    "annotation_s": "intergenic_region",
+    "chrom_s": "22",
+    "feature_id_s": "CECR7.gene47296-IL17RA.gene47297",
+    "feature_type_s": "intergenic_region",
+    "gene_id_s": "CECR7.gene47296-IL17RA.gene47297",
+    "gene_name_hgnc_s": "CECR7-IL17RA",
+    "id": "22-17073466--000001",
+    "pos_i": 17073466,
+    "putative_impact_s": "MODIFIER",
+    "ref_s": "C",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "T",
+    "alt_ss": [
+        "T"
+    ],
+    "annotation_s": "intergenic_region",
+    "chrom_s": "22",
+    "feature_id_s": "CECR7.gene47296-IL17RA.gene47297",
+    "feature_type_s": "intergenic_region",
+    "gene_id_s": "CECR7.gene47296-IL17RA.gene47297",
+    "gene_name_hgnc_s": "CECR7-IL17RA",
+    "id": "22-17073475--000001",
+    "pos_i": 17073475,
+    "putative_impact_s": "MODIFIER",
+    "ref_s": "C",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "T",
+    "alt_ss": [
+        "T"
+    ],
+    "annotation_s": "synonymous_variant",
+    "cdna_position_s": "1246/8608",
+    "cds_position_s": "1113/2601",
+    "chrom_s": "22",
+    "clin_sig_i": [
+        "1"
+    ],
+    "dbsnp_build_id_i": 134,
+    "feature_id_s": "NM_014339.6.rna128788",
+    "feature_type_s": "transcript",
+    "gene_id_s": "IL17RA.gene47297",
+    "gene_name_hgnc_s": "IL17RA",
+    "hgvs.c_s": "c.1113C>T",
+    "hgvs.p_s": "p.Ile371Ile",
+    "id": "22-17108332--000001",
+    "id_s": "rs151315255",
+    "pos_i": 17108332,
+    "protein_position_s": "371/866",
+    "putative_impact_s": "LOW",
+    "rank_total_s": "13/13",
+    "ref_s": "C",
+    "rs_i": 151315255,
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "A",
+    "alt_ss": [
+        "A"
+    ],
+    "annotation_s": "5_prime_UTR_variant",
+    "cdna_position_s": "684/4505",
+    "cds_position_s": "408/1536",
+    "chrom_s": "22",
+    "clin_sig_i": [
+        "1"
+    ],
+    "dbsnp_build_id_i": 137,
+    "distance_to_feature_i": "16976",
+    "feature_id_s": "XM_006724080.2.rna128812",
+    "feature_type_s": "transcript",
+    "gene_id_s": "CECR1.gene47304",
+    "gene_name_hgnc_s": "CECR1",
+    "hgvs.c_s": "c.-1963C>T",
+    "hgvs.p_s": "p.Ile136Ile",
+    "id": "22-17207205--000001",
+    "id_s": "rs267606172",
+    "pos_i": 17207205,
+    "protein_position_s": "136/511",
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "2/9",
+    "ref_s": "G",
+    "rs_i": 267606172,
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "C",
+    "alt_ss": [
+        "C"
+    ],
+    "annotation_s": "intergenic_region",
+    "chrom_s": "22",
+    "feature_id_s": "CECR3.gene47308-CECR2.gene47309",
+    "feature_type_s": "intergenic_region",
+    "gene_id_s": "CECR3.gene47308-CECR2.gene47309",
+    "gene_name_hgnc_s": "CECR3-CECR2",
+    "id": "22-17280774--000001",
+    "pos_i": 17280774,
+    "putative_impact_s": "MODIFIER",
+    "ref_s": "T",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "C",
+    "alt_ss": [
+        "C"
+    ],
+    "annotation_s": "intergenic_region",
+    "chrom_s": "22",
+    "feature_id_s": "CECR3.gene47308-CECR2.gene47309",
+    "feature_type_s": "intergenic_region",
+    "gene_id_s": "CECR3.gene47308-CECR2.gene47309",
+    "gene_name_hgnc_s": "CECR3-CECR2",
+    "id": "22-17280778--000001",
+    "pos_i": 17280778,
+    "putative_impact_s": "MODIFIER",
+    "ref_s": "T",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "A",
+    "alt_ss": [
+        "A"
+    ],
+    "annotation_s": "intergenic_region",
+    "chrom_s": "22",
+    "feature_id_s": "CECR3.gene47308-CECR2.gene47309",
+    "feature_type_s": "intergenic_region",
+    "gene_id_s": "CECR3.gene47308-CECR2.gene47309",
+    "gene_name_hgnc_s": "CECR3-CECR2",
+    "id": "22-17280822--000001",
+    "pos_i": 17280822,
+    "putative_impact_s": "MODIFIER",
+    "ref_s": "G",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "A",
+    "alt_ss": [
+        "A"
+    ],
+    "annotation_s": "intergenic_region",
+    "chrom_s": "22",
+    "feature_id_s": "CECR3.gene47308-CECR2.gene47309",
+    "feature_type_s": "intergenic_region",
+    "gene_id_s": "CECR3.gene47308-CECR2.gene47309",
+    "gene_name_hgnc_s": "CECR3-CECR2",
+    "id": "22-17280882--000001",
+    "pos_i": 17280882,
+    "putative_impact_s": "MODIFIER",
+    "ref_s": "C",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "A",
+    "alt_ss": [
+        "A"
+    ],
+    "annotation_s": "intergenic_region",
+    "chrom_s": "22",
+    "feature_id_s": "CECR3.gene47308-CECR2.gene47309",
+    "feature_type_s": "intergenic_region",
+    "gene_id_s": "CECR3.gene47308-CECR2.gene47309",
+    "gene_name_hgnc_s": "CECR3-CECR2",
+    "id": "22-17280889--000001",
+    "pos_i": 17280889,
+    "putative_impact_s": "MODIFIER",
+    "ref_s": "G",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "C",
+    "alt_ss": [
+        "C"
+    ],
+    "annotation_s": "intergenic_region",
+    "chrom_s": "22",
+    "feature_id_s": "CECR3.gene47308-CECR2.gene47309",
+    "feature_type_s": "intergenic_region",
+    "gene_id_s": "CECR3.gene47308-CECR2.gene47309",
+    "gene_name_hgnc_s": "CECR3-CECR2",
+    "id": "22-17280941--000001",
+    "pos_i": 17280941,
+    "putative_impact_s": "MODIFIER",
+    "ref_s": "T",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "T",
+    "alt_ss": [
+        "T"
+    ],
+    "annotation_s": "intergenic_region",
+    "chrom_s": "22",
+    "feature_id_s": "CECR3.gene47308-CECR2.gene47309",
+    "feature_type_s": "intergenic_region",
+    "gene_id_s": "CECR3.gene47308-CECR2.gene47309",
+    "gene_name_hgnc_s": "CECR3-CECR2",
+    "id": "22-17288581--000001",
+    "pos_i": 17288581,
+    "putative_impact_s": "MODIFIER",
+    "ref_s": "C",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "A",
+    "alt_ss": [
+        "A"
+    ],
+    "annotation_s": "intergenic_region",
+    "chrom_s": "22",
+    "feature_id_s": "CECR3.gene47308-CECR2.gene47309",
+    "feature_type_s": "intergenic_region",
+    "gene_id_s": "CECR3.gene47308-CECR2.gene47309",
+    "gene_name_hgnc_s": "CECR3-CECR2",
+    "id": "22-17288641--000001",
+    "pos_i": 17288641,
+    "putative_impact_s": "MODIFIER",
+    "ref_s": "C",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "G",
+    "alt_ss": [
+        "G"
+    ],
+    "annotation_s": "intergenic_region",
+    "chrom_s": "22",
+    "feature_id_s": "CECR3.gene47308-CECR2.gene47309",
+    "feature_type_s": "intergenic_region",
+    "gene_id_s": "CECR3.gene47308-CECR2.gene47309",
+    "gene_name_hgnc_s": "CECR3-CECR2",
+    "id": "22-17288849--000001",
+    "pos_i": 17288849,
+    "putative_impact_s": "MODIFIER",
+    "ref_s": "A",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "C",
+    "alt_ss": [
+        "C"
+    ],
+    "annotation_s": "intergenic_region",
+    "chrom_s": "22",
+    "feature_id_s": "CECR3.gene47308-CECR2.gene47309",
+    "feature_type_s": "intergenic_region",
+    "gene_id_s": "CECR3.gene47308-CECR2.gene47309",
+    "gene_name_hgnc_s": "CECR3-CECR2",
+    "id": "22-17288988--000001",
+    "pos_i": 17288988,
+    "putative_impact_s": "MODIFIER",
+    "ref_s": "T",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "A",
+    "alt_ss": [
+        "A"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "NM_001290047.1.rna128818",
+    "feature_type_s": "transcript",
+    "gene_id_s": "CECR2.gene47309",
+    "gene_name_hgnc_s": "CECR2",
+    "hgvs.c_s": "c.127-33006G>A",
+    "id": "22-17444582--000001",
+    "pos_i": 17444582,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "1/18",
+    "ref_s": "G",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "A",
+    "alt_ss": [
+        "A"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "NM_001290047.1.rna128818",
+    "feature_type_s": "transcript",
+    "gene_id_s": "CECR2.gene47309",
+    "gene_name_hgnc_s": "CECR2",
+    "hgvs.c_s": "c.127-32948G>A",
+    "id": "22-17444640--000001",
+    "pos_i": 17444640,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "1/18",
+    "ref_s": "G",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "T",
+    "alt_ss": [
+        "T"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "NM_001290047.1.rna128818",
+    "feature_type_s": "transcript",
+    "gene_id_s": "CECR2.gene47309",
+    "gene_name_hgnc_s": "CECR2",
+    "hgvs.c_s": "c.127-32874C>T",
+    "id": "22-17444714--000001",
+    "pos_i": 17444714,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "1/18",
+    "ref_s": "C",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "G",
+    "alt_ss": [
+        "G"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "NM_001290047.1.rna128818",
+    "feature_type_s": "transcript",
+    "gene_id_s": "CECR2.gene47309",
+    "gene_name_hgnc_s": "CECR2",
+    "hgvs.c_s": "c.127-32840A>G",
+    "id": "22-17444748--000001",
+    "pos_i": 17444748,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "1/18",
+    "ref_s": "A",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "A",
+    "alt_ss": [
+        "A"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "NM_001290047.1.rna128818",
+    "feature_type_s": "transcript",
+    "gene_id_s": "CECR2.gene47309",
+    "gene_name_hgnc_s": "CECR2",
+    "hgvs.c_s": "c.127-31947delC",
+    "id": "22-17445640--000001",
+    "pos_i": 17445640,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "1/18",
+    "ref_s": "AC",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "T",
+    "alt_ss": [
+        "T"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "NM_001290047.1.rna128818",
+    "feature_type_s": "transcript",
+    "gene_id_s": "CECR2.gene47309",
+    "gene_name_hgnc_s": "CECR2",
+    "hgvs.c_s": "c.127-31878C>T",
+    "id": "22-17445710--000001",
+    "pos_i": 17445710,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "1/18",
+    "ref_s": "C",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "A",
+    "alt_ss": [
+        "A"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "NM_001290047.1.rna128818",
+    "feature_type_s": "transcript",
+    "gene_id_s": "CECR2.gene47309",
+    "gene_name_hgnc_s": "CECR2",
+    "hgvs.c_s": "c.127-31877G>A",
+    "id": "22-17445711--000001",
+    "pos_i": 17445711,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "1/18",
+    "ref_s": "G",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "A",
+    "alt_ss": [
+        "A"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "NM_001290047.1.rna128818",
+    "feature_type_s": "transcript",
+    "gene_id_s": "CECR2.gene47309",
+    "gene_name_hgnc_s": "CECR2",
+    "hgvs.c_s": "c.127-31854G>A",
+    "id": "22-17445734--000001",
+    "pos_i": 17445734,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "1/18",
+    "ref_s": "G",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "C",
+    "alt_ss": [
+        "C"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "NM_001290047.1.rna128818",
+    "feature_type_s": "transcript",
+    "gene_id_s": "CECR2.gene47309",
+    "gene_name_hgnc_s": "CECR2",
+    "hgvs.c_s": "c.127-31435G>C",
+    "id": "22-17446153--000001",
+    "pos_i": 17446153,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "1/18",
+    "ref_s": "G",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "T",
+    "alt_ss": [
+        "T"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "NM_001290047.1.rna128818",
+    "feature_type_s": "transcript",
+    "gene_id_s": "CECR2.gene47309",
+    "gene_name_hgnc_s": "CECR2",
+    "hgvs.c_s": "c.127-31431G>T",
+    "id": "22-17446157--000001",
+    "pos_i": 17446157,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "1/18",
+    "ref_s": "G",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "T",
+    "alt_ss": [
+        "T"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "NM_001290047.1.rna128818",
+    "feature_type_s": "transcript",
+    "gene_id_s": "CECR2.gene47309",
+    "gene_name_hgnc_s": "CECR2",
+    "hgvs.c_s": "c.127-30597C>T",
+    "id": "22-17446991--000001",
+    "pos_i": 17446991,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "1/18",
+    "ref_s": "C",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "C",
+    "alt_ss": [
+        "C"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "NM_001290047.1.rna128818",
+    "feature_type_s": "transcript",
+    "gene_id_s": "CECR2.gene47309",
+    "gene_name_hgnc_s": "CECR2",
+    "hgvs.c_s": "c.127-30593T>C",
+    "id": "22-17446995--000001",
+    "pos_i": 17446995,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "1/18",
+    "ref_s": "T",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "G",
+    "alt_ss": [
+        "G"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "NM_001290047.1.rna128818",
+    "feature_type_s": "transcript",
+    "gene_id_s": "CECR2.gene47309",
+    "gene_name_hgnc_s": "CECR2",
+    "hgvs.c_s": "c.127-30552C>G",
+    "id": "22-17447036--000001",
+    "pos_i": 17447036,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "1/18",
+    "ref_s": "C",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "G",
+    "alt_ss": [
+        "G"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "NM_001290047.1.rna128818",
+    "feature_type_s": "transcript",
+    "gene_id_s": "CECR2.gene47309",
+    "gene_name_hgnc_s": "CECR2",
+    "hgvs.c_s": "c.127-30450C>G",
+    "id": "22-17447138--000001",
+    "pos_i": 17447138,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "1/18",
+    "ref_s": "C",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "A",
+    "alt_ss": [
+        "A"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "NM_001290047.1.rna128818",
+    "feature_type_s": "transcript",
+    "gene_id_s": "CECR2.gene47309",
+    "gene_name_hgnc_s": "CECR2",
+    "hgvs.c_s": "c.127-30415G>A",
+    "id": "22-17447173--000001",
+    "pos_i": 17447173,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "1/18",
+    "ref_s": "G",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "G",
+    "alt_ss": [
+        "G"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "NM_001290047.1.rna128818",
+    "feature_type_s": "transcript",
+    "gene_id_s": "CECR2.gene47309",
+    "gene_name_hgnc_s": "CECR2",
+    "hgvs.c_s": "c.127-30404C>G",
+    "id": "22-17447184--000001",
+    "pos_i": 17447184,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "1/18",
+    "ref_s": "C",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "G",
+    "alt_ss": [
+        "G"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "NM_001290047.1.rna128818",
+    "feature_type_s": "transcript",
+    "gene_id_s": "CECR2.gene47309",
+    "gene_name_hgnc_s": "CECR2",
+    "hgvs.c_s": "c.127-30351C>G",
+    "id": "22-17447237--000001",
+    "pos_i": 17447237,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "1/18",
+    "ref_s": "C",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "G",
+    "alt_ss": [
+        "G"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "NM_001290047.1.rna128818",
+    "feature_type_s": "transcript",
+    "gene_id_s": "CECR2.gene47309",
+    "gene_name_hgnc_s": "CECR2",
+    "hgvs.c_s": "c.127-30347A>G",
+    "id": "22-17447241--000001",
+    "pos_i": 17447241,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "1/18",
+    "ref_s": "A",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "C",
+    "alt_ss": [
+        "C"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "NM_001290047.1.rna128818",
+    "feature_type_s": "transcript",
+    "gene_id_s": "CECR2.gene47309",
+    "gene_name_hgnc_s": "CECR2",
+    "hgvs.c_s": "c.127-28350T>C",
+    "id": "22-17449238--000001",
+    "pos_i": 17449238,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "1/18",
+    "ref_s": "T",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "A",
+    "alt_ss": [
+        "A"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "NM_001290047.1.rna128818",
+    "feature_type_s": "transcript",
+    "gene_id_s": "CECR2.gene47309",
+    "gene_name_hgnc_s": "CECR2",
+    "hgvs.c_s": "c.127-28325G>A",
+    "id": "22-17449263--000001",
+    "pos_i": 17449263,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "1/18",
+    "ref_s": "G",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "C",
+    "alt_ss": [
+        "C"
+    ],
+    "annotation_s": "upstream_gene_variant",
+    "chrom_s": "22",
+    "distance_to_feature_i": "4187",
+    "feature_id_s": "XM_011546130.1.rna128825",
+    "feature_type_s": "transcript",
+    "gene_id_s": "CECR2.gene47309",
+    "gene_name_hgnc_s": "CECR2",
+    "hgvs.c_s": "c.-14T>C",
+    "id": "22-17450920--000001",
+    "pos_i": 17450920,
+    "putative_impact_s": "MODIFIER",
+    "ref_s": "T",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "T",
+    "alt_ss": [
+        "T"
+    ],
+    "annotation_s": "upstream_gene_variant",
+    "chrom_s": "22",
+    "distance_to_feature_i": "4178",
+    "feature_id_s": "XM_011546130.1.rna128825",
+    "feature_type_s": "transcript",
+    "gene_id_s": "CECR2.gene47309",
+    "gene_name_hgnc_s": "CECR2",
+    "hgvs.c_s": "c.-14C>T",
+    "id": "22-17450929--000001",
+    "pos_i": 17450929,
+    "putative_impact_s": "MODIFIER",
+    "ref_s": "C",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "G",
+    "alt_ss": [
+        "G"
+    ],
+    "annotation_s": "upstream_gene_variant",
+    "chrom_s": "22",
+    "distance_to_feature_i": "4155",
+    "feature_id_s": "XM_011546130.1.rna128825",
+    "feature_type_s": "transcript",
+    "gene_id_s": "CECR2.gene47309",
+    "gene_name_hgnc_s": "CECR2",
+    "hgvs.c_s": "c.-14A>G",
+    "id": "22-17450952--000001",
+    "pos_i": 17450952,
+    "putative_impact_s": "MODIFIER",
+    "ref_s": "A",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "A",
+    "alt_ss": [
+        "A"
+    ],
+    "annotation_s": "upstream_gene_variant",
+    "chrom_s": "22",
+    "distance_to_feature_i": "4138",
+    "feature_id_s": "XM_011546130.1.rna128825",
+    "feature_type_s": "transcript",
+    "gene_id_s": "CECR2.gene47309",
+    "gene_name_hgnc_s": "CECR2",
+    "hgvs.c_s": "c.-14G>A",
+    "id": "22-17450969--000001",
+    "pos_i": 17450969,
+    "putative_impact_s": "MODIFIER",
+    "ref_s": "G",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "A",
+    "alt_ss": [
+        "A"
+    ],
+    "annotation_s": "upstream_gene_variant",
+    "chrom_s": "22",
+    "distance_to_feature_i": "4129",
+    "feature_id_s": "XM_011546130.1.rna128825",
+    "feature_type_s": "transcript",
+    "gene_id_s": "CECR2.gene47309",
+    "gene_name_hgnc_s": "CECR2",
+    "hgvs.c_s": "c.-14G>A",
+    "id": "22-17450978--000001",
+    "pos_i": 17450978,
+    "putative_impact_s": "MODIFIER",
+    "ref_s": "G",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "T",
+    "alt_ss": [
+        "T"
+    ],
+    "annotation_s": "upstream_gene_variant",
+    "chrom_s": "22",
+    "distance_to_feature_i": "4026",
+    "feature_id_s": "XM_011546130.1.rna128825",
+    "feature_type_s": "transcript",
+    "gene_id_s": "CECR2.gene47309",
+    "gene_name_hgnc_s": "CECR2",
+    "hgvs.c_s": "c.-14C>T",
+    "id": "22-17451081--000001",
+    "pos_i": 17451081,
+    "putative_impact_s": "MODIFIER",
+    "ref_s": "C",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "T",
+    "alt_ss": [
+        "T"
+    ],
+    "annotation_s": "upstream_gene_variant",
+    "chrom_s": "22",
+    "distance_to_feature_i": "3987",
+    "feature_id_s": "XM_011546130.1.rna128825",
+    "feature_type_s": "transcript",
+    "gene_id_s": "CECR2.gene47309",
+    "gene_name_hgnc_s": "CECR2",
+    "hgvs.c_s": "c.-14A>T",
+    "id": "22-17451120--000001",
+    "pos_i": 17451120,
+    "putative_impact_s": "MODIFIER",
+    "ref_s": "A",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "T",
+    "alt_ss": [
+        "T"
+    ],
+    "annotation_s": "upstream_gene_variant",
+    "chrom_s": "22",
+    "distance_to_feature_i": "3984",
+    "feature_id_s": "XM_011546130.1.rna128825",
+    "feature_type_s": "transcript",
+    "gene_id_s": "CECR2.gene47309",
+    "gene_name_hgnc_s": "CECR2",
+    "hgvs.c_s": "c.-14A>T",
+    "id": "22-17451123--000001",
+    "pos_i": 17451123,
+    "putative_impact_s": "MODIFIER",
+    "ref_s": "A",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "A",
+    "alt_ss": [
+        "A"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "NM_001290047.1.rna128818",
+    "feature_type_s": "transcript",
+    "gene_id_s": "CECR2.gene47309",
+    "gene_name_hgnc_s": "CECR2",
+    "hgvs.c_s": "c.127-8773G>A",
+    "id": "22-17468815--000001",
+    "pos_i": 17468815,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "1/18",
+    "ref_s": "G",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "A",
+    "alt_ss": [
+        "A"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "NM_001290047.1.rna128818",
+    "feature_type_s": "transcript",
+    "gene_id_s": "CECR2.gene47309",
+    "gene_name_hgnc_s": "CECR2",
+    "hgvs.c_s": "c.127-8715G>A",
+    "id": "22-17468873--000001",
+    "pos_i": 17468873,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "1/18",
+    "ref_s": "G",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "T",
+    "alt_ss": [
+        "T"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "NM_001290047.1.rna128818",
+    "feature_type_s": "transcript",
+    "gene_id_s": "CECR2.gene47309",
+    "gene_name_hgnc_s": "CECR2",
+    "hgvs.c_s": "c.127-8713C>T",
+    "id": "22-17468875--000001",
+    "pos_i": 17468875,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "1/18",
+    "ref_s": "C",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "A",
+    "alt_ss": [
+        "A"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "NM_001290047.1.rna128818",
+    "feature_type_s": "transcript",
+    "gene_id_s": "CECR2.gene47309",
+    "gene_name_hgnc_s": "CECR2",
+    "hgvs.c_s": "c.127-8702G>A",
+    "id": "22-17468886--000001",
+    "pos_i": 17468886,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "1/18",
+    "ref_s": "G",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "A",
+    "alt_ss": [
+        "A"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "NM_001290047.1.rna128818",
+    "feature_type_s": "transcript",
+    "gene_id_s": "CECR2.gene47309",
+    "gene_name_hgnc_s": "CECR2",
+    "hgvs.c_s": "c.127-8687G>A",
+    "id": "22-17468901--000001",
+    "pos_i": 17468901,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "1/18",
+    "ref_s": "G",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "A",
+    "alt_ss": [
+        "A"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "NM_001290047.1.rna128818",
+    "feature_type_s": "transcript",
+    "gene_id_s": "CECR2.gene47309",
+    "gene_name_hgnc_s": "CECR2",
+    "hgvs.c_s": "c.127-8670C>A",
+    "id": "22-17468918--000001",
+    "pos_i": 17468918,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "1/18",
+    "ref_s": "C",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "A",
+    "alt_ss": [
+        "A"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "NM_001290047.1.rna128818",
+    "feature_type_s": "transcript",
+    "gene_id_s": "CECR2.gene47309",
+    "gene_name_hgnc_s": "CECR2",
+    "hgvs.c_s": "c.127-8640G>A",
+    "id": "22-17468948--000001",
+    "pos_i": 17468948,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "1/18",
+    "ref_s": "G",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "A",
+    "alt_ss": [
+        "A"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "NM_001290047.1.rna128818",
+    "feature_type_s": "transcript",
+    "gene_id_s": "CECR2.gene47309",
+    "gene_name_hgnc_s": "CECR2",
+    "hgvs.c_s": "c.127-8562G>A",
+    "id": "22-17469026--000001",
+    "pos_i": 17469026,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "1/18",
+    "ref_s": "G",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "A",
+    "alt_ss": [
+        "A"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "NM_001290047.1.rna128818",
+    "feature_type_s": "transcript",
+    "gene_id_s": "CECR2.gene47309",
+    "gene_name_hgnc_s": "CECR2",
+    "hgvs.c_s": "c.127-8539C>A",
+    "id": "22-17469049--000001",
+    "pos_i": 17469049,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "1/18",
+    "ref_s": "C",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "A",
+    "alt_ss": [
+        "A"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "NM_001290047.1.rna128818",
+    "feature_type_s": "transcript",
+    "gene_id_s": "CECR2.gene47309",
+    "gene_name_hgnc_s": "CECR2",
+    "hgvs.c_s": "c.127-8532G>A",
+    "id": "22-17469056--000001",
+    "pos_i": 17469056,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "1/18",
+    "ref_s": "G",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "A",
+    "alt_ss": [
+        "A"
+    ],
+    "annotation_s": "upstream_gene_variant",
+    "chrom_s": "22",
+    "distance_to_feature_i": "1798",
+    "feature_id_s": "XM_006724078.2.rna128826",
+    "feature_type_s": "transcript",
+    "gene_id_s": "CECR2.gene47309",
+    "gene_name_hgnc_s": "CECR2",
+    "hgvs.c_s": "c.-96G>A",
+    "id": "22-17472785--000001",
+    "pos_i": 17472785,
+    "putative_impact_s": "MODIFIER",
+    "ref_s": "G",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "T",
+    "alt_ss": [
+        "T"
+    ],
+    "annotation_s": "upstream_gene_variant",
+    "chrom_s": "22",
+    "distance_to_feature_i": "1723",
+    "feature_id_s": "XM_006724078.2.rna128826",
+    "feature_type_s": "transcript",
+    "gene_id_s": "CECR2.gene47309",
+    "gene_name_hgnc_s": "CECR2",
+    "hgvs.c_s": "c.-96C>T",
+    "id": "22-17472860--000001",
+    "pos_i": 17472860,
+    "putative_impact_s": "MODIFIER",
+    "ref_s": "C",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "T",
+    "alt_ss": [
+        "T"
+    ],
+    "annotation_s": "upstream_gene_variant",
+    "chrom_s": "22",
+    "distance_to_feature_i": "1616",
+    "feature_id_s": "XM_006724078.2.rna128826",
+    "feature_type_s": "transcript",
+    "gene_id_s": "CECR2.gene47309",
+    "gene_name_hgnc_s": "CECR2",
+    "hgvs.c_s": "c.-96G>T",
+    "id": "22-17472967--000001",
+    "pos_i": 17472967,
+    "putative_impact_s": "MODIFIER",
+    "ref_s": "G",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "A",
+    "alt_ss": [
+        "A"
+    ],
+    "annotation_s": "upstream_gene_variant",
+    "chrom_s": "22",
+    "distance_to_feature_i": "1600",
+    "feature_id_s": "XM_006724078.2.rna128826",
+    "feature_type_s": "transcript",
+    "gene_id_s": "CECR2.gene47309",
+    "gene_name_hgnc_s": "CECR2",
+    "hgvs.c_s": "c.-96G>A",
+    "id": "22-17472983--000001",
+    "pos_i": 17472983,
+    "putative_impact_s": "MODIFIER",
+    "ref_s": "G",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "C",
+    "alt_ss": [
+        "C"
+    ],
+    "annotation_s": "upstream_gene_variant",
+    "chrom_s": "22",
+    "distance_to_feature_i": "1512",
+    "feature_id_s": "XM_006724078.2.rna128826",
+    "feature_type_s": "transcript",
+    "gene_id_s": "CECR2.gene47309",
+    "gene_name_hgnc_s": "CECR2",
+    "hgvs.c_s": "c.-96G>C",
+    "id": "22-17473071--000001",
+    "pos_i": 17473071,
+    "putative_impact_s": "MODIFIER",
+    "ref_s": "G",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "T",
+    "alt_ss": [
+        "T"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "NM_001290047.1.rna128818",
+    "feature_type_s": "transcript",
+    "gene_id_s": "CECR2.gene47309",
+    "gene_name_hgnc_s": "CECR2",
+    "hgvs.c_s": "c.222-8610C>T",
+    "id": "22-17488793--000001",
+    "pos_i": 17488793,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "2/18",
+    "ref_s": "C",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "CG",
+    "alt_ss": [
+        "CG"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "NM_001290047.1.rna128818",
+    "feature_type_s": "transcript",
+    "gene_id_s": "CECR2.gene47309",
+    "gene_name_hgnc_s": "CECR2",
+    "hgvs.c_s": "c.222-8580dupG",
+    "id": "22-17488823--000001",
+    "pos_i": 17488823,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "2/18",
+    "ref_s": "C",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "G",
+    "alt_ss": [
+        "G"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "NM_001290047.1.rna128818",
+    "feature_type_s": "transcript",
+    "gene_id_s": "CECR2.gene47309",
+    "gene_name_hgnc_s": "CECR2",
+    "hgvs.c_s": "c.222-8465A>G",
+    "id": "22-17488938--000001",
+    "pos_i": 17488938,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "2/18",
+    "ref_s": "A",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "A",
+    "alt_ss": [
+        "A"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "NM_001290047.1.rna128818",
+    "feature_type_s": "transcript",
+    "gene_id_s": "CECR2.gene47309",
+    "gene_name_hgnc_s": "CECR2",
+    "hgvs.c_s": "c.222-8408G>A",
+    "id": "22-17488995--000001",
+    "pos_i": 17488995,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "2/18",
+    "ref_s": "G",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "A",
+    "alt_ss": [
+        "A"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "dbsnp_build_id_i": 142,
+    "feature_id_s": "NM_001290047.1.rna128818",
+    "feature_type_s": "transcript",
+    "gene_id_s": "CECR2.gene47309",
+    "gene_name_hgnc_s": "CECR2",
+    "hgvs.c_s": "c.222-8398G>A",
+    "id": "22-17489005--000001",
+    "id_s": "rs563573818",
+    "pos_i": 17489005,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "2/18",
+    "ref_s": "G",
+    "rs_i": 563573818,
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "C",
+    "alt_ss": [
+        "C"
+    ],
+    "annotation_s": "upstream_gene_variant",
+    "chrom_s": "22",
+    "distance_to_feature_i": "3670",
+    "feature_id_s": "XM_011546151.1.rna128835",
+    "feature_type_s": "transcript",
+    "gene_id_s": "SLC25A18.gene47313",
+    "gene_name_hgnc_s": "SLC25A18",
+    "hgvs.c_s": "c.-471T>C",
+    "id": "22-17565932--000001",
+    "pos_i": 17565932,
+    "putative_impact_s": "MODIFIER",
+    "ref_s": "T",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "C",
+    "alt_ss": [
+        "C"
+    ],
+    "annotation_s": "upstream_gene_variant",
+    "chrom_s": "22",
+    "distance_to_feature_i": "3628",
+    "feature_id_s": "XM_011546151.1.rna128835",
+    "feature_type_s": "transcript",
+    "gene_id_s": "SLC25A18.gene47313",
+    "gene_name_hgnc_s": "SLC25A18",
+    "hgvs.c_s": "c.-471G>C",
+    "id": "22-17565974--000001",
+    "pos_i": 17565974,
+    "putative_impact_s": "MODIFIER",
+    "ref_s": "G",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "T",
+    "alt_ss": [
+        "T"
+    ],
+    "annotation_s": "downstream_gene_variant",
+    "chrom_s": "22",
+    "distance_to_feature_i": "2192",
+    "feature_id_s": "NM_001288707.1.rna128838",
+    "feature_type_s": "transcript",
+    "gene_id_s": "LOC101929372.gene47315",
+    "gene_name_hgnc_s": "LOC101929372",
+    "hgvs.c_s": "c.*1681G>A",
+    "id": "22-17577965--000001",
+    "pos_i": 17577965,
+    "putative_impact_s": "MODIFIER",
+    "ref_s": "C",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "G",
+    "alt_ss": [
+        "G"
+    ],
+    "annotation_s": "downstream_gene_variant",
+    "chrom_s": "22",
+    "distance_to_feature_i": "2162",
+    "feature_id_s": "NM_001288707.1.rna128838",
+    "feature_type_s": "transcript",
+    "gene_id_s": "LOC101929372.gene47315",
+    "gene_name_hgnc_s": "LOC101929372",
+    "hgvs.c_s": "c.*1681_*1681delGAA",
+    "id": "22-17577994--000001",
+    "pos_i": 17577994,
+    "putative_impact_s": "MODIFIER",
+    "ref_s": "GTTC",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "C",
+    "alt_ss": [
+        "C"
+    ],
+    "annotation_s": "downstream_gene_variant",
+    "chrom_s": "22",
+    "distance_to_feature_i": "2149",
+    "feature_id_s": "NM_001288707.1.rna128838",
+    "feature_type_s": "transcript",
+    "gene_id_s": "LOC101929372.gene47315",
+    "gene_name_hgnc_s": "LOC101929372",
+    "hgvs.c_s": "c.*1681A>G",
+    "id": "22-17578008--000001",
+    "pos_i": 17578008,
+    "putative_impact_s": "MODIFIER",
+    "ref_s": "T",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "T",
+    "alt_ss": [
+        "T"
+    ],
+    "annotation_s": "downstream_gene_variant",
+    "chrom_s": "22",
+    "distance_to_feature_i": "1477",
+    "feature_id_s": "NM_001288707.1.rna128838",
+    "feature_type_s": "transcript",
+    "gene_id_s": "LOC101929372.gene47315",
+    "gene_name_hgnc_s": "LOC101929372",
+    "hgvs.c_s": "c.*1681G>A",
+    "id": "22-17578680--000001",
+    "pos_i": 17578680,
+    "putative_impact_s": "MODIFIER",
+    "ref_s": "C",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "A",
+    "alt_ss": [
+        "A"
+    ],
+    "annotation_s": "downstream_gene_variant",
+    "chrom_s": "22",
+    "distance_to_feature_i": "1369",
+    "feature_id_s": "NM_001288707.1.rna128838",
+    "feature_type_s": "transcript",
+    "gene_id_s": "LOC101929372.gene47315",
+    "gene_name_hgnc_s": "LOC101929372",
+    "hgvs.c_s": "c.*1681C>T",
+    "id": "22-17578788--000001",
+    "pos_i": 17578788,
+    "putative_impact_s": "MODIFIER",
+    "ref_s": "G",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "T",
+    "alt_ss": [
+        "T"
+    ],
+    "annotation_s": "downstream_gene_variant",
+    "chrom_s": "22",
+    "distance_to_feature_i": "1315",
+    "feature_id_s": "NM_001288707.1.rna128838",
+    "feature_type_s": "transcript",
+    "gene_id_s": "LOC101929372.gene47315",
+    "gene_name_hgnc_s": "LOC101929372",
+    "hgvs.c_s": "c.*1681C>A",
+    "id": "22-17578842--000001",
+    "pos_i": 17578842,
+    "putative_impact_s": "MODIFIER",
+    "ref_s": "G",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "A",
+    "alt_ss": [
+        "A"
+    ],
+    "annotation_s": "5_prime_UTR_variant",
+    "cdna_position_s": "600/2380",
+    "cds_position_s": "102/1233",
+    "chrom_s": "22",
+    "distance_to_feature_i": "184",
+    "error_message_s": "WARNING_REF_DOES_NOT_MATCH_GENOME",
+    "feature_id_s": "NM_001303484.1.rna128833",
+    "feature_type_s": "transcript",
+    "gene_id_s": "SLC25A18.gene47313",
+    "gene_name_hgnc_s": "SLC25A18",
+    "hgvs.c_s": "c.-184G>A",
+    "hgvs.p_s": "p.Ala34Ala",
+    "id": "22-17579761--000001",
+    "pos_i": 17579761,
+    "protein_position_s": "34/410",
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "2/10",
+    "ref_s": "G",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "C",
+    "alt_ss": [
+        "C"
+    ],
+    "annotation_s": "missense_variant",
+    "cdna_position_s": "664/2380",
+    "cds_position_s": "166/1233",
+    "chrom_s": "22",
+    "error_message_s": "WARNING_REF_DOES_NOT_MATCH_GENOME",
+    "feature_id_s": "XM_011546149.1.rna128830",
+    "feature_type_s": "transcript",
+    "gene_id_s": "SLC25A18.gene47313",
+    "gene_name_hgnc_s": "SLC25A18",
+    "hgvs.c_s": "c.166T>C",
+    "hgvs.p_s": "p.Val56Leu",
+    "id": "22-17579825--000001",
+    "pos_i": 17579825,
+    "protein_position_s": "56/410",
+    "putative_impact_s": "MODERATE",
+    "rank_total_s": "3/11",
+    "ref_s": "T",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "C",
+    "alt_ss": [
+        "C"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "XM_011546149.1.rna128830",
+    "feature_type_s": "transcript",
+    "gene_id_s": "SLC25A18.gene47313",
+    "gene_name_hgnc_s": "SLC25A18",
+    "hgvs.c_s": "c.428+40G>C",
+    "id": "22-17581199--000001",
+    "pos_i": 17581199,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "4/10",
+    "ref_s": "G",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "A",
+    "alt_ss": [
+        "A"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "XM_011546149.1.rna128830",
+    "feature_type_s": "transcript",
+    "gene_id_s": "SLC25A18.gene47313",
+    "gene_name_hgnc_s": "SLC25A18",
+    "hgvs.c_s": "c.428+49G>A",
+    "id": "22-17581208--000001",
+    "pos_i": 17581208,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "4/10",
+    "ref_s": "G",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "T",
+    "alt_ss": [
+        "T"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "XM_011546149.1.rna128830",
+    "feature_type_s": "transcript",
+    "gene_id_s": "SLC25A18.gene47313",
+    "gene_name_hgnc_s": "SLC25A18",
+    "hgvs.c_s": "c.428+65C>T",
+    "id": "22-17581224--000001",
+    "pos_i": 17581224,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "4/10",
+    "ref_s": "C",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "T",
+    "alt_ss": [
+        "T"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "XM_011546149.1.rna128830",
+    "feature_type_s": "transcript",
+    "gene_id_s": "SLC25A18.gene47313",
+    "gene_name_hgnc_s": "SLC25A18",
+    "hgvs.c_s": "c.428+89C>T",
+    "id": "22-17581248--000001",
+    "pos_i": 17581248,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "4/10",
+    "ref_s": "C",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "C",
+    "alt_ss": [
+        "C"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "XM_011546149.1.rna128830",
+    "feature_type_s": "transcript",
+    "gene_id_s": "SLC25A18.gene47313",
+    "gene_name_hgnc_s": "SLC25A18",
+    "hgvs.c_s": "c.429-72G>C",
+    "id": "22-17581286--000001",
+    "pos_i": 17581286,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "4/10",
+    "ref_s": "G",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "T",
+    "alt_ss": [
+        "T"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "XM_011546149.1.rna128830",
+    "feature_type_s": "transcript",
+    "gene_id_s": "SLC25A18.gene47313",
+    "gene_name_hgnc_s": "SLC25A18",
+    "hgvs.c_s": "c.575+224G>T",
+    "id": "22-17582877--000001",
+    "pos_i": 17582877,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "6/10",
+    "ref_s": "G",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "C",
+    "alt_ss": [
+        "C"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "XM_011546149.1.rna128830",
+    "feature_type_s": "transcript",
+    "gene_id_s": "SLC25A18.gene47313",
+    "gene_name_hgnc_s": "SLC25A18",
+    "hgvs.c_s": "c.575+305T>C",
+    "id": "22-17582958--000001",
+    "pos_i": 17582958,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "6/10",
+    "ref_s": "T",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "A",
+    "alt_ss": [
+        "A"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "XM_011546149.1.rna128830",
+    "feature_type_s": "transcript",
+    "gene_id_s": "SLC25A18.gene47313",
+    "gene_name_hgnc_s": "SLC25A18",
+    "hgvs.c_s": "c.575+319_575+324delCACATG",
+    "id": "22-17582971--000001",
+    "pos_i": 17582971,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "6/10",
+    "ref_s": "ACACATG",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "T",
+    "alt_ss": [
+        "T"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "XM_011546149.1.rna128830",
+    "feature_type_s": "transcript",
+    "gene_id_s": "SLC25A18.gene47313",
+    "gene_name_hgnc_s": "SLC25A18",
+    "hgvs.c_s": "c.575+333C>T",
+    "id": "22-17582986--000001",
+    "pos_i": 17582986,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "6/10",
+    "ref_s": "C",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "A",
+    "alt_ss": [
+        "A"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "XM_011546149.1.rna128830",
+    "feature_type_s": "transcript",
+    "gene_id_s": "SLC25A18.gene47313",
+    "gene_name_hgnc_s": "SLC25A18",
+    "hgvs.c_s": "c.575+334G>A",
+    "id": "22-17582987--000001",
+    "pos_i": 17582987,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "6/10",
+    "ref_s": "G",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "A",
+    "alt_ss": [
+        "A"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "XM_011546149.1.rna128830",
+    "feature_type_s": "transcript",
+    "gene_id_s": "SLC25A18.gene47313",
+    "gene_name_hgnc_s": "SLC25A18",
+    "hgvs.c_s": "c.575+359G>A",
+    "id": "22-17583012--000001",
+    "pos_i": 17583012,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "6/10",
+    "ref_s": "G",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "T",
+    "alt_ss": [
+        "T"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "XM_011546149.1.rna128830",
+    "feature_type_s": "transcript",
+    "gene_id_s": "SLC25A18.gene47313",
+    "gene_name_hgnc_s": "SLC25A18",
+    "hgvs.c_s": "c.576-331G>T",
+    "id": "22-17583085--000001",
+    "pos_i": 17583085,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "6/10",
+    "ref_s": "G",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "T",
+    "alt_ss": [
+        "T"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "XM_011546149.1.rna128830",
+    "feature_type_s": "transcript",
+    "gene_id_s": "SLC25A18.gene47313",
+    "gene_name_hgnc_s": "SLC25A18",
+    "hgvs.c_s": "c.576-204C>T",
+    "id": "22-17583212--000001",
+    "pos_i": 17583212,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "6/10",
+    "ref_s": "C",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "T",
+    "alt_ss": [
+        "T"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "XM_011546149.1.rna128830",
+    "feature_type_s": "transcript",
+    "gene_id_s": "SLC25A18.gene47313",
+    "gene_name_hgnc_s": "SLC25A18",
+    "hgvs.c_s": "c.694+835C>T",
+    "id": "22-17584369--000001",
+    "pos_i": 17584369,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "7/10",
+    "ref_s": "C",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "T",
+    "alt_ss": [
+        "T"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "dbsnp_build_id_i": 132,
+    "feature_id_s": "XM_011546149.1.rna128830",
+    "feature_type_s": "transcript",
+    "gene_id_s": "SLC25A18.gene47313",
+    "gene_name_hgnc_s": "SLC25A18",
+    "hgvs.c_s": "c.694+852C>T",
+    "id": "22-17584386--000001",
+    "id_s": "rs113250494",
+    "pos_i": 17584386,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "7/10",
+    "ref_s": "C",
+    "rs_i": 113250494,
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "A",
+    "alt_ss": [
+        "A"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "XM_011546149.1.rna128830",
+    "feature_type_s": "transcript",
+    "gene_id_s": "SLC25A18.gene47313",
+    "gene_name_hgnc_s": "SLC25A18",
+    "hgvs.c_s": "c.694+920G>A",
+    "id": "22-17584454--000001",
+    "pos_i": 17584454,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "7/10",
+    "ref_s": "G",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "G",
+    "alt_ss": [
+        "G"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "XM_011546149.1.rna128830",
+    "feature_type_s": "transcript",
+    "gene_id_s": "SLC25A18.gene47313",
+    "gene_name_hgnc_s": "SLC25A18",
+    "hgvs.c_s": "c.695-1512C>G",
+    "id": "22-17585624--000001",
+    "pos_i": 17585624,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "7/10",
+    "ref_s": "C",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "T",
+    "alt_ss": [
+        "T"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "XM_011546149.1.rna128830",
+    "feature_type_s": "transcript",
+    "gene_id_s": "SLC25A18.gene47313",
+    "gene_name_hgnc_s": "SLC25A18",
+    "hgvs.c_s": "c.695-1494C>T",
+    "id": "22-17585642--000001",
+    "pos_i": 17585642,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "7/10",
+    "ref_s": "C",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "T",
+    "alt_ss": [
+        "T"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "XM_011546149.1.rna128830",
+    "feature_type_s": "transcript",
+    "gene_id_s": "SLC25A18.gene47313",
+    "gene_name_hgnc_s": "SLC25A18",
+    "hgvs.c_s": "c.695-1478C>T",
+    "id": "22-17585658--000001",
+    "pos_i": 17585658,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "7/10",
+    "ref_s": "C",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "T",
+    "alt_ss": [
+        "T"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "XM_011546149.1.rna128830",
+    "feature_type_s": "transcript",
+    "gene_id_s": "SLC25A18.gene47313",
+    "gene_name_hgnc_s": "SLC25A18",
+    "hgvs.c_s": "c.695-1468C>T",
+    "id": "22-17585668--000001",
+    "pos_i": 17585668,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "7/10",
+    "ref_s": "C",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "A",
+    "alt_ss": [
+        "A"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "XM_011546149.1.rna128830",
+    "feature_type_s": "transcript",
+    "gene_id_s": "SLC25A18.gene47313",
+    "gene_name_hgnc_s": "SLC25A18",
+    "hgvs.c_s": "c.695-1432delG",
+    "id": "22-17585703--000001",
+    "pos_i": 17585703,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "7/10",
+    "ref_s": "AG",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "G",
+    "alt_ss": [
+        "G"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "XM_011546149.1.rna128830",
+    "feature_type_s": "transcript",
+    "gene_id_s": "SLC25A18.gene47313",
+    "gene_name_hgnc_s": "SLC25A18",
+    "hgvs.c_s": "c.695-1397A>G",
+    "id": "22-17585739--000001",
+    "pos_i": 17585739,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "7/10",
+    "ref_s": "A",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "T",
+    "alt_ss": [
+        "T"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "XM_011546149.1.rna128830",
+    "feature_type_s": "transcript",
+    "gene_id_s": "SLC25A18.gene47313",
+    "gene_name_hgnc_s": "SLC25A18",
+    "hgvs.c_s": "c.695-665C>T",
+    "id": "22-17586471--000001",
+    "pos_i": 17586471,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "7/10",
+    "ref_s": "C",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "A",
+    "alt_ss": [
+        "A",
+        "C",
+        "T"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "XM_011546149.1.rna128830",
+    "feature_type_s": "transcript",
+    "gene_id_s": "SLC25A18.gene47313",
+    "gene_name_hgnc_s": "SLC25A18",
+    "hgvs.c_s": "c.695-645G>A",
+    "id": "22-17586491--000001",
+    "pos_i": 17586491,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "7/10",
+    "ref_s": "G",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "A",
+    "alt_ss": [
+        "A"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "XM_011546149.1.rna128830",
+    "feature_type_s": "transcript",
+    "gene_id_s": "SLC25A18.gene47313",
+    "gene_name_hgnc_s": "SLC25A18",
+    "hgvs.c_s": "c.695-623G>A",
+    "id": "22-17586513--000001",
+    "pos_i": 17586513,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "7/10",
+    "ref_s": "G",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "C",
+    "alt_ss": [
+        "C"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "XM_011546149.1.rna128830",
+    "feature_type_s": "transcript",
+    "gene_id_s": "SLC25A18.gene47313",
+    "gene_name_hgnc_s": "SLC25A18",
+    "hgvs.c_s": "c.695-421_695-418delATCA",
+    "id": "22-17586714--000001",
+    "pos_i": 17586714,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "7/10",
+    "ref_s": "CATCA",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "A",
+    "alt_ss": [
+        "A"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "XM_011546149.1.rna128830",
+    "feature_type_s": "transcript",
+    "gene_id_s": "SLC25A18.gene47313",
+    "gene_name_hgnc_s": "SLC25A18",
+    "hgvs.c_s": "c.695-420_695-417delTCAC",
+    "id": "22-17586715--000001",
+    "pos_i": 17586715,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "7/10",
+    "ref_s": "ATCAC",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "T",
+    "alt_ss": [
+        "T"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "XM_011546149.1.rna128830",
+    "feature_type_s": "transcript",
+    "gene_id_s": "SLC25A18.gene47313",
+    "gene_name_hgnc_s": "SLC25A18",
+    "hgvs.c_s": "c.695-415_695-412delCACG",
+    "id": "22-17586720--000001",
+    "pos_i": 17586720,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "7/10",
+    "ref_s": "TCACG",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "T",
+    "alt_ss": [
+        "T"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "XM_011546149.1.rna128830",
+    "feature_type_s": "transcript",
+    "gene_id_s": "SLC25A18.gene47313",
+    "gene_name_hgnc_s": "SLC25A18",
+    "hgvs.c_s": "c.695-385C>T",
+    "id": "22-17586751--000001",
+    "pos_i": 17586751,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "7/10",
+    "ref_s": "C",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "C",
+    "alt_ss": [
+        "C"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "XM_011546149.1.rna128830",
+    "feature_type_s": "transcript",
+    "gene_id_s": "SLC25A18.gene47313",
+    "gene_name_hgnc_s": "SLC25A18",
+    "hgvs.c_s": "c.695-379T>C",
+    "id": "22-17586757--000001",
+    "pos_i": 17586757,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "7/10",
+    "ref_s": "T",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "A",
+    "alt_ss": [
+        "A"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "XM_011546149.1.rna128830",
+    "feature_type_s": "transcript",
+    "gene_id_s": "SLC25A18.gene47313",
+    "gene_name_hgnc_s": "SLC25A18",
+    "hgvs.c_s": "c.695-359G>A",
+    "id": "22-17586777--000001",
+    "pos_i": 17586777,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "7/10",
+    "ref_s": "G",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "G",
+    "alt_ss": [
+        "G"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "XM_011546149.1.rna128830",
+    "feature_type_s": "transcript",
+    "gene_id_s": "SLC25A18.gene47313",
+    "gene_name_hgnc_s": "SLC25A18",
+    "hgvs.c_s": "c.695-249A>G",
+    "id": "22-17586887--000001",
+    "pos_i": 17586887,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "7/10",
+    "ref_s": "A",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "G",
+    "alt_ss": [
+        "G"
+    ],
+    "annotation_s": "5_prime_UTR_variant",
+    "chrom_s": "22",
+    "distance_to_feature_i": "560",
+    "error_message_s": "WARNING_REF_DOES_NOT_MATCH_GENOME",
+    "feature_id_s": "NM_001288707.1.rna128838",
+    "feature_type_s": "transcript",
+    "gene_id_s": "LOC101929372.gene47315",
+    "gene_name_hgnc_s": "LOC101929372",
+    "hgvs.c_s": "c.-560G>C",
+    "id": "22-17588578--000001",
+    "pos_i": 17588578,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "1/4",
+    "ref_s": "C",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "A",
+    "alt_ss": [
+        "A"
+    ],
+    "annotation_s": "5_prime_UTR_variant",
+    "chrom_s": "22",
+    "distance_to_feature_i": "570",
+    "error_message_s": "WARNING_REF_DOES_NOT_MATCH_GENOME",
+    "feature_id_s": "NM_001288707.1.rna128838",
+    "feature_type_s": "transcript",
+    "gene_id_s": "LOC101929372.gene47315",
+    "gene_name_hgnc_s": "LOC101929372",
+    "hgvs.c_s": "c.-570G>T",
+    "id": "22-17588588--000001",
+    "pos_i": 17588588,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "1/4",
+    "ref_s": "C",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "G",
+    "alt_ss": [
+        "G"
+    ],
+    "annotation_s": "5_prime_UTR_variant",
+    "chrom_s": "22",
+    "distance_to_feature_i": "1134",
+    "error_message_s": "WARNING_REF_DOES_NOT_MATCH_GENOME",
+    "feature_id_s": "NM_001288707.1.rna128838",
+    "feature_type_s": "transcript",
+    "gene_id_s": "LOC101929372.gene47315",
+    "gene_name_hgnc_s": "LOC101929372",
+    "hgvs.c_s": "c.-1134A>C",
+    "id": "22-17589152--000001",
+    "pos_i": 17589152,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "1/4",
+    "ref_s": "T",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "G",
+    "alt_ss": [
+        "G"
+    ],
+    "annotation_s": "5_prime_UTR_variant",
+    "chrom_s": "22",
+    "distance_to_feature_i": "1140",
+    "error_message_s": "WARNING_REF_DOES_NOT_MATCH_GENOME",
+    "feature_id_s": "NM_001288707.1.rna128838",
+    "feature_type_s": "transcript",
+    "gene_id_s": "LOC101929372.gene47315",
+    "gene_name_hgnc_s": "LOC101929372",
+    "hgvs.c_s": "c.-1140G>C",
+    "id": "22-17589158--000001",
+    "pos_i": 17589158,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "1/4",
+    "ref_s": "C",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "T",
+    "alt_ss": [
+        "T"
+    ],
+    "annotation_s": "upstream_gene_variant",
+    "chrom_s": "22",
+    "distance_to_feature_i": "17",
+    "feature_id_s": "NM_001288707.1.rna128838",
+    "feature_type_s": "transcript",
+    "gene_id_s": "LOC101929372.gene47315",
+    "gene_name_hgnc_s": "LOC101929372",
+    "hgvs.c_s": "c.-1175G>A",
+    "id": "22-17589209--000001",
+    "pos_i": 17589209,
+    "putative_impact_s": "MODIFIER",
+    "ref_s": "C",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "T",
+    "alt_ss": [
+        "T"
+    ],
+    "annotation_s": "upstream_gene_variant",
+    "chrom_s": "22",
+    "distance_to_feature_i": "33",
+    "feature_id_s": "NM_001288707.1.rna128838",
+    "feature_type_s": "transcript",
+    "gene_id_s": "LOC101929372.gene47315",
+    "gene_name_hgnc_s": "LOC101929372",
+    "hgvs.c_s": "c.-1175G>A",
+    "id": "22-17589225--000001",
+    "pos_i": 17589225,
+    "putative_impact_s": "MODIFIER",
+    "ref_s": "C",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "A",
+    "alt_ss": [
+        "A"
+    ],
+    "annotation_s": "upstream_gene_variant",
+    "chrom_s": "22",
+    "distance_to_feature_i": "39",
+    "feature_id_s": "NM_001288707.1.rna128838",
+    "feature_type_s": "transcript",
+    "gene_id_s": "LOC101929372.gene47315",
+    "gene_name_hgnc_s": "LOC101929372",
+    "hgvs.c_s": "c.-1175C>T",
+    "id": "22-17589231--000001",
+    "pos_i": 17589231,
+    "putative_impact_s": "MODIFIER",
+    "ref_s": "G",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "A",
+    "alt_ss": [
+        "A"
+    ],
+    "annotation_s": "upstream_gene_variant",
+    "chrom_s": "22",
+    "distance_to_feature_i": "54",
+    "feature_id_s": "NM_001288707.1.rna128838",
+    "feature_type_s": "transcript",
+    "gene_id_s": "LOC101929372.gene47315",
+    "gene_name_hgnc_s": "LOC101929372",
+    "hgvs.c_s": "c.-1175C>T",
+    "id": "22-17589246--000001",
+    "pos_i": 17589246,
+    "putative_impact_s": "MODIFIER",
+    "ref_s": "G",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "T",
+    "alt_ss": [
+        "T"
+    ],
+    "annotation_s": "upstream_gene_variant",
+    "chrom_s": "22",
+    "distance_to_feature_i": "91",
+    "feature_id_s": "NM_001288707.1.rna128838",
+    "feature_type_s": "transcript",
+    "gene_id_s": "LOC101929372.gene47315",
+    "gene_name_hgnc_s": "LOC101929372",
+    "hgvs.c_s": "c.-1175C>A",
+    "id": "22-17589283--000001",
+    "pos_i": 17589283,
+    "putative_impact_s": "MODIFIER",
+    "ref_s": "G",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "A",
+    "alt_ss": [
+        "A"
+    ],
+    "annotation_s": "upstream_gene_variant",
+    "chrom_s": "22",
+    "distance_to_feature_i": "105",
+    "feature_id_s": "NM_001288707.1.rna128838",
+    "feature_type_s": "transcript",
+    "gene_id_s": "LOC101929372.gene47315",
+    "gene_name_hgnc_s": "LOC101929372",
+    "hgvs.c_s": "c.-1175C>T",
+    "id": "22-17589297--000001",
+    "pos_i": 17589297,
+    "putative_impact_s": "MODIFIER",
+    "ref_s": "G",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "T",
+    "alt_ss": [
+        "T"
+    ],
+    "annotation_s": "upstream_gene_variant",
+    "chrom_s": "22",
+    "distance_to_feature_i": "149",
+    "feature_id_s": "NM_001288707.1.rna128838",
+    "feature_type_s": "transcript",
+    "gene_id_s": "LOC101929372.gene47315",
+    "gene_name_hgnc_s": "LOC101929372",
+    "hgvs.c_s": "c.-1175G>A",
+    "id": "22-17589341--000001",
+    "pos_i": 17589341,
+    "putative_impact_s": "MODIFIER",
+    "ref_s": "C",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "C",
+    "alt_ss": [
+        "C"
+    ],
+    "annotation_s": "upstream_gene_variant",
+    "chrom_s": "22",
+    "distance_to_feature_i": "170",
+    "feature_id_s": "NM_001288707.1.rna128838",
+    "feature_type_s": "transcript",
+    "gene_id_s": "LOC101929372.gene47315",
+    "gene_name_hgnc_s": "LOC101929372",
+    "hgvs.c_s": "c.-1175T>G",
+    "id": "22-17589362--000001",
+    "pos_i": 17589362,
+    "putative_impact_s": "MODIFIER",
+    "ref_s": "A",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "A",
+    "alt_ss": [
+        "A"
+    ],
+    "annotation_s": "upstream_gene_variant",
+    "chrom_s": "22",
+    "distance_to_feature_i": "220",
+    "feature_id_s": "NM_001288707.1.rna128838",
+    "feature_type_s": "transcript",
+    "gene_id_s": "LOC101929372.gene47315",
+    "gene_name_hgnc_s": "LOC101929372",
+    "hgvs.c_s": "c.-1175C>T",
+    "id": "22-17589412--000001",
+    "pos_i": 17589412,
+    "putative_impact_s": "MODIFIER",
+    "ref_s": "G",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "A",
+    "alt_ss": [
+        "A"
+    ],
+    "annotation_s": "upstream_gene_variant",
+    "chrom_s": "22",
+    "distance_to_feature_i": "255",
+    "feature_id_s": "NM_001288707.1.rna128838",
+    "feature_type_s": "transcript",
+    "gene_id_s": "LOC101929372.gene47315",
+    "gene_name_hgnc_s": "LOC101929372",
+    "hgvs.c_s": "c.-1175C>T",
+    "id": "22-17589447--000001",
+    "pos_i": 17589447,
+    "putative_impact_s": "MODIFIER",
+    "ref_s": "G",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "T",
+    "alt_ss": [
+        "T"
+    ],
+    "annotation_s": "upstream_gene_variant",
+    "chrom_s": "22",
+    "distance_to_feature_i": "298",
+    "feature_id_s": "NM_001288707.1.rna128838",
+    "feature_type_s": "transcript",
+    "gene_id_s": "LOC101929372.gene47315",
+    "gene_name_hgnc_s": "LOC101929372",
+    "hgvs.c_s": "c.-1175G>A",
+    "id": "22-17589490--000001",
+    "pos_i": 17589490,
+    "putative_impact_s": "MODIFIER",
+    "ref_s": "C",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "T",
+    "alt_ss": [
+        "T"
+    ],
+    "annotation_s": "upstream_gene_variant",
+    "chrom_s": "22",
+    "distance_to_feature_i": "324",
+    "feature_id_s": "NM_001288707.1.rna128838",
+    "feature_type_s": "transcript",
+    "gene_id_s": "LOC101929372.gene47315",
+    "gene_name_hgnc_s": "LOC101929372",
+    "hgvs.c_s": "c.-1175G>A",
+    "id": "22-17589516--000001",
+    "pos_i": 17589516,
+    "putative_impact_s": "MODIFIER",
+    "ref_s": "C",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "G",
+    "alt_ss": [
+        "G"
+    ],
+    "annotation_s": "upstream_gene_variant",
+    "chrom_s": "22",
+    "distance_to_feature_i": "329",
+    "feature_id_s": "NM_001288707.1.rna128838",
+    "feature_type_s": "transcript",
+    "gene_id_s": "LOC101929372.gene47315",
+    "gene_name_hgnc_s": "LOC101929372",
+    "hgvs.c_s": "c.-1175T>C",
+    "id": "22-17589521--000001",
+    "pos_i": 17589521,
+    "putative_impact_s": "MODIFIER",
+    "ref_s": "A",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "T",
+    "alt_ss": [
+        "T"
+    ],
+    "annotation_s": "upstream_gene_variant",
+    "chrom_s": "22",
+    "distance_to_feature_i": "375",
+    "feature_id_s": "NM_001288707.1.rna128838",
+    "feature_type_s": "transcript",
+    "gene_id_s": "LOC101929372.gene47315",
+    "gene_name_hgnc_s": "LOC101929372",
+    "hgvs.c_s": "c.-1175G>A",
+    "id": "22-17589567--000001",
+    "pos_i": 17589567,
+    "putative_impact_s": "MODIFIER",
+    "ref_s": "C",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "T",
+    "alt_ss": [
+        "T"
+    ],
+    "annotation_s": "missense_variant",
+    "cdna_position_s": "1563/2380",
+    "cds_position_s": "1065/1233",
+    "chrom_s": "22",
+    "error_message_s": "WARNING_REF_DOES_NOT_MATCH_GENOME",
+    "feature_id_s": "XM_011546149.1.rna128830",
+    "feature_type_s": "transcript",
+    "gene_id_s": "SLC25A18.gene47313",
+    "gene_name_hgnc_s": "SLC25A18",
+    "hgvs.c_s": "c.1065C>T",
+    "hgvs.p_s": "p.Met355Ile",
+    "id": "22-17589639--000001",
+    "pos_i": 17589639,
+    "protein_position_s": "355/410",
+    "putative_impact_s": "MODERATE",
+    "rank_total_s": "10/11",
+    "ref_s": "C",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "T",
+    "alt_ss": [
+        "T"
+    ],
+    "annotation_s": "upstream_gene_variant",
+    "chrom_s": "22",
+    "distance_to_feature_i": "561",
+    "feature_id_s": "NM_001288707.1.rna128838",
+    "feature_type_s": "transcript",
+    "gene_id_s": "LOC101929372.gene47315",
+    "gene_name_hgnc_s": "LOC101929372",
+    "hgvs.c_s": "c.-1175G>A",
+    "id": "22-17589753--000001",
+    "pos_i": 17589753,
+    "putative_impact_s": "MODIFIER",
+    "ref_s": "C",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "A",
+    "alt_ss": [
+        "A"
+    ],
+    "annotation_s": "upstream_gene_variant",
+    "chrom_s": "22",
+    "distance_to_feature_i": "602",
+    "feature_id_s": "NM_001288707.1.rna128838",
+    "feature_type_s": "transcript",
+    "gene_id_s": "LOC101929372.gene47315",
+    "gene_name_hgnc_s": "LOC101929372",
+    "hgvs.c_s": "c.-1175G>T",
+    "id": "22-17589794--000001",
+    "pos_i": 17589794,
+    "putative_impact_s": "MODIFIER",
+    "ref_s": "C",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "T",
+    "alt_ss": [
+        "T"
+    ],
+    "annotation_s": "upstream_gene_variant",
+    "chrom_s": "22",
+    "distance_to_feature_i": "606",
+    "feature_id_s": "NM_001288707.1.rna128838",
+    "feature_type_s": "transcript",
+    "gene_id_s": "LOC101929372.gene47315",
+    "gene_name_hgnc_s": "LOC101929372",
+    "hgvs.c_s": "c.-1175G>A",
+    "id": "22-17589798--000001",
+    "pos_i": 17589798,
+    "putative_impact_s": "MODIFIER",
+    "ref_s": "C",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "C",
+    "alt_ss": [
+        "C"
+    ],
+    "annotation_s": "upstream_gene_variant",
+    "chrom_s": "22",
+    "distance_to_feature_i": "664",
+    "feature_id_s": "NM_001288707.1.rna128838",
+    "feature_type_s": "transcript",
+    "gene_id_s": "LOC101929372.gene47315",
+    "gene_name_hgnc_s": "LOC101929372",
+    "hgvs.c_s": "c.-1175C>G",
+    "id": "22-17589856--000001",
+    "pos_i": 17589856,
+    "putative_impact_s": "MODIFIER",
+    "ref_s": "G",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "A",
+    "alt_ss": [
+        "A"
+    ],
+    "annotation_s": "upstream_gene_variant",
+    "chrom_s": "22",
+    "distance_to_feature_i": "736",
+    "feature_id_s": "NM_001288707.1.rna128838",
+    "feature_type_s": "transcript",
+    "gene_id_s": "LOC101929372.gene47315",
+    "gene_name_hgnc_s": "LOC101929372",
+    "hgvs.c_s": "c.-1175C>T",
+    "id": "22-17589928--000001",
+    "pos_i": 17589928,
+    "putative_impact_s": "MODIFIER",
+    "ref_s": "G",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "C",
+    "alt_ss": [
+        "C"
+    ],
+    "annotation_s": "upstream_gene_variant",
+    "chrom_s": "22",
+    "distance_to_feature_i": "756",
+    "feature_id_s": "NM_001288707.1.rna128838",
+    "feature_type_s": "transcript",
+    "gene_id_s": "LOC101929372.gene47315",
+    "gene_name_hgnc_s": "LOC101929372",
+    "hgvs.c_s": "c.-1175C>G",
+    "id": "22-17589948--000001",
+    "pos_i": 17589948,
+    "putative_impact_s": "MODIFIER",
+    "ref_s": "G",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "G",
+    "alt_ss": [
+        "G"
+    ],
+    "annotation_s": "upstream_gene_variant",
+    "chrom_s": "22",
+    "distance_to_feature_i": "814",
+    "feature_id_s": "NM_001288707.1.rna128838",
+    "feature_type_s": "transcript",
+    "gene_id_s": "LOC101929372.gene47315",
+    "gene_name_hgnc_s": "LOC101929372",
+    "hgvs.c_s": "c.-1175G>C",
+    "id": "22-17590006--000001",
+    "pos_i": 17590006,
+    "putative_impact_s": "MODIFIER",
+    "ref_s": "C",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "A",
+    "alt_ss": [
+        "A"
+    ],
+    "annotation_s": "missense_variant",
+    "cdna_position_s": "1675/2380",
+    "cds_position_s": "1177/1233",
+    "chrom_s": "22",
+    "feature_id_s": "XM_011546149.1.rna128830",
+    "feature_type_s": "transcript",
+    "gene_id_s": "SLC25A18.gene47313",
+    "gene_name_hgnc_s": "SLC25A18",
+    "hgvs.c_s": "c.1177G>A",
+    "hgvs.p_s": "p.Ala393Thr",
+    "id": "22-17590180--000001",
+    "pos_i": 17590180,
+    "protein_position_s": "393/410",
+    "putative_impact_s": "MODERATE",
+    "rank_total_s": "11/11",
+    "ref_s": "G",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "G",
+    "alt_ss": [
+        "G"
+    ],
+    "annotation_s": "3_prime_UTR_variant",
+    "chrom_s": "22",
+    "distance_to_feature_i": "25",
+    "error_message_s": "WARNING_REF_DOES_NOT_MATCH_GENOME",
+    "feature_id_s": "XM_011546149.1.rna128830",
+    "feature_type_s": "transcript",
+    "gene_id_s": "SLC25A18.gene47313",
+    "gene_name_hgnc_s": "SLC25A18",
+    "hgvs.c_s": "c.*25T>G",
+    "id": "22-17590261--000001",
+    "pos_i": 17590261,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "11/11",
+    "ref_s": "T",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "T",
+    "alt_ss": [
+        "T"
+    ],
+    "annotation_s": "3_prime_UTR_variant",
+    "chrom_s": "22",
+    "distance_to_feature_i": "33",
+    "error_message_s": "WARNING_REF_DOES_NOT_MATCH_GENOME",
+    "feature_id_s": "XM_011546149.1.rna128830",
+    "feature_type_s": "transcript",
+    "gene_id_s": "SLC25A18.gene47313",
+    "gene_name_hgnc_s": "SLC25A18",
+    "hgvs.c_s": "c.*33C>T",
+    "id": "22-17590269--000001",
+    "pos_i": 17590269,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "11/11",
+    "ref_s": "C",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "T",
+    "alt_ss": [
+        "T"
+    ],
+    "annotation_s": "3_prime_UTR_variant",
+    "chrom_s": "22",
+    "distance_to_feature_i": "77",
+    "error_message_s": "WARNING_REF_DOES_NOT_MATCH_GENOME",
+    "feature_id_s": "XM_011546149.1.rna128830",
+    "feature_type_s": "transcript",
+    "gene_id_s": "SLC25A18.gene47313",
+    "gene_name_hgnc_s": "SLC25A18",
+    "hgvs.c_s": "c.*77C>T",
+    "id": "22-17590313--000001",
+    "pos_i": 17590313,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "11/11",
+    "ref_s": "C",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "T",
+    "alt_ss": [
+        "T"
+    ],
+    "annotation_s": "3_prime_UTR_variant",
+    "chrom_s": "22",
+    "distance_to_feature_i": "163",
+    "feature_id_s": "XM_011546149.1.rna128830",
+    "feature_type_s": "transcript",
+    "gene_id_s": "SLC25A18.gene47313",
+    "gene_name_hgnc_s": "SLC25A18",
+    "hgvs.c_s": "c.*163G>T",
+    "id": "22-17590399--000001",
+    "pos_i": 17590399,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "11/11",
+    "ref_s": "G",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "A",
+    "alt_ss": [
+        "A"
+    ],
+    "annotation_s": "3_prime_UTR_variant",
+    "chrom_s": "22",
+    "distance_to_feature_i": "168",
+    "error_message_s": "WARNING_REF_DOES_NOT_MATCH_GENOME",
+    "feature_id_s": "XM_011546149.1.rna128830",
+    "feature_type_s": "transcript",
+    "gene_id_s": "SLC25A18.gene47313",
+    "gene_name_hgnc_s": "SLC25A18",
+    "hgvs.c_s": "c.*168G>A",
+    "id": "22-17590404--000001",
+    "pos_i": 17590404,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "11/11",
+    "ref_s": "G",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "G",
+    "alt_ss": [
+        "G"
+    ],
+    "annotation_s": "3_prime_UTR_variant",
+    "chrom_s": "22",
+    "distance_to_feature_i": "203",
+    "error_message_s": "WARNING_REF_DOES_NOT_MATCH_GENOME",
+    "feature_id_s": "XM_011546149.1.rna128830",
+    "feature_type_s": "transcript",
+    "gene_id_s": "SLC25A18.gene47313",
+    "gene_name_hgnc_s": "SLC25A18",
+    "hgvs.c_s": "c.*203A>G",
+    "id": "22-17590439--000001",
+    "pos_i": 17590439,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "11/11",
+    "ref_s": "A",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "C",
+    "alt_ss": [
+        "C"
+    ],
+    "annotation_s": "3_prime_UTR_variant",
+    "chrom_s": "22",
+    "distance_to_feature_i": "254",
+    "error_message_s": "WARNING_REF_DOES_NOT_MATCH_GENOME",
+    "feature_id_s": "XM_011546149.1.rna128830",
+    "feature_type_s": "transcript",
+    "gene_id_s": "SLC25A18.gene47313",
+    "gene_name_hgnc_s": "SLC25A18",
+    "hgvs.c_s": "c.*254A>C",
+    "id": "22-17590490--000001",
+    "pos_i": 17590490,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "11/11",
+    "ref_s": "A",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "G",
+    "alt_ss": [
+        "G"
+    ],
+    "annotation_s": "3_prime_UTR_variant",
+    "chrom_s": "22",
+    "distance_to_feature_i": "262",
+    "feature_id_s": "XM_011546149.1.rna128830",
+    "feature_type_s": "transcript",
+    "gene_id_s": "SLC25A18.gene47313",
+    "gene_name_hgnc_s": "SLC25A18",
+    "hgvs.c_s": "c.*262A>G",
+    "id": "22-17590498--000001",
+    "pos_i": 17590498,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "11/11",
+    "ref_s": "A",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "A",
+    "alt_ss": [
+        "A"
+    ],
+    "annotation_s": "3_prime_UTR_variant",
+    "chrom_s": "22",
+    "distance_to_feature_i": "279",
+    "error_message_s": "WARNING_REF_DOES_NOT_MATCH_GENOME",
+    "feature_id_s": "XM_011546149.1.rna128830",
+    "feature_type_s": "transcript",
+    "gene_id_s": "SLC25A18.gene47313",
+    "gene_name_hgnc_s": "SLC25A18",
+    "hgvs.c_s": "c.*279G>A",
+    "id": "22-17590515--000001",
+    "pos_i": 17590515,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "11/11",
+    "ref_s": "G",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "T",
+    "alt_ss": [
+        "T"
+    ],
+    "annotation_s": "3_prime_UTR_variant",
+    "chrom_s": "22",
+    "distance_to_feature_i": "306",
+    "feature_id_s": "XM_011546149.1.rna128830",
+    "feature_type_s": "transcript",
+    "gene_id_s": "SLC25A18.gene47313",
+    "gene_name_hgnc_s": "SLC25A18",
+    "hgvs.c_s": "c.*306_*314delGGAGGAAGA",
+    "id": "22-17590541--000001",
+    "pos_i": 17590541,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "11/11",
+    "ref_s": "TGGAGGAAGA",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "T",
+    "alt_ss": [
+        "T"
+    ],
+    "annotation_s": "3_prime_UTR_variant",
+    "chrom_s": "22",
+    "distance_to_feature_i": "363",
+    "feature_id_s": "XM_011546149.1.rna128830",
+    "feature_type_s": "transcript",
+    "gene_id_s": "SLC25A18.gene47313",
+    "gene_name_hgnc_s": "SLC25A18",
+    "hgvs.c_s": "c.*363C>T",
+    "id": "22-17590599--000001",
+    "pos_i": 17590599,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "11/11",
+    "ref_s": "C",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "C",
+    "alt_ss": [
+        "C"
+    ],
+    "annotation_s": "3_prime_UTR_variant",
+    "chrom_s": "22",
+    "distance_to_feature_i": "508",
+    "error_message_s": "WARNING_REF_DOES_NOT_MATCH_GENOME",
+    "feature_id_s": "XM_011546149.1.rna128830",
+    "feature_type_s": "transcript",
+    "gene_id_s": "SLC25A18.gene47313",
+    "gene_name_hgnc_s": "SLC25A18",
+    "hgvs.c_s": "c.*508T>C",
+    "id": "22-17590744--000001",
+    "pos_i": 17590744,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "11/11",
+    "ref_s": "T",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "T",
+    "alt_ss": [
+        "T"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "NM_001696.3.rna128841",
+    "feature_type_s": "transcript",
+    "gene_id_s": "ATP6V1E1.gene47316",
+    "gene_name_hgnc_s": "ATP6V1E1",
+    "hgvs.c_s": "c.367-187G>A",
+    "id": "22-17600282--000001",
+    "pos_i": 17600282,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "5/8",
+    "ref_s": "C",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "A",
+    "alt_ss": [
+        "A"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "NM_001696.3.rna128841",
+    "feature_type_s": "transcript",
+    "gene_id_s": "ATP6V1E1.gene47316",
+    "gene_name_hgnc_s": "ATP6V1E1",
+    "hgvs.c_s": "c.367-198C>T",
+    "id": "22-17600293--000001",
+    "pos_i": 17600293,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "5/8",
+    "ref_s": "G",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "T",
+    "alt_ss": [
+        "T"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "NM_001696.3.rna128841",
+    "feature_type_s": "transcript",
+    "gene_id_s": "ATP6V1E1.gene47316",
+    "gene_name_hgnc_s": "ATP6V1E1",
+    "hgvs.c_s": "c.367-218G>A",
+    "id": "22-17600313--000001",
+    "pos_i": 17600313,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "5/8",
+    "ref_s": "C",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "A",
+    "alt_ss": [
+        "A"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "NM_001696.3.rna128841",
+    "feature_type_s": "transcript",
+    "gene_id_s": "ATP6V1E1.gene47316",
+    "gene_name_hgnc_s": "ATP6V1E1",
+    "hgvs.c_s": "c.367-298C>T",
+    "id": "22-17600393--000001",
+    "pos_i": 17600393,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "5/8",
+    "ref_s": "G",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "A",
+    "alt_ss": [
+        "A"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "NM_001696.3.rna128841",
+    "feature_type_s": "transcript",
+    "gene_id_s": "ATP6V1E1.gene47316",
+    "gene_name_hgnc_s": "ATP6V1E1",
+    "hgvs.c_s": "c.367-353C>T",
+    "id": "22-17600448--000001",
+    "pos_i": 17600448,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "5/8",
+    "ref_s": "G",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "A",
+    "alt_ss": [
+        "A"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "NM_001696.3.rna128841",
+    "feature_type_s": "transcript",
+    "gene_id_s": "ATP6V1E1.gene47316",
+    "gene_name_hgnc_s": "ATP6V1E1",
+    "hgvs.c_s": "c.367-402C>T",
+    "id": "22-17600497--000001",
+    "pos_i": 17600497,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "5/8",
+    "ref_s": "G",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "A",
+    "alt_ss": [
+        "A"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "NM_001696.3.rna128841",
+    "feature_type_s": "transcript",
+    "gene_id_s": "ATP6V1E1.gene47316",
+    "gene_name_hgnc_s": "ATP6V1E1",
+    "hgvs.c_s": "c.366+420C>T",
+    "id": "22-17600672--000001",
+    "pos_i": 17600672,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "5/8",
+    "ref_s": "G",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "A",
+    "alt_ss": [
+        "A"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "NM_001696.3.rna128841",
+    "feature_type_s": "transcript",
+    "gene_id_s": "ATP6V1E1.gene47316",
+    "gene_name_hgnc_s": "ATP6V1E1",
+    "hgvs.c_s": "c.366+403C>T",
+    "id": "22-17600689--000001",
+    "pos_i": 17600689,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "5/8",
+    "ref_s": "G",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "A",
+    "alt_ss": [
+        "A"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "NM_001696.3.rna128841",
+    "feature_type_s": "transcript",
+    "gene_id_s": "ATP6V1E1.gene47316",
+    "gene_name_hgnc_s": "ATP6V1E1",
+    "hgvs.c_s": "c.366+235C>T",
+    "id": "22-17600857--000001",
+    "pos_i": 17600857,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "5/8",
+    "ref_s": "G",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "A",
+    "alt_ss": [
+        "A"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "NM_001696.3.rna128841",
+    "feature_type_s": "transcript",
+    "gene_id_s": "ATP6V1E1.gene47316",
+    "gene_name_hgnc_s": "ATP6V1E1",
+    "hgvs.c_s": "c.366+202C>T",
+    "id": "22-17600890--000001",
+    "pos_i": 17600890,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "5/8",
+    "ref_s": "G",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "T",
+    "alt_ss": [
+        "T"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "NM_001696.3.rna128841",
+    "feature_type_s": "transcript",
+    "gene_id_s": "ATP6V1E1.gene47316",
+    "gene_name_hgnc_s": "ATP6V1E1",
+    "hgvs.c_s": "c.366+197G>A",
+    "id": "22-17600895--000001",
+    "pos_i": 17600895,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "5/8",
+    "ref_s": "C",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "A",
+    "alt_ss": [
+        "A"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "NM_001696.3.rna128841",
+    "feature_type_s": "transcript",
+    "gene_id_s": "ATP6V1E1.gene47316",
+    "gene_name_hgnc_s": "ATP6V1E1",
+    "hgvs.c_s": "c.366+115C>T",
+    "id": "22-17600977--000001",
+    "pos_i": 17600977,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "5/8",
+    "ref_s": "G",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "A",
+    "alt_ss": [
+        "A"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "NM_001696.3.rna128841",
+    "feature_type_s": "transcript",
+    "gene_id_s": "ATP6V1E1.gene47316",
+    "gene_name_hgnc_s": "ATP6V1E1",
+    "hgvs.c_s": "c.277-18C>T",
+    "id": "22-17601199--000001",
+    "pos_i": 17601199,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "4/8",
+    "ref_s": "G",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "A",
+    "alt_ss": [
+        "A"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "NM_001696.3.rna128841",
+    "feature_type_s": "transcript",
+    "gene_id_s": "ATP6V1E1.gene47316",
+    "gene_name_hgnc_s": "ATP6V1E1",
+    "hgvs.c_s": "c.277-90C>T",
+    "id": "22-17601271--000001",
+    "pos_i": 17601271,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "4/8",
+    "ref_s": "G",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "C",
+    "alt_ss": [
+        "C"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "NM_001696.3.rna128841",
+    "feature_type_s": "transcript",
+    "gene_id_s": "ATP6V1E1.gene47316",
+    "gene_name_hgnc_s": "ATP6V1E1",
+    "hgvs.c_s": "c.277-121_277-119delTGG",
+    "id": "22-17601299--000001",
+    "pos_i": 17601299,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "4/8",
+    "ref_s": "CCCA",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "T",
+    "alt_ss": [
+        "T"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "NM_001696.3.rna128841",
+    "feature_type_s": "transcript",
+    "gene_id_s": "ATP6V1E1.gene47316",
+    "gene_name_hgnc_s": "ATP6V1E1",
+    "hgvs.c_s": "c.277-257C>A",
+    "id": "22-17601438--000001",
+    "pos_i": 17601438,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "4/8",
+    "ref_s": "G",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "C",
+    "alt_ss": [
+        "C"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "NM_001696.3.rna128841",
+    "feature_type_s": "transcript",
+    "gene_id_s": "ATP6V1E1.gene47316",
+    "gene_name_hgnc_s": "ATP6V1E1",
+    "hgvs.c_s": "c.277-285A>G",
+    "id": "22-17601466--000001",
+    "pos_i": 17601466,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "4/8",
+    "ref_s": "T",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "T",
+    "alt_ss": [
+        "T"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "NM_001696.3.rna128841",
+    "feature_type_s": "transcript",
+    "gene_id_s": "ATP6V1E1.gene47316",
+    "gene_name_hgnc_s": "ATP6V1E1",
+    "hgvs.c_s": "c.99+579G>A",
+    "id": "22-17618882--000001",
+    "pos_i": 17618882,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "2/8",
+    "ref_s": "C",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "A",
+    "alt_ss": [
+        "A"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "NM_001696.3.rna128841",
+    "feature_type_s": "transcript",
+    "gene_id_s": "ATP6V1E1.gene47316",
+    "gene_name_hgnc_s": "ATP6V1E1",
+    "hgvs.c_s": "c.99+524C>T",
+    "id": "22-17618937--000001",
+    "pos_i": 17618937,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "2/8",
+    "ref_s": "G",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "G",
+    "alt_ss": [
+        "G"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "NM_001696.3.rna128841",
+    "feature_type_s": "transcript",
+    "gene_id_s": "ATP6V1E1.gene47316",
+    "gene_name_hgnc_s": "ATP6V1E1",
+    "hgvs.c_s": "c.99+385G>C",
+    "id": "22-17619076--000001",
+    "pos_i": 17619076,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "2/8",
+    "ref_s": "C",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "C",
+    "alt_ss": [
+        "C"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "NM_001696.3.rna128841",
+    "feature_type_s": "transcript",
+    "gene_id_s": "ATP6V1E1.gene47316",
+    "gene_name_hgnc_s": "ATP6V1E1",
+    "hgvs.c_s": "c.99+331A>G",
+    "id": "22-17619130--000001",
+    "pos_i": 17619130,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "2/8",
+    "ref_s": "T",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "A",
+    "alt_ss": [
+        "A"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "NM_001696.3.rna128841",
+    "feature_type_s": "transcript",
+    "gene_id_s": "ATP6V1E1.gene47316",
+    "gene_name_hgnc_s": "ATP6V1E1",
+    "hgvs.c_s": "c.99+180C>T",
+    "id": "22-17619281--000001",
+    "pos_i": 17619281,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "2/8",
+    "ref_s": "G",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "A",
+    "alt_ss": [
+        "A"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "NM_001696.3.rna128841",
+    "feature_type_s": "transcript",
+    "gene_id_s": "ATP6V1E1.gene47316",
+    "gene_name_hgnc_s": "ATP6V1E1",
+    "hgvs.c_s": "c.99+179C>T",
+    "id": "22-17619282--000001",
+    "pos_i": 17619282,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "2/8",
+    "ref_s": "G",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "T",
+    "alt_ss": [
+        "T"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "NM_001696.3.rna128841",
+    "feature_type_s": "transcript",
+    "gene_id_s": "ATP6V1E1.gene47316",
+    "gene_name_hgnc_s": "ATP6V1E1",
+    "hgvs.c_s": "c.99+169G>A",
+    "id": "22-17619292--000001",
+    "pos_i": 17619292,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "2/8",
+    "ref_s": "C",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "G",
+    "alt_ss": [
+        "G"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "NM_001696.3.rna128841",
+    "feature_type_s": "transcript",
+    "gene_id_s": "ATP6V1E1.gene47316",
+    "gene_name_hgnc_s": "ATP6V1E1",
+    "hgvs.c_s": "c.99+68T>C",
+    "id": "22-17619393--000001",
+    "pos_i": 17619393,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "2/8",
+    "ref_s": "A",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "C",
+    "alt_ss": [
+        "C"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "NM_001696.3.rna128841",
+    "feature_type_s": "transcript",
+    "gene_id_s": "ATP6V1E1.gene47316",
+    "gene_name_hgnc_s": "ATP6V1E1",
+    "hgvs.c_s": "c.99+54A>G",
+    "id": "22-17619407--000001",
+    "pos_i": 17619407,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "2/8",
+    "ref_s": "T",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "G",
+    "alt_ss": [
+        "G"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "NM_001696.3.rna128841",
+    "feature_type_s": "transcript",
+    "gene_id_s": "ATP6V1E1.gene47316",
+    "gene_name_hgnc_s": "ATP6V1E1",
+    "hgvs.c_s": "c.99+33T>C",
+    "id": "22-17619428--000001",
+    "pos_i": 17619428,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "2/8",
+    "ref_s": "A",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "G",
+    "alt_ss": [
+        "G"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "NM_001696.3.rna128841",
+    "feature_type_s": "transcript",
+    "gene_id_s": "ATP6V1E1.gene47316",
+    "gene_name_hgnc_s": "ATP6V1E1",
+    "hgvs.c_s": "c.34-135A>C",
+    "id": "22-17619661--000001",
+    "pos_i": 17619661,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "1/8",
+    "ref_s": "T",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "T",
+    "alt_ss": [
+        "T"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "NM_001696.3.rna128841",
+    "feature_type_s": "transcript",
+    "gene_id_s": "ATP6V1E1.gene47316",
+    "gene_name_hgnc_s": "ATP6V1E1",
+    "hgvs.c_s": "c.34-2475G>A",
+    "id": "22-17622001--000001",
+    "pos_i": 17622001,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "1/8",
+    "ref_s": "C",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "G",
+    "alt_ss": [
+        "G"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "NM_001696.3.rna128841",
+    "feature_type_s": "transcript",
+    "gene_id_s": "ATP6V1E1.gene47316",
+    "gene_name_hgnc_s": "ATP6V1E1",
+    "hgvs.c_s": "c.34-2539T>C",
+    "id": "22-17622065--000001",
+    "pos_i": 17622065,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "1/8",
+    "ref_s": "A",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "A",
+    "alt_ss": [
+        "A"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "NM_001696.3.rna128841",
+    "feature_type_s": "transcript",
+    "gene_id_s": "ATP6V1E1.gene47316",
+    "gene_name_hgnc_s": "ATP6V1E1",
+    "hgvs.c_s": "c.34-2563G>T",
+    "id": "22-17622089--000001",
+    "pos_i": 17622089,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "1/8",
+    "ref_s": "C",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "T",
+    "alt_ss": [
+        "T"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "NM_001696.3.rna128841",
+    "feature_type_s": "transcript",
+    "gene_id_s": "ATP6V1E1.gene47316",
+    "gene_name_hgnc_s": "ATP6V1E1",
+    "hgvs.c_s": "c.34-2614G>A",
+    "id": "22-17622140--000001",
+    "pos_i": 17622140,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "1/8",
+    "ref_s": "C",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "T",
+    "alt_ss": [
+        "T"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "NM_001696.3.rna128841",
+    "feature_type_s": "transcript",
+    "gene_id_s": "ATP6V1E1.gene47316",
+    "gene_name_hgnc_s": "ATP6V1E1",
+    "hgvs.c_s": "c.34-2645G>A",
+    "id": "22-17622171--000001",
+    "pos_i": 17622171,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "1/8",
+    "ref_s": "C",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "T",
+    "alt_ss": [
+        "T"
+    ],
+    "annotation_s": "upstream_gene_variant",
+    "chrom_s": "22",
+    "distance_to_feature_i": "4910",
+    "feature_id_s": "XM_011546119.1.rna128842",
+    "feature_type_s": "transcript",
+    "gene_id_s": "BCL2L13.gene47317",
+    "gene_name_hgnc_s": "BCL2L13",
+    "hgvs.c_s": "c.-645C>T",
+    "id": "22-17623945--000001",
+    "pos_i": 17623945,
+    "putative_impact_s": "MODIFIER",
+    "ref_s": "C",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "T",
+    "alt_ss": [
+        "T"
+    ],
+    "annotation_s": "upstream_gene_variant",
+    "chrom_s": "22",
+    "distance_to_feature_i": "4842",
+    "feature_id_s": "XM_011546119.1.rna128842",
+    "feature_type_s": "transcript",
+    "gene_id_s": "BCL2L13.gene47317",
+    "gene_name_hgnc_s": "BCL2L13",
+    "hgvs.c_s": "c.-645C>T",
+    "id": "22-17624013--000001",
+    "pos_i": 17624013,
+    "putative_impact_s": "MODIFIER",
+    "ref_s": "C",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "G",
+    "alt_ss": [
+        "G"
+    ],
+    "annotation_s": "upstream_gene_variant",
+    "chrom_s": "22",
+    "distance_to_feature_i": "4814",
+    "feature_id_s": "XM_011546119.1.rna128842",
+    "feature_type_s": "transcript",
+    "gene_id_s": "BCL2L13.gene47317",
+    "gene_name_hgnc_s": "BCL2L13",
+    "hgvs.c_s": "c.-645A>G",
+    "id": "22-17624041--000001",
+    "pos_i": 17624041,
+    "putative_impact_s": "MODIFIER",
+    "ref_s": "A",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "G",
+    "alt_ss": [
+        "G"
+    ],
+    "annotation_s": "upstream_gene_variant",
+    "chrom_s": "22",
+    "distance_to_feature_i": "4792",
+    "feature_id_s": "XM_011546119.1.rna128842",
+    "feature_type_s": "transcript",
+    "gene_id_s": "BCL2L13.gene47317",
+    "gene_name_hgnc_s": "BCL2L13",
+    "hgvs.c_s": "c.-645T>G",
+    "id": "22-17624063--000001",
+    "pos_i": 17624063,
+    "putative_impact_s": "MODIFIER",
+    "ref_s": "T",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "A",
+    "alt_ss": [
+        "A"
+    ],
+    "annotation_s": "upstream_gene_variant",
+    "chrom_s": "22",
+    "distance_to_feature_i": "2940",
+    "feature_id_s": "XM_011546119.1.rna128842",
+    "feature_type_s": "transcript",
+    "gene_id_s": "BCL2L13.gene47317",
+    "gene_name_hgnc_s": "BCL2L13",
+    "hgvs.c_s": "c.-645G>A",
+    "id": "22-17625915--000001",
+    "pos_i": 17625915,
+    "putative_impact_s": "MODIFIER",
+    "ref_s": "G",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "A",
+    "alt_ss": [
+        "A"
+    ],
+    "annotation_s": "upstream_gene_variant",
+    "chrom_s": "22",
+    "distance_to_feature_i": "2885",
+    "feature_id_s": "XM_011546119.1.rna128842",
+    "feature_type_s": "transcript",
+    "gene_id_s": "BCL2L13.gene47317",
+    "gene_name_hgnc_s": "BCL2L13",
+    "hgvs.c_s": "c.-645G>A",
+    "id": "22-17625970--000001",
+    "pos_i": 17625970,
+    "putative_impact_s": "MODIFIER",
+    "ref_s": "G",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "A",
+    "alt_ss": [
+        "A"
+    ],
+    "annotation_s": "upstream_gene_variant",
+    "chrom_s": "22",
+    "distance_to_feature_i": "478",
+    "feature_id_s": "NM_001696.3.rna128841",
+    "feature_type_s": "transcript",
+    "gene_id_s": "ATP6V1E1.gene47316",
+    "gene_name_hgnc_s": "ATP6V1E1",
+    "hgvs.c_s": "c.-188G>T",
+    "id": "22-17629300--000001",
+    "pos_i": 17629300,
+    "putative_impact_s": "MODIFIER",
+    "ref_s": "C",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "A",
+    "alt_ss": [
+        "A"
+    ],
+    "annotation_s": "upstream_gene_variant",
+    "chrom_s": "22",
+    "distance_to_feature_i": "497",
+    "feature_id_s": "NM_001696.3.rna128841",
+    "feature_type_s": "transcript",
+    "gene_id_s": "ATP6V1E1.gene47316",
+    "gene_name_hgnc_s": "ATP6V1E1",
+    "hgvs.c_s": "c.-188C>T",
+    "id": "22-17629319--000001",
+    "pos_i": 17629319,
+    "putative_impact_s": "MODIFIER",
+    "ref_s": "G",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "G",
+    "alt_ss": [
+        "G"
+    ],
+    "annotation_s": "upstream_gene_variant",
+    "chrom_s": "22",
+    "distance_to_feature_i": "535",
+    "feature_id_s": "NM_001696.3.rna128841",
+    "feature_type_s": "transcript",
+    "gene_id_s": "ATP6V1E1.gene47316",
+    "gene_name_hgnc_s": "ATP6V1E1",
+    "hgvs.c_s": "c.-188G>C",
+    "id": "22-17629357--000001",
+    "pos_i": 17629357,
+    "putative_impact_s": "MODIFIER",
+    "ref_s": "C",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "T",
+    "alt_ss": [
+        "T"
+    ],
+    "annotation_s": "upstream_gene_variant",
+    "chrom_s": "22",
+    "distance_to_feature_i": "561",
+    "feature_id_s": "NM_001696.3.rna128841",
+    "feature_type_s": "transcript",
+    "gene_id_s": "ATP6V1E1.gene47316",
+    "gene_name_hgnc_s": "ATP6V1E1",
+    "hgvs.c_s": "c.-188G>A",
+    "id": "22-17629383--000001",
+    "pos_i": 17629383,
+    "putative_impact_s": "MODIFIER",
+    "ref_s": "C",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "C",
+    "alt_ss": [
+        "C"
+    ],
+    "annotation_s": "upstream_gene_variant",
+    "chrom_s": "22",
+    "distance_to_feature_i": "1567",
+    "feature_id_s": "NM_001696.3.rna128841",
+    "feature_type_s": "transcript",
+    "gene_id_s": "ATP6V1E1.gene47316",
+    "gene_name_hgnc_s": "ATP6V1E1",
+    "hgvs.c_s": "c.-188C>G",
+    "id": "22-17630389--000001",
+    "pos_i": 17630389,
+    "putative_impact_s": "MODIFIER",
+    "ref_s": "G",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "T",
+    "alt_ss": [
+        "T"
+    ],
+    "annotation_s": "upstream_gene_variant",
+    "chrom_s": "22",
+    "distance_to_feature_i": "1571",
+    "feature_id_s": "NM_001696.3.rna128841",
+    "feature_type_s": "transcript",
+    "gene_id_s": "ATP6V1E1.gene47316",
+    "gene_name_hgnc_s": "ATP6V1E1",
+    "hgvs.c_s": "c.-188G>A",
+    "id": "22-17630393--000001",
+    "pos_i": 17630393,
+    "putative_impact_s": "MODIFIER",
+    "ref_s": "C",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "C",
+    "alt_ss": [
+        "C"
+    ],
+    "annotation_s": "upstream_gene_variant",
+    "chrom_s": "22",
+    "distance_to_feature_i": "1579",
+    "feature_id_s": "NM_001696.3.rna128841",
+    "feature_type_s": "transcript",
+    "gene_id_s": "ATP6V1E1.gene47316",
+    "gene_name_hgnc_s": "ATP6V1E1",
+    "hgvs.c_s": "c.-188A>G",
+    "id": "22-17630401--000001",
+    "pos_i": 17630401,
+    "putative_impact_s": "MODIFIER",
+    "ref_s": "T",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "A",
+    "alt_ss": [
+        "A"
+    ],
+    "annotation_s": "upstream_gene_variant",
+    "chrom_s": "22",
+    "distance_to_feature_i": "1664",
+    "feature_id_s": "NM_001696.3.rna128841",
+    "feature_type_s": "transcript",
+    "gene_id_s": "ATP6V1E1.gene47316",
+    "gene_name_hgnc_s": "ATP6V1E1",
+    "hgvs.c_s": "c.-188G>T",
+    "id": "22-17630486--000001",
+    "pos_i": 17630486,
+    "putative_impact_s": "MODIFIER",
+    "ref_s": "C",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "T",
+    "alt_ss": [
+        "T"
+    ],
+    "annotation_s": "upstream_gene_variant",
+    "chrom_s": "22",
+    "distance_to_feature_i": "1718",
+    "feature_id_s": "NM_001696.3.rna128841",
+    "feature_type_s": "transcript",
+    "gene_id_s": "ATP6V1E1.gene47316",
+    "gene_name_hgnc_s": "ATP6V1E1",
+    "hgvs.c_s": "c.-188G>A",
+    "id": "22-17630540--000001",
+    "pos_i": 17630540,
+    "putative_impact_s": "MODIFIER",
+    "ref_s": "C",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "A",
+    "alt_ss": [
+        "A"
+    ],
+    "annotation_s": "upstream_gene_variant",
+    "chrom_s": "22",
+    "distance_to_feature_i": "1825",
+    "feature_id_s": "NM_001696.3.rna128841",
+    "feature_type_s": "transcript",
+    "gene_id_s": "ATP6V1E1.gene47316",
+    "gene_name_hgnc_s": "ATP6V1E1",
+    "hgvs.c_s": "c.-188C>T",
+    "id": "22-17630647--000001",
+    "pos_i": 17630647,
+    "putative_impact_s": "MODIFIER",
+    "ref_s": "G",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "C",
+    "alt_ss": [
+        "C"
+    ],
+    "annotation_s": "upstream_gene_variant",
+    "chrom_s": "22",
+    "distance_to_feature_i": "1845",
+    "feature_id_s": "NM_001696.3.rna128841",
+    "feature_type_s": "transcript",
+    "gene_id_s": "ATP6V1E1.gene47316",
+    "gene_name_hgnc_s": "ATP6V1E1",
+    "hgvs.c_s": "c.-188A>G",
+    "id": "22-17630667--000001",
+    "pos_i": 17630667,
+    "putative_impact_s": "MODIFIER",
+    "ref_s": "T",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "A",
+    "alt_ss": [
+        "A"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "NM_001270726.1.rna128853",
+    "feature_type_s": "transcript",
+    "gene_id_s": "BCL2L13.gene47317",
+    "gene_name_hgnc_s": "BCL2L13",
+    "hgvs.c_s": "c.193+1159G>A",
+    "id": "22-17640045--000001",
+    "pos_i": 17640045,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "1/5",
+    "ref_s": "G",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "C",
+    "alt_ss": [
+        "C"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "NM_001270726.1.rna128853",
+    "feature_type_s": "transcript",
+    "gene_id_s": "BCL2L13.gene47317",
+    "gene_name_hgnc_s": "BCL2L13",
+    "hgvs.c_s": "c.193+1303G>C",
+    "id": "22-17640189--000001",
+    "pos_i": 17640189,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "1/5",
+    "ref_s": "G",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "A",
+    "alt_ss": [
+        "A"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "NM_001270726.1.rna128853",
+    "feature_type_s": "transcript",
+    "gene_id_s": "BCL2L13.gene47317",
+    "gene_name_hgnc_s": "BCL2L13",
+    "hgvs.c_s": "c.193+7246C>A",
+    "id": "22-17646132--000001",
+    "pos_i": 17646132,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "1/5",
+    "ref_s": "C",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "G",
+    "alt_ss": [
+        "G"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "NM_001270726.1.rna128853",
+    "feature_type_s": "transcript",
+    "gene_id_s": "BCL2L13.gene47317",
+    "gene_name_hgnc_s": "BCL2L13",
+    "hgvs.c_s": "c.194-20770C>G",
+    "id": "22-17662444--000001",
+    "pos_i": 17662444,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "1/5",
+    "ref_s": "C",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "T",
+    "alt_ss": [
+        "T"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "NM_001270726.1.rna128853",
+    "feature_type_s": "transcript",
+    "gene_id_s": "BCL2L13.gene47317",
+    "gene_name_hgnc_s": "BCL2L13",
+    "hgvs.c_s": "c.194-20535C>T",
+    "id": "22-17662679--000001",
+    "pos_i": 17662679,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "1/5",
+    "ref_s": "C",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "G",
+    "alt_ss": [
+        "G"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "NM_001270726.1.rna128853",
+    "feature_type_s": "transcript",
+    "gene_id_s": "BCL2L13.gene47317",
+    "gene_name_hgnc_s": "BCL2L13",
+    "hgvs.c_s": "c.194-20515A>G",
+    "id": "22-17662699--000001",
+    "pos_i": 17662699,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "1/5",
+    "ref_s": "A",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "G",
+    "alt_ss": [
+        "G"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "NM_001270726.1.rna128853",
+    "feature_type_s": "transcript",
+    "gene_id_s": "BCL2L13.gene47317",
+    "gene_name_hgnc_s": "BCL2L13",
+    "hgvs.c_s": "c.194-20447A>G",
+    "id": "22-17662767--000001",
+    "pos_i": 17662767,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "1/5",
+    "ref_s": "A",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "G",
+    "alt_ss": [
+        "G"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "NM_001270726.1.rna128853",
+    "feature_type_s": "transcript",
+    "gene_id_s": "BCL2L13.gene47317",
+    "gene_name_hgnc_s": "BCL2L13",
+    "hgvs.c_s": "c.194-20421A>G",
+    "id": "22-17662793--000001",
+    "pos_i": 17662793,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "1/5",
+    "ref_s": "A",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "C",
+    "alt_ss": [
+        "C"
+    ],
+    "annotation_s": "5_prime_UTR_variant",
+    "chrom_s": "22",
+    "distance_to_feature_i": "26137",
+    "feature_id_s": "XM_011546122.1.rna128856",
+    "feature_type_s": "transcript",
+    "gene_id_s": "BCL2L13.gene47317",
+    "gene_name_hgnc_s": "BCL2L13",
+    "hgvs.c_s": "c.-273G>C",
+    "id": "22-17662917--000001",
+    "pos_i": 17662917,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "3/8",
+    "ref_s": "G",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "C",
+    "alt_ss": [
+        "C"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "NM_001270726.1.rna128853",
+    "feature_type_s": "transcript",
+    "gene_id_s": "BCL2L13.gene47317",
+    "gene_name_hgnc_s": "BCL2L13",
+    "hgvs.c_s": "c.194-19769T>C",
+    "id": "22-17663445--000001",
+    "pos_i": 17663445,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "1/5",
+    "ref_s": "T",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "A",
+    "alt_ss": [
+        "A"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "NM_001270726.1.rna128853",
+    "feature_type_s": "transcript",
+    "gene_id_s": "BCL2L13.gene47317",
+    "gene_name_hgnc_s": "BCL2L13",
+    "hgvs.c_s": "c.194-19547_194-19521delTGGTCTTCCATGGGGGATGGATGGGTC",
+    "id": "22-17663666--000001",
+    "pos_i": 17663666,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "1/5",
+    "ref_s": "ATGGTCTTCCATGGGGGATGGATGGGTC",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "A",
+    "alt_ss": [
+        "A"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "NM_001270726.1.rna128853",
+    "feature_type_s": "transcript",
+    "gene_id_s": "BCL2L13.gene47317",
+    "gene_name_hgnc_s": "BCL2L13",
+    "hgvs.c_s": "c.194-14015G>A",
+    "id": "22-17669199--000001",
+    "pos_i": 17669199,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "1/5",
+    "ref_s": "G",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "T",
+    "alt_ss": [
+        "T"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "NM_001270726.1.rna128853",
+    "feature_type_s": "transcript",
+    "gene_id_s": "BCL2L13.gene47317",
+    "gene_name_hgnc_s": "BCL2L13",
+    "hgvs.c_s": "c.194-14003C>T",
+    "id": "22-17669211--000001",
+    "pos_i": 17669211,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "1/5",
+    "ref_s": "C",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "T",
+    "alt_ss": [
+        "T"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "NM_001270726.1.rna128853",
+    "feature_type_s": "transcript",
+    "gene_id_s": "BCL2L13.gene47317",
+    "gene_name_hgnc_s": "BCL2L13",
+    "hgvs.c_s": "c.194-13976C>T",
+    "id": "22-17669238--000001",
+    "pos_i": 17669238,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "1/5",
+    "ref_s": "C",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "A",
+    "alt_ss": [
+        "A"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "NM_001270726.1.rna128853",
+    "feature_type_s": "transcript",
+    "gene_id_s": "BCL2L13.gene47317",
+    "gene_name_hgnc_s": "BCL2L13",
+    "hgvs.c_s": "c.194-13972G>A",
+    "id": "22-17669242--000001",
+    "pos_i": 17669242,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "1/5",
+    "ref_s": "G",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "T",
+    "alt_ss": [
+        "T"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "NM_001270726.1.rna128853",
+    "feature_type_s": "transcript",
+    "gene_id_s": "BCL2L13.gene47317",
+    "gene_name_hgnc_s": "BCL2L13",
+    "hgvs.c_s": "c.194-13969G>T",
+    "id": "22-17669245--000001",
+    "pos_i": 17669245,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "1/5",
+    "ref_s": "G",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "T",
+    "alt_ss": [
+        "T"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "NM_001270726.1.rna128853",
+    "feature_type_s": "transcript",
+    "gene_id_s": "BCL2L13.gene47317",
+    "gene_name_hgnc_s": "BCL2L13",
+    "hgvs.c_s": "c.194-13949C>T",
+    "id": "22-17669265--000001",
+    "pos_i": 17669265,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "1/5",
+    "ref_s": "C",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "C",
+    "alt_ss": [
+        "C"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "NM_001270726.1.rna128853",
+    "feature_type_s": "transcript",
+    "gene_id_s": "BCL2L13.gene47317",
+    "gene_name_hgnc_s": "BCL2L13",
+    "hgvs.c_s": "c.194-13908T>C",
+    "id": "22-17669306--000001",
+    "pos_i": 17669306,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "1/5",
+    "ref_s": "T",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "T",
+    "alt_ss": [
+        "T"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "NM_001270726.1.rna128853",
+    "feature_type_s": "transcript",
+    "gene_id_s": "BCL2L13.gene47317",
+    "gene_name_hgnc_s": "BCL2L13",
+    "hgvs.c_s": "c.194-13879C>T",
+    "id": "22-17669335--000001",
+    "pos_i": 17669335,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "1/5",
+    "ref_s": "C",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "T",
+    "alt_ss": [
+        "T"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "NM_001270726.1.rna128853",
+    "feature_type_s": "transcript",
+    "gene_id_s": "BCL2L13.gene47317",
+    "gene_name_hgnc_s": "BCL2L13",
+    "hgvs.c_s": "c.194-13839C>T",
+    "id": "22-17669375--000001",
+    "pos_i": 17669375,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "1/5",
+    "ref_s": "C",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "A",
+    "alt_ss": [
+        "A"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "NM_001270726.1.rna128853",
+    "feature_type_s": "transcript",
+    "gene_id_s": "BCL2L13.gene47317",
+    "gene_name_hgnc_s": "BCL2L13",
+    "hgvs.c_s": "c.194-12428G>A",
+    "id": "22-17670786--000001",
+    "pos_i": 17670786,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "1/5",
+    "ref_s": "G",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "T",
+    "alt_ss": [
+        "T"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "NM_001270726.1.rna128853",
+    "feature_type_s": "transcript",
+    "gene_id_s": "BCL2L13.gene47317",
+    "gene_name_hgnc_s": "BCL2L13",
+    "hgvs.c_s": "c.194-12420C>T",
+    "id": "22-17670794--000001",
+    "pos_i": 17670794,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "1/5",
+    "ref_s": "C",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "T",
+    "alt_ss": [
+        "T"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "NM_001270726.1.rna128853",
+    "feature_type_s": "transcript",
+    "gene_id_s": "BCL2L13.gene47317",
+    "gene_name_hgnc_s": "BCL2L13",
+    "hgvs.c_s": "c.194-12407C>T",
+    "id": "22-17670807--000001",
+    "pos_i": 17670807,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "1/5",
+    "ref_s": "C",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "A",
+    "alt_ss": [
+        "A"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "NM_001270726.1.rna128853",
+    "feature_type_s": "transcript",
+    "gene_id_s": "BCL2L13.gene47317",
+    "gene_name_hgnc_s": "BCL2L13",
+    "hgvs.c_s": "c.194-12360G>A",
+    "id": "22-17670854--000001",
+    "pos_i": 17670854,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "1/5",
+    "ref_s": "G",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "T",
+    "alt_ss": [
+        "T"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "NM_001270726.1.rna128853",
+    "feature_type_s": "transcript",
+    "gene_id_s": "BCL2L13.gene47317",
+    "gene_name_hgnc_s": "BCL2L13",
+    "hgvs.c_s": "c.194-12337C>T",
+    "id": "22-17670877--000001",
+    "pos_i": 17670877,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "1/5",
+    "ref_s": "C",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "G",
+    "alt_ss": [
+        "G"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "NM_001270726.1.rna128853",
+    "feature_type_s": "transcript",
+    "gene_id_s": "BCL2L13.gene47317",
+    "gene_name_hgnc_s": "BCL2L13",
+    "hgvs.c_s": "c.194-12269A>G",
+    "id": "22-17670945--000001",
+    "pos_i": 17670945,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "1/5",
+    "ref_s": "A",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "A",
+    "alt_ss": [
+        "A"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "NM_001270726.1.rna128853",
+    "feature_type_s": "transcript",
+    "gene_id_s": "BCL2L13.gene47317",
+    "gene_name_hgnc_s": "BCL2L13",
+    "hgvs.c_s": "c.194-10543G>A",
+    "id": "22-17672671--000001",
+    "pos_i": 17672671,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "1/5",
+    "ref_s": "G",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "T",
+    "alt_ss": [
+        "T"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "dbsnp_build_id_i": 126,
+    "feature_id_s": "NM_001270726.1.rna128853",
+    "feature_type_s": "transcript",
+    "gene_id_s": "BCL2L13.gene47317",
+    "gene_name_hgnc_s": "BCL2L13",
+    "hgvs.c_s": "c.194-2822C>T",
+    "id": "22-17680392--000001",
+    "id_s": "rs34891900",
+    "pos_i": 17680392,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "1/5",
+    "ref_s": "C",
+    "rs_i": 34891900,
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "A",
+    "alt_ss": [
+        "A"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "NM_001270726.1.rna128853",
+    "feature_type_s": "transcript",
+    "gene_id_s": "BCL2L13.gene47317",
+    "gene_name_hgnc_s": "BCL2L13",
+    "hgvs.c_s": "c.301+1177G>A",
+    "id": "22-17684498--000001",
+    "pos_i": 17684498,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "2/5",
+    "ref_s": "G",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "T",
+    "alt_ss": [
+        "T"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "NM_001270726.1.rna128853",
+    "feature_type_s": "transcript",
+    "gene_id_s": "BCL2L13.gene47317",
+    "gene_name_hgnc_s": "BCL2L13",
+    "hgvs.c_s": "c.301+1196C>T",
+    "id": "22-17684517--000001",
+    "pos_i": 17684517,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "2/5",
+    "ref_s": "C",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "A",
+    "alt_ss": [
+        "A"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "NM_001270726.1.rna128853",
+    "feature_type_s": "transcript",
+    "gene_id_s": "BCL2L13.gene47317",
+    "gene_name_hgnc_s": "BCL2L13",
+    "hgvs.c_s": "c.301+1225G>A",
+    "id": "22-17684546--000001",
+    "pos_i": 17684546,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "2/5",
+    "ref_s": "G",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "G",
+    "alt_ss": [
+        "G"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "NM_001270726.1.rna128853",
+    "feature_type_s": "transcript",
+    "gene_id_s": "BCL2L13.gene47317",
+    "gene_name_hgnc_s": "BCL2L13",
+    "hgvs.c_s": "c.301+1298A>G",
+    "id": "22-17684619--000001",
+    "pos_i": 17684619,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "2/5",
+    "ref_s": "A",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "T",
+    "alt_ss": [
+        "T"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "NM_001270726.1.rna128853",
+    "feature_type_s": "transcript",
+    "gene_id_s": "BCL2L13.gene47317",
+    "gene_name_hgnc_s": "BCL2L13",
+    "hgvs.c_s": "c.301+1307G>T",
+    "id": "22-17684628--000001",
+    "pos_i": 17684628,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "2/5",
+    "ref_s": "G",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "C",
+    "alt_ss": [
+        "C"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "NM_001270726.1.rna128853",
+    "feature_type_s": "transcript",
+    "gene_id_s": "BCL2L13.gene47317",
+    "gene_name_hgnc_s": "BCL2L13",
+    "hgvs.c_s": "c.302-1032T>C",
+    "id": "22-17687954--000001",
+    "pos_i": 17687954,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "2/5",
+    "ref_s": "T",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "A",
+    "alt_ss": [
+        "A"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "NM_001270726.1.rna128853",
+    "feature_type_s": "transcript",
+    "gene_id_s": "BCL2L13.gene47317",
+    "gene_name_hgnc_s": "BCL2L13",
+    "hgvs.c_s": "c.302-994G>A",
+    "id": "22-17687992--000001",
+    "pos_i": 17687992,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "2/5",
+    "ref_s": "G",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "T",
+    "alt_ss": [
+        "T"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "NM_001270726.1.rna128853",
+    "feature_type_s": "transcript",
+    "gene_id_s": "BCL2L13.gene47317",
+    "gene_name_hgnc_s": "BCL2L13",
+    "hgvs.c_s": "c.302-989C>T",
+    "id": "22-17687997--000001",
+    "pos_i": 17687997,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "2/5",
+    "ref_s": "C",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "A",
+    "alt_ss": [
+        "A"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "NM_001270726.1.rna128853",
+    "feature_type_s": "transcript",
+    "gene_id_s": "BCL2L13.gene47317",
+    "gene_name_hgnc_s": "BCL2L13",
+    "hgvs.c_s": "c.302-909C>A",
+    "id": "22-17688077--000001",
+    "pos_i": 17688077,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "2/5",
+    "ref_s": "C",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "G",
+    "alt_ss": [
+        "G"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "NM_001270726.1.rna128853",
+    "feature_type_s": "transcript",
+    "gene_id_s": "BCL2L13.gene47317",
+    "gene_name_hgnc_s": "BCL2L13",
+    "hgvs.c_s": "c.302-845A>G",
+    "id": "22-17688141--000001",
+    "pos_i": 17688141,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "2/5",
+    "ref_s": "A",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "A",
+    "alt_ss": [
+        "A"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "NM_001270726.1.rna128853",
+    "feature_type_s": "transcript",
+    "gene_id_s": "BCL2L13.gene47317",
+    "gene_name_hgnc_s": "BCL2L13",
+    "hgvs.c_s": "c.302-773G>A",
+    "id": "22-17688213--000001",
+    "pos_i": 17688213,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "2/5",
+    "ref_s": "G",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "A",
+    "alt_ss": [
+        "A"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "NM_001270726.1.rna128853",
+    "feature_type_s": "transcript",
+    "gene_id_s": "BCL2L13.gene47317",
+    "gene_name_hgnc_s": "BCL2L13",
+    "hgvs.c_s": "c.302-771G>A",
+    "id": "22-17688215--000001",
+    "pos_i": 17688215,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "2/5",
+    "ref_s": "G",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "A",
+    "alt_ss": [
+        "A"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "NM_001270726.1.rna128853",
+    "feature_type_s": "transcript",
+    "gene_id_s": "BCL2L13.gene47317",
+    "gene_name_hgnc_s": "BCL2L13",
+    "hgvs.c_s": "c.458+1267G>A",
+    "id": "22-17690409--000001",
+    "pos_i": 17690409,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "3/5",
+    "ref_s": "G",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "G",
+    "alt_ss": [
+        "G"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "NM_001270726.1.rna128853",
+    "feature_type_s": "transcript",
+    "gene_id_s": "BCL2L13.gene47317",
+    "gene_name_hgnc_s": "BCL2L13",
+    "hgvs.c_s": "c.458+1288C>G",
+    "id": "22-17690430--000001",
+    "pos_i": 17690430,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "3/5",
+    "ref_s": "C",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "C",
+    "alt_ss": [
+        "C"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "NM_001270726.1.rna128853",
+    "feature_type_s": "transcript",
+    "gene_id_s": "BCL2L13.gene47317",
+    "gene_name_hgnc_s": "BCL2L13",
+    "hgvs.c_s": "c.458+1432G>C",
+    "id": "22-17690574--000001",
+    "pos_i": 17690574,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "3/5",
+    "ref_s": "G",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "A",
+    "alt_ss": [
+        "A"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "NM_001270726.1.rna128853",
+    "feature_type_s": "transcript",
+    "gene_id_s": "BCL2L13.gene47317",
+    "gene_name_hgnc_s": "BCL2L13",
+    "hgvs.c_s": "c.458+1467C>A",
+    "id": "22-17690609--000001",
+    "pos_i": 17690609,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "3/5",
+    "ref_s": "C",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "A",
+    "alt_ss": [
+        "A"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "NM_001270726.1.rna128853",
+    "feature_type_s": "transcript",
+    "gene_id_s": "BCL2L13.gene47317",
+    "gene_name_hgnc_s": "BCL2L13",
+    "hgvs.c_s": "c.458+1468G>A",
+    "id": "22-17690610--000001",
+    "pos_i": 17690610,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "3/5",
+    "ref_s": "G",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "G",
+    "alt_ss": [
+        "G"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "XR_951226.1.rna128901",
+    "feature_type_s": "transcript",
+    "gene_id_s": "LOC105372853.gene47327",
+    "gene_name_hgnc_s": "LOC105372853",
+    "hgvs.c_s": "n.555+1812C>G",
+    "id": "22-18062738--000001",
+    "pos_i": 18062738,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "2/6",
+    "ref_s": "C",
+    "transcript_biotype_s": "Noncoding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "A",
+    "alt_ss": [
+        "A"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "XR_951226.1.rna128901",
+    "feature_type_s": "transcript",
+    "gene_id_s": "LOC105372853.gene47327",
+    "gene_name_hgnc_s": "LOC105372853",
+    "hgvs.c_s": "n.555+1851G>A",
+    "id": "22-18062777--000001",
+    "pos_i": 18062777,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "2/6",
+    "ref_s": "G",
+    "transcript_biotype_s": "Noncoding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "A",
+    "alt_ss": [
+        "A"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "XR_951226.1.rna128901",
+    "feature_type_s": "transcript",
+    "gene_id_s": "LOC105372853.gene47327",
+    "gene_name_hgnc_s": "LOC105372853",
+    "hgvs.c_s": "n.555+2923G>A",
+    "id": "22-18063849--000001",
+    "pos_i": 18063849,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "2/6",
+    "ref_s": "G",
+    "transcript_biotype_s": "Noncoding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "C",
+    "alt_ss": [
+        "C"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "XR_951226.1.rna128901",
+    "feature_type_s": "transcript",
+    "gene_id_s": "LOC105372853.gene47327",
+    "gene_name_hgnc_s": "LOC105372853",
+    "hgvs.c_s": "n.555+3171T>C",
+    "id": "22-18064097--000001",
+    "pos_i": 18064097,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "2/6",
+    "ref_s": "T",
+    "transcript_biotype_s": "Noncoding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "G",
+    "alt_ss": [
+        "G"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "XR_951226.1.rna128901",
+    "feature_type_s": "transcript",
+    "gene_id_s": "LOC105372853.gene47327",
+    "gene_name_hgnc_s": "LOC105372853",
+    "hgvs.c_s": "n.555+4353C>G",
+    "id": "22-18065279--000001",
+    "pos_i": 18065279,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "2/6",
+    "ref_s": "C",
+    "transcript_biotype_s": "Noncoding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "G",
+    "alt_ss": [
+        "G"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "XR_951226.1.rna128901",
+    "feature_type_s": "transcript",
+    "gene_id_s": "LOC105372853.gene47327",
+    "gene_name_hgnc_s": "LOC105372853",
+    "hgvs.c_s": "n.555+4383A>G",
+    "id": "22-18065309--000001",
+    "pos_i": 18065309,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "2/6",
+    "ref_s": "A",
+    "transcript_biotype_s": "Noncoding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "T",
+    "alt_ss": [
+        "T"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "XR_951226.1.rna128901",
+    "feature_type_s": "transcript",
+    "gene_id_s": "LOC105372853.gene47327",
+    "gene_name_hgnc_s": "LOC105372853",
+    "hgvs.c_s": "n.555+4416C>T",
+    "id": "22-18065342--000001",
+    "pos_i": 18065342,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "2/6",
+    "ref_s": "C",
+    "transcript_biotype_s": "Noncoding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "A",
+    "alt_ss": [
+        "A"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "XR_951226.1.rna128901",
+    "feature_type_s": "transcript",
+    "gene_id_s": "LOC105372853.gene47327",
+    "gene_name_hgnc_s": "LOC105372853",
+    "hgvs.c_s": "n.555+4419C>A",
+    "id": "22-18065345--000001",
+    "pos_i": 18065345,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "2/6",
+    "ref_s": "C",
+    "transcript_biotype_s": "Noncoding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "C",
+    "alt_ss": [
+        "C"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "XR_951226.1.rna128901",
+    "feature_type_s": "transcript",
+    "gene_id_s": "LOC105372853.gene47327",
+    "gene_name_hgnc_s": "LOC105372853",
+    "hgvs.c_s": "n.555+4459A>C",
+    "id": "22-18065385--000001",
+    "pos_i": 18065385,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "2/6",
+    "ref_s": "A",
+    "transcript_biotype_s": "Noncoding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "A",
+    "alt_ss": [
+        "A"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "XR_951226.1.rna128901",
+    "feature_type_s": "transcript",
+    "gene_id_s": "LOC105372853.gene47327",
+    "gene_name_hgnc_s": "LOC105372853",
+    "hgvs.c_s": "n.555+4462G>A",
+    "id": "22-18065388--000001",
+    "pos_i": 18065388,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "2/6",
+    "ref_s": "G",
+    "transcript_biotype_s": "Noncoding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "A",
+    "alt_ss": [
+        "A"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "XR_951226.1.rna128901",
+    "feature_type_s": "transcript",
+    "gene_id_s": "LOC105372853.gene47327",
+    "gene_name_hgnc_s": "LOC105372853",
+    "hgvs.c_s": "n.556-4008C>A",
+    "id": "22-18066150--000001",
+    "pos_i": 18066150,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "2/6",
+    "ref_s": "C",
+    "transcript_biotype_s": "Noncoding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "T",
+    "alt_ss": [
+        "T"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "XR_951226.1.rna128901",
+    "feature_type_s": "transcript",
+    "gene_id_s": "LOC105372853.gene47327",
+    "gene_name_hgnc_s": "LOC105372853",
+    "hgvs.c_s": "n.556-3889C>T",
+    "id": "22-18066269--000001",
+    "pos_i": 18066269,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "2/6",
+    "ref_s": "C",
+    "transcript_biotype_s": "Noncoding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "C",
+    "alt_ss": [
+        "C"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "XR_951226.1.rna128901",
+    "feature_type_s": "transcript",
+    "gene_id_s": "LOC105372853.gene47327",
+    "gene_name_hgnc_s": "LOC105372853",
+    "hgvs.c_s": "n.556-3816G>C",
+    "id": "22-18066342--000001",
+    "pos_i": 18066342,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "2/6",
+    "ref_s": "G",
+    "transcript_biotype_s": "Noncoding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "T",
+    "alt_ss": [
+        "T"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "XR_951226.1.rna128901",
+    "feature_type_s": "transcript",
+    "gene_id_s": "LOC105372853.gene47327",
+    "gene_name_hgnc_s": "LOC105372853",
+    "hgvs.c_s": "n.556-263C>T",
+    "id": "22-18069895--000001",
+    "pos_i": 18069895,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "2/6",
+    "ref_s": "C",
+    "transcript_biotype_s": "Noncoding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "A",
+    "alt_ss": [
+        "A"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "XR_951226.1.rna128901",
+    "feature_type_s": "transcript",
+    "gene_id_s": "LOC105372853.gene47327",
+    "gene_name_hgnc_s": "LOC105372853",
+    "hgvs.c_s": "n.556-254G>A",
+    "id": "22-18069904--000001",
+    "pos_i": 18069904,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "2/6",
+    "ref_s": "G",
+    "transcript_biotype_s": "Noncoding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "T",
+    "alt_ss": [
+        "T"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "XR_951226.1.rna128901",
+    "feature_type_s": "transcript",
+    "gene_id_s": "LOC105372853.gene47327",
+    "gene_name_hgnc_s": "LOC105372853",
+    "hgvs.c_s": "n.556-143C>T",
+    "id": "22-18070015--000001",
+    "pos_i": 18070015,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "2/6",
+    "ref_s": "C",
+    "transcript_biotype_s": "Noncoding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "G",
+    "alt_ss": [
+        "G"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "XR_951226.1.rna128901",
+    "feature_type_s": "transcript",
+    "gene_id_s": "LOC105372853.gene47327",
+    "gene_name_hgnc_s": "LOC105372853",
+    "hgvs.c_s": "n.556-136A>G",
+    "id": "22-18070022--000001",
+    "pos_i": 18070022,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "2/6",
+    "ref_s": "A",
+    "transcript_biotype_s": "Noncoding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "T",
+    "alt_ss": [
+        "T"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "XR_951226.1.rna128901",
+    "feature_type_s": "transcript",
+    "gene_id_s": "LOC105372853.gene47327",
+    "gene_name_hgnc_s": "LOC105372853",
+    "hgvs.c_s": "n.556-55C>T",
+    "id": "22-18070103--000001",
+    "pos_i": 18070103,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "2/6",
+    "ref_s": "C",
+    "transcript_biotype_s": "Noncoding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "T",
+    "alt_ss": [
+        "T"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "XR_951226.1.rna128901",
+    "feature_type_s": "transcript",
+    "gene_id_s": "LOC105372853.gene47327",
+    "gene_name_hgnc_s": "LOC105372853",
+    "hgvs.c_s": "n.730-24C>T",
+    "id": "22-18070743--000001",
+    "pos_i": 18070743,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "4/6",
+    "ref_s": "C",
+    "transcript_biotype_s": "Noncoding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "A",
+    "alt_ss": [
+        "A"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "XR_951226.1.rna128901",
+    "feature_type_s": "transcript",
+    "gene_id_s": "LOC105372853.gene47327",
+    "gene_name_hgnc_s": "LOC105372853",
+    "hgvs.c_s": "n.730-19G>A",
+    "id": "22-18070748--000001",
+    "pos_i": 18070748,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "4/6",
+    "ref_s": "G",
+    "transcript_biotype_s": "Noncoding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "T",
+    "alt_ss": [
+        "T"
+    ],
+    "annotation_s": "splice_region_variant&intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "XR_951226.1.rna128901",
+    "feature_type_s": "transcript",
+    "gene_id_s": "LOC105372853.gene47327",
+    "gene_name_hgnc_s": "LOC105372853",
+    "hgvs.c_s": "n.730-4C>T",
+    "id": "22-18070763--000001",
+    "pos_i": 18070763,
+    "putative_impact_s": "LOW",
+    "rank_total_s": "4/6",
+    "ref_s": "C",
+    "transcript_biotype_s": "Noncoding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "T",
+    "alt_ss": [
+        "T"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "XR_951226.1.rna128901",
+    "feature_type_s": "transcript",
+    "gene_id_s": "LOC105372853.gene47327",
+    "gene_name_hgnc_s": "LOC105372853",
+    "hgvs.c_s": "n.786-35C>T",
+    "id": "22-18070872--000001",
+    "pos_i": 18070872,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "5/6",
+    "ref_s": "C",
+    "transcript_biotype_s": "Noncoding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "GAT",
+    "alt_ss": [
+        "GAT"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "error_message_s": "INFO_REALIGN_3_PRIME",
+    "feature_id_s": "XR_951226.1.rna128901",
+    "feature_type_s": "transcript",
+    "gene_id_s": "LOC105372853.gene47327",
+    "gene_name_hgnc_s": "LOC105372853",
+    "hgvs.c_s": "n.902-195_902-194insTA",
+    "id": "22-18072311--000001",
+    "pos_i": 18072311,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "6/6",
+    "ref_s": "G",
+    "transcript_biotype_s": "Noncoding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "C",
+    "alt_ss": [
+        "C"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "XR_951226.1.rna128901",
+    "feature_type_s": "transcript",
+    "gene_id_s": "LOC105372853.gene47327",
+    "gene_name_hgnc_s": "LOC105372853",
+    "hgvs.c_s": "n.902-190A>C",
+    "id": "22-18072317--000001",
+    "pos_i": 18072317,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "6/6",
+    "ref_s": "A",
+    "transcript_biotype_s": "Noncoding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "ACTT",
+    "alt_ss": [
+        "ACTT"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "XR_951226.1.rna128901",
+    "feature_type_s": "transcript",
+    "gene_id_s": "LOC105372853.gene47327",
+    "gene_name_hgnc_s": "LOC105372853",
+    "hgvs.c_s": "n.902-174_902-173insCTT",
+    "id": "22-18072333--000001",
+    "pos_i": 18072333,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "6/6",
+    "ref_s": "A",
+    "transcript_biotype_s": "Noncoding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "T",
+    "alt_ss": [
+        "T"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "XR_951226.1.rna128901",
+    "feature_type_s": "transcript",
+    "gene_id_s": "LOC105372853.gene47327",
+    "gene_name_hgnc_s": "LOC105372853",
+    "hgvs.c_s": "n.902-161C>T",
+    "id": "22-18072346--000001",
+    "pos_i": 18072346,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "6/6",
+    "ref_s": "C",
+    "transcript_biotype_s": "Noncoding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "T",
+    "alt_ss": [
+        "T"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "XR_951226.1.rna128901",
+    "feature_type_s": "transcript",
+    "gene_id_s": "LOC105372853.gene47327",
+    "gene_name_hgnc_s": "LOC105372853",
+    "hgvs.c_s": "n.902-43G>T",
+    "id": "22-18072464--000001",
+    "pos_i": 18072464,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "6/6",
+    "ref_s": "G",
+    "transcript_biotype_s": "Noncoding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "TA",
+    "alt_ss": [
+        "TA"
+    ],
+    "annotation_s": "upstream_gene_variant",
+    "chrom_s": "22",
+    "distance_to_feature_i": "4933",
+    "feature_id_s": "NM_001199319.1.rna128903",
+    "feature_type_s": "transcript",
+    "gene_id_s": "PEX26.gene47328",
+    "gene_name_hgnc_s": "PEX26",
+    "hgvs.c_s": "c.-210_-210insA",
+    "id": "22-18072986--000001",
+    "pos_i": 18072986,
+    "putative_impact_s": "MODIFIER",
+    "ref_s": "T",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "C",
+    "alt_ss": [
+        "C"
+    ],
+    "annotation_s": "upstream_gene_variant",
+    "chrom_s": "22",
+    "distance_to_feature_i": "4981",
+    "feature_id_s": "NM_001127649.2.rna128904",
+    "feature_type_s": "transcript",
+    "gene_id_s": "PEX26.gene47328",
+    "gene_name_hgnc_s": "PEX26",
+    "hgvs.c_s": "c.-384A>C",
+    "id": "22-18073013--000001",
+    "pos_i": 18073013,
+    "putative_impact_s": "MODIFIER",
+    "ref_s": "A",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "A",
+    "alt_ss": [
+        "A"
+    ],
+    "annotation_s": "upstream_gene_variant",
+    "chrom_s": "22",
+    "distance_to_feature_i": "4967",
+    "feature_id_s": "NM_001127649.2.rna128904",
+    "feature_type_s": "transcript",
+    "gene_id_s": "PEX26.gene47328",
+    "gene_name_hgnc_s": "PEX26",
+    "hgvs.c_s": "c.-384C>A",
+    "id": "22-18073027--000001",
+    "pos_i": 18073027,
+    "putative_impact_s": "MODIFIER",
+    "ref_s": "C",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "T",
+    "alt_ss": [
+        "T"
+    ],
+    "annotation_s": "upstream_gene_variant",
+    "chrom_s": "22",
+    "distance_to_feature_i": "4960",
+    "feature_id_s": "NM_001127649.2.rna128904",
+    "feature_type_s": "transcript",
+    "gene_id_s": "PEX26.gene47328",
+    "gene_name_hgnc_s": "PEX26",
+    "hgvs.c_s": "c.-384C>T",
+    "id": "22-18073034--000001",
+    "pos_i": 18073034,
+    "putative_impact_s": "MODIFIER",
+    "ref_s": "C",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "A",
+    "alt_ss": [
+        "A"
+    ],
+    "annotation_s": "upstream_gene_variant",
+    "chrom_s": "22",
+    "distance_to_feature_i": "4959",
+    "feature_id_s": "NM_001127649.2.rna128904",
+    "feature_type_s": "transcript",
+    "gene_id_s": "PEX26.gene47328",
+    "gene_name_hgnc_s": "PEX26",
+    "hgvs.c_s": "c.-384G>A",
+    "id": "22-18073035--000001",
+    "pos_i": 18073035,
+    "putative_impact_s": "MODIFIER",
+    "ref_s": "G",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "G",
+    "alt_ss": [
+        "G"
+    ],
+    "annotation_s": "upstream_gene_variant",
+    "chrom_s": "22",
+    "distance_to_feature_i": "4951",
+    "feature_id_s": "NM_001127649.2.rna128904",
+    "feature_type_s": "transcript",
+    "gene_id_s": "PEX26.gene47328",
+    "gene_name_hgnc_s": "PEX26",
+    "hgvs.c_s": "c.-384T>G",
+    "id": "22-18073043--000001",
+    "pos_i": 18073043,
+    "putative_impact_s": "MODIFIER",
+    "ref_s": "T",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "A",
+    "alt_ss": [
+        "A"
+    ],
+    "annotation_s": "upstream_gene_variant",
+    "chrom_s": "22",
+    "distance_to_feature_i": "2577",
+    "feature_id_s": "NM_001127649.2.rna128904",
+    "feature_type_s": "transcript",
+    "gene_id_s": "PEX26.gene47328",
+    "gene_name_hgnc_s": "PEX26",
+    "hgvs.c_s": "c.-384G>A",
+    "id": "22-18075417--000001",
+    "pos_i": 18075417,
+    "putative_impact_s": "MODIFIER",
+    "ref_s": "G",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "G",
+    "alt_ss": [
+        "G"
+    ],
+    "annotation_s": "upstream_gene_variant",
+    "chrom_s": "22",
+    "distance_to_feature_i": "2462",
+    "feature_id_s": "NM_001127649.2.rna128904",
+    "feature_type_s": "transcript",
+    "gene_id_s": "PEX26.gene47328",
+    "gene_name_hgnc_s": "PEX26",
+    "hgvs.c_s": "c.-384A>G",
+    "id": "22-18075532--000001",
+    "pos_i": 18075532,
+    "putative_impact_s": "MODIFIER",
+    "ref_s": "A",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "C",
+    "alt_ss": [
+        "C"
+    ],
+    "annotation_s": "upstream_gene_variant",
+    "chrom_s": "22",
+    "distance_to_feature_i": "714",
+    "feature_id_s": "NM_001127649.2.rna128904",
+    "feature_type_s": "transcript",
+    "gene_id_s": "PEX26.gene47328",
+    "gene_name_hgnc_s": "PEX26",
+    "hgvs.c_s": "c.-384T>C",
+    "id": "22-18077280--000001",
+    "pos_i": 18077280,
+    "putative_impact_s": "MODIFIER",
+    "ref_s": "T",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "A",
+    "alt_ss": [
+        "A"
+    ],
+    "annotation_s": "upstream_gene_variant",
+    "chrom_s": "22",
+    "distance_to_feature_i": "660",
+    "feature_id_s": "NM_001127649.2.rna128904",
+    "feature_type_s": "transcript",
+    "gene_id_s": "PEX26.gene47328",
+    "gene_name_hgnc_s": "PEX26",
+    "hgvs.c_s": "c.-384G>A",
+    "id": "22-18077334--000001",
+    "pos_i": 18077334,
+    "putative_impact_s": "MODIFIER",
+    "ref_s": "G",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "C",
+    "alt_ss": [
+        "C"
+    ],
+    "annotation_s": "upstream_gene_variant",
+    "chrom_s": "22",
+    "distance_to_feature_i": "607",
+    "feature_id_s": "NM_001127649.2.rna128904",
+    "feature_type_s": "transcript",
+    "gene_id_s": "PEX26.gene47328",
+    "gene_name_hgnc_s": "PEX26",
+    "hgvs.c_s": "c.-384delA",
+    "id": "22-18077386--000001",
+    "pos_i": 18077386,
+    "putative_impact_s": "MODIFIER",
+    "ref_s": "CA",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "A",
+    "alt_ss": [
+        "A"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "NM_001127649.2.rna128904",
+    "feature_type_s": "transcript",
+    "gene_id_s": "PEX26.gene47328",
+    "gene_name_hgnc_s": "PEX26",
+    "hgvs.c_s": "c.371+916G>A",
+    "id": "22-18080930--000001",
+    "pos_i": 18080930,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "2/4",
+    "ref_s": "G",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "A",
+    "alt_ss": [
+        "A"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "NM_001127649.2.rna128904",
+    "feature_type_s": "transcript",
+    "gene_id_s": "PEX26.gene47328",
+    "gene_name_hgnc_s": "PEX26",
+    "hgvs.c_s": "c.371+948G>A",
+    "id": "22-18080962--000001",
+    "pos_i": 18080962,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "2/4",
+    "ref_s": "G",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "G",
+    "alt_ss": [
+        "G"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "NM_001127649.2.rna128904",
+    "feature_type_s": "transcript",
+    "gene_id_s": "PEX26.gene47328",
+    "gene_name_hgnc_s": "PEX26",
+    "hgvs.c_s": "c.371+1032C>G",
+    "id": "22-18081046--000001",
+    "pos_i": 18081046,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "2/4",
+    "ref_s": "C",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "T",
+    "alt_ss": [
+        "T"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "NM_001127649.2.rna128904",
+    "feature_type_s": "transcript",
+    "gene_id_s": "PEX26.gene47328",
+    "gene_name_hgnc_s": "PEX26",
+    "hgvs.c_s": "c.371+1061_371+1062delGA",
+    "id": "22-18081074--000001",
+    "pos_i": 18081074,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "2/4",
+    "ref_s": "TGA",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "GAAATATGAAGC",
+    "alt_ss": [
+        "GAAATATGAAGC"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "NM_001127649.2.rna128904",
+    "feature_type_s": "transcript",
+    "gene_id_s": "PEX26.gene47328",
+    "gene_name_hgnc_s": "PEX26",
+    "hgvs.c_s": "c.371+1076_371+1077insAAATATGAAGC",
+    "id": "22-18081090--000001",
+    "pos_i": 18081090,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "2/4",
+    "ref_s": "G",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "A",
+    "alt_ss": [
+        "A"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "NM_001127649.2.rna128904",
+    "feature_type_s": "transcript",
+    "gene_id_s": "PEX26.gene47328",
+    "gene_name_hgnc_s": "PEX26",
+    "hgvs.c_s": "c.371+1079C>A",
+    "id": "22-18081093--000001",
+    "pos_i": 18081093,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "2/4",
+    "ref_s": "C",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "C",
+    "alt_ss": [
+        "C"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "NM_001127649.2.rna128904",
+    "feature_type_s": "transcript",
+    "gene_id_s": "PEX26.gene47328",
+    "gene_name_hgnc_s": "PEX26",
+    "hgvs.c_s": "c.371+1082T>C",
+    "id": "22-18081096--000001",
+    "pos_i": 18081096,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "2/4",
+    "ref_s": "T",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "G",
+    "alt_ss": [
+        "G"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "NM_001127649.2.rna128904",
+    "feature_type_s": "transcript",
+    "gene_id_s": "PEX26.gene47328",
+    "gene_name_hgnc_s": "PEX26",
+    "hgvs.c_s": "c.371+1085A>G",
+    "id": "22-18081099--000001",
+    "pos_i": 18081099,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "2/4",
+    "ref_s": "A",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "A",
+    "alt_ss": [
+        "A"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "NM_001127649.2.rna128904",
+    "feature_type_s": "transcript",
+    "gene_id_s": "PEX26.gene47328",
+    "gene_name_hgnc_s": "PEX26",
+    "hgvs.c_s": "c.372-653G>A",
+    "id": "22-18082784--000001",
+    "pos_i": 18082784,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "2/4",
+    "ref_s": "G",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "T",
+    "alt_ss": [
+        "T"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "NM_001127649.2.rna128904",
+    "feature_type_s": "transcript",
+    "gene_id_s": "PEX26.gene47328",
+    "gene_name_hgnc_s": "PEX26",
+    "hgvs.c_s": "c.372-601C>T",
+    "id": "22-18082836--000001",
+    "pos_i": 18082836,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "2/4",
+    "ref_s": "C",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "T",
+    "alt_ss": [
+        "T"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "NM_001127649.2.rna128904",
+    "feature_type_s": "transcript",
+    "gene_id_s": "PEX26.gene47328",
+    "gene_name_hgnc_s": "PEX26",
+    "hgvs.c_s": "c.372-564delA",
+    "id": "22-18082872--000001",
+    "pos_i": 18082872,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "2/4",
+    "ref_s": "TA",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "C",
+    "alt_ss": [
+        "C"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "NM_001127649.2.rna128904",
+    "feature_type_s": "transcript",
+    "gene_id_s": "PEX26.gene47328",
+    "gene_name_hgnc_s": "PEX26",
+    "hgvs.c_s": "c.372-539A>C",
+    "id": "22-18082898--000001",
+    "pos_i": 18082898,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "2/4",
+    "ref_s": "A",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "G",
+    "alt_ss": [
+        "G"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "NM_001127649.2.rna128904",
+    "feature_type_s": "transcript",
+    "gene_id_s": "PEX26.gene47328",
+    "gene_name_hgnc_s": "PEX26",
+    "hgvs.c_s": "c.667+247A>G",
+    "id": "22-18083979--000001",
+    "pos_i": 18083979,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "3/4",
+    "ref_s": "A",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "C",
+    "alt_ss": [
+        "C"
+    ],
+    "annotation_s": "upstream_gene_variant",
+    "chrom_s": "22",
+    "distance_to_feature_i": "1160",
+    "feature_id_s": "XR_244343.2.rna128905",
+    "feature_type_s": "transcript",
+    "gene_id_s": "LOC101929426.gene47329",
+    "gene_name_hgnc_s": "LOC101929426",
+    "hgvs.c_s": "n.-1A>G",
+    "id": "22-18095609--000001",
+    "pos_i": 18095609,
+    "putative_impact_s": "MODIFIER",
+    "ref_s": "T",
+    "transcript_biotype_s": "Noncoding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "T",
+    "alt_ss": [
+        "T"
+    ],
+    "annotation_s": "upstream_gene_variant",
+    "chrom_s": "22",
+    "distance_to_feature_i": "1168",
+    "feature_id_s": "XR_244343.2.rna128905",
+    "feature_type_s": "transcript",
+    "gene_id_s": "LOC101929426.gene47329",
+    "gene_name_hgnc_s": "LOC101929426",
+    "hgvs.c_s": "n.-1G>A",
+    "id": "22-18095617--000001",
+    "pos_i": 18095617,
+    "putative_impact_s": "MODIFIER",
+    "ref_s": "C",
+    "transcript_biotype_s": "Noncoding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "G",
+    "alt_ss": [
+        "G"
+    ],
+    "annotation_s": "upstream_gene_variant",
+    "chrom_s": "22",
+    "distance_to_feature_i": "1508",
+    "feature_id_s": "XR_244343.2.rna128905",
+    "feature_type_s": "transcript",
+    "gene_id_s": "LOC101929426.gene47329",
+    "gene_name_hgnc_s": "LOC101929426",
+    "hgvs.c_s": "n.-1A>C",
+    "id": "22-18095957--000001",
+    "pos_i": 18095957,
+    "putative_impact_s": "MODIFIER",
+    "ref_s": "T",
+    "transcript_biotype_s": "Noncoding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "T",
+    "alt_ss": [
+        "T"
+    ],
+    "annotation_s": "upstream_gene_variant",
+    "chrom_s": "22",
+    "distance_to_feature_i": "1545",
+    "feature_id_s": "XR_244343.2.rna128905",
+    "feature_type_s": "transcript",
+    "gene_id_s": "LOC101929426.gene47329",
+    "gene_name_hgnc_s": "LOC101929426",
+    "hgvs.c_s": "n.-1T>A",
+    "id": "22-18095994--000001",
+    "pos_i": 18095994,
+    "putative_impact_s": "MODIFIER",
+    "ref_s": "A",
+    "transcript_biotype_s": "Noncoding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "G",
+    "alt_ss": [
+        "G"
+    ],
+    "annotation_s": "intergenic_region",
+    "chrom_s": "22",
+    "feature_id_s": "LOC101929426.gene47329-ARL2BPP10.gene47330",
+    "feature_type_s": "intergenic_region",
+    "gene_id_s": "LOC101929426.gene47329-ARL2BPP10.gene47330",
+    "gene_name_hgnc_s": "LOC101929426-ARL2BPP10",
+    "id": "22-18102311--000001",
+    "pos_i": 18102311,
+    "putative_impact_s": "MODIFIER",
+    "ref_s": "T",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "C",
+    "alt_ss": [
+        "C"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "NM_018943.2.rna128906",
+    "feature_type_s": "transcript",
+    "gene_id_s": "TUBA8.gene47331",
+    "gene_name_hgnc_s": "TUBA8",
+    "hgvs.c_s": "c.3+563T>C",
+    "id": "22-18111431--000001",
+    "pos_i": 18111431,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "1/4",
+    "ref_s": "T",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "C",
+    "alt_ss": [
+        "C"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "NM_018943.2.rna128906",
+    "feature_type_s": "transcript",
+    "gene_id_s": "TUBA8.gene47331",
+    "gene_name_hgnc_s": "TUBA8",
+    "hgvs.c_s": "c.3+568T>C",
+    "id": "22-18111436--000001",
+    "pos_i": 18111436,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "1/4",
+    "ref_s": "T",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "C",
+    "alt_ss": [
+        "C"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "NM_018943.2.rna128906",
+    "feature_type_s": "transcript",
+    "gene_id_s": "TUBA8.gene47331",
+    "gene_name_hgnc_s": "TUBA8",
+    "hgvs.c_s": "c.3+573T>C",
+    "id": "22-18111441--000001",
+    "pos_i": 18111441,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "1/4",
+    "ref_s": "T",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "G",
+    "alt_ss": [
+        "G"
+    ],
+    "annotation_s": "intergenic_region",
+    "chrom_s": "22",
+    "feature_id_s": "TUBA8.gene47331-USP18.gene47332",
+    "feature_type_s": "intergenic_region",
+    "gene_id_s": "TUBA8.gene47331-USP18.gene47332",
+    "gene_name_hgnc_s": "TUBA8-USP18",
+    "id": "22-18138441--000001",
+    "pos_i": 18138441,
+    "putative_impact_s": "MODIFIER",
+    "ref_s": "A",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "G",
+    "alt_ss": [
+        "G"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "NM_017414.3.rna128909",
+    "feature_type_s": "transcript",
+    "gene_id_s": "USP18.gene47332",
+    "gene_name_hgnc_s": "USP18",
+    "hgvs.c_s": "c.401-1260T>G",
+    "id": "22-18165995--000001",
+    "pos_i": 18165995,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "4/10",
+    "ref_s": "T",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "G",
+    "alt_ss": [
+        "G"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "NM_017414.3.rna128909",
+    "feature_type_s": "transcript",
+    "gene_id_s": "USP18.gene47332",
+    "gene_name_hgnc_s": "USP18",
+    "hgvs.c_s": "c.401-1234A>G",
+    "id": "22-18166021--000001",
+    "pos_i": 18166021,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "4/10",
+    "ref_s": "A",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "A",
+    "alt_ss": [
+        "A"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "NM_017414.3.rna128909",
+    "feature_type_s": "transcript",
+    "gene_id_s": "USP18.gene47332",
+    "gene_name_hgnc_s": "USP18",
+    "hgvs.c_s": "c.891+856G>A",
+    "id": "22-18171776--000001",
+    "pos_i": 18171776,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "8/10",
+    "ref_s": "G",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "C",
+    "alt_ss": [
+        "C"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "NM_017414.3.rna128909",
+    "feature_type_s": "transcript",
+    "gene_id_s": "USP18.gene47332",
+    "gene_name_hgnc_s": "USP18",
+    "hgvs.c_s": "c.891+920T>C",
+    "id": "22-18171840--000001",
+    "pos_i": 18171840,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "8/10",
+    "ref_s": "T",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "G",
+    "alt_ss": [
+        "G"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "NM_017414.3.rna128909",
+    "feature_type_s": "transcript",
+    "gene_id_s": "USP18.gene47332",
+    "gene_name_hgnc_s": "USP18",
+    "hgvs.c_s": "c.891+922T>G",
+    "id": "22-18171842--000001",
+    "pos_i": 18171842,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "8/10",
+    "ref_s": "T",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "T",
+    "alt_ss": [
+        "T"
+    ],
+    "annotation_s": "downstream_gene_variant",
+    "chrom_s": "22",
+    "distance_to_feature_i": "1462",
+    "feature_id_s": "NM_017414.3.rna128909",
+    "feature_type_s": "transcript",
+    "gene_id_s": "USP18.gene47332",
+    "gene_name_hgnc_s": "USP18",
+    "hgvs.c_s": "c.*1457C>T",
+    "id": "22-18178859--000001",
+    "pos_i": 18178859,
+    "putative_impact_s": "MODIFIER",
+    "ref_s": "C",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "G",
+    "alt_ss": [
+        "G"
+    ],
+    "annotation_s": "downstream_gene_variant",
+    "chrom_s": "22",
+    "distance_to_feature_i": "1511",
+    "feature_id_s": "NM_017414.3.rna128909",
+    "feature_type_s": "transcript",
+    "gene_id_s": "USP18.gene47332",
+    "gene_name_hgnc_s": "USP18",
+    "hgvs.c_s": "c.*1457C>G",
+    "id": "22-18178908--000001",
+    "pos_i": 18178908,
+    "putative_impact_s": "MODIFIER",
+    "ref_s": "C",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "T",
+    "alt_ss": [
+        "T"
+    ],
+    "annotation_s": "downstream_gene_variant",
+    "chrom_s": "22",
+    "distance_to_feature_i": "1584",
+    "feature_id_s": "NM_017414.3.rna128909",
+    "feature_type_s": "transcript",
+    "gene_id_s": "USP18.gene47332",
+    "gene_name_hgnc_s": "USP18",
+    "hgvs.c_s": "c.*1457C>T",
+    "id": "22-18178981--000001",
+    "pos_i": 18178981,
+    "putative_impact_s": "MODIFIER",
+    "ref_s": "C",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "G",
+    "alt_ss": [
+        "G"
+    ],
+    "annotation_s": "synonymous_variant",
+    "cdna_position_s": "1428/2712",
+    "cds_position_s": "1353/1863",
+    "chrom_s": "22",
+    "error_message_s": "WARNING_REF_DOES_NOT_MATCH_GENOME",
+    "feature_id_s": "XM_011546156.1.rna128910",
+    "feature_type_s": "transcript",
+    "gene_id_s": "LOC100996415.gene47333",
+    "gene_name_hgnc_s": "LOC100996415",
+    "hgvs.c_s": "c.1353T>C",
+    "hgvs.p_s": "p.Thr451Thr",
+    "id": "22-18185038--000001",
+    "pos_i": 18185038,
+    "protein_position_s": "451/620",
+    "putative_impact_s": "LOW",
+    "rank_total_s": "9/13",
+    "ref_s": "A",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "G",
+    "alt_ss": [
+        "G"
+    ],
+    "annotation_s": "synonymous_variant",
+    "cdna_position_s": "1348/2712",
+    "cds_position_s": "1273/1863",
+    "chrom_s": "22",
+    "error_message_s": "WARNING_REF_DOES_NOT_MATCH_GENOME",
+    "feature_id_s": "XM_011546156.1.rna128910",
+    "feature_type_s": "transcript",
+    "gene_id_s": "LOC100996415.gene47333",
+    "gene_name_hgnc_s": "LOC100996415",
+    "hgvs.c_s": "c.1273T>C",
+    "hgvs.p_s": "p.Leu425Leu",
+    "id": "22-18185118--000001",
+    "pos_i": 18185118,
+    "protein_position_s": "425/620",
+    "putative_impact_s": "LOW",
+    "rank_total_s": "9/13",
+    "ref_s": "A",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "T",
+    "alt_ss": [
+        "T"
+    ],
+    "annotation_s": "missense_variant",
+    "cdna_position_s": "1343/2712",
+    "cds_position_s": "1268/1863",
+    "chrom_s": "22",
+    "error_message_s": "WARNING_REF_DOES_NOT_MATCH_GENOME",
+    "feature_id_s": "XM_011546156.1.rna128910",
+    "feature_type_s": "transcript",
+    "gene_id_s": "LOC100996415.gene47333",
+    "gene_name_hgnc_s": "LOC100996415",
+    "hgvs.c_s": "c.1268C>A",
+    "hgvs.p_s": "p.Arg423Lys",
+    "id": "22-18185123--000001",
+    "pos_i": 18185123,
+    "protein_position_s": "423/620",
+    "putative_impact_s": "MODERATE",
+    "rank_total_s": "9/13",
+    "ref_s": "G",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "A",
+    "alt_ss": [
+        "A"
+    ],
+    "annotation_s": "missense_variant",
+    "cdna_position_s": "1300/2712",
+    "cds_position_s": "1225/1863",
+    "chrom_s": "22",
+    "feature_id_s": "XM_011546156.1.rna128910",
+    "feature_type_s": "transcript",
+    "gene_id_s": "LOC100996415.gene47333",
+    "gene_name_hgnc_s": "LOC100996415",
+    "hgvs.c_s": "c.1225A>T",
+    "hgvs.p_s": "p.Thr409Ser",
+    "id": "22-18185166--000001",
+    "pos_i": 18185166,
+    "protein_position_s": "409/620",
+    "putative_impact_s": "MODERATE",
+    "rank_total_s": "9/13",
+    "ref_s": "T",
+    "transcript_biotype_s": "Coding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "G",
+    "alt_ss": [
+        "G"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "XR_951227.1.rna128911",
+    "feature_type_s": "transcript",
+    "gene_id_s": "LOC105372858.gene47334",
+    "gene_name_hgnc_s": "LOC105372858",
+    "hgvs.c_s": "n.361+1673A>G",
+    "id": "22-18209496--000001",
+    "pos_i": 18209496,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "2/2",
+    "ref_s": "A",
+    "transcript_biotype_s": "Noncoding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "T",
+    "alt_ss": [
+        "T"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "XR_951227.1.rna128911",
+    "feature_type_s": "transcript",
+    "gene_id_s": "LOC105372858.gene47334",
+    "gene_name_hgnc_s": "LOC105372858",
+    "hgvs.c_s": "n.361+1701C>T",
+    "id": "22-18209524--000001",
+    "pos_i": 18209524,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "2/2",
+    "ref_s": "C",
+    "transcript_biotype_s": "Noncoding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "T",
+    "alt_ss": [
+        "T"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "XR_951227.1.rna128911",
+    "feature_type_s": "transcript",
+    "gene_id_s": "LOC105372858.gene47334",
+    "gene_name_hgnc_s": "LOC105372858",
+    "hgvs.c_s": "n.361+1776C>T",
+    "id": "22-18209599--000001",
+    "pos_i": 18209599,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "2/2",
+    "ref_s": "C",
+    "transcript_biotype_s": "Noncoding",
+    "upload_hash_s": "000001"
+},
+{
+    "allele_s": "G",
+    "alt_ss": [
+        "G"
+    ],
+    "annotation_s": "intron_variant",
+    "chrom_s": "22",
+    "feature_id_s": "XR_951227.1.rna128911",
+    "feature_type_s": "transcript",
+    "gene_id_s": "LOC105372858.gene47334",
+    "gene_name_hgnc_s": "LOC105372858",
+    "hgvs.c_s": "n.361+1790A>G",
+    "id": "22-18209613--000001",
+    "pos_i": 18209613,
+    "putative_impact_s": "MODIFIER",
+    "rank_total_s": "2/2",
+    "ref_s": "A",
+    "transcript_biotype_s": "Noncoding",
+    "upload_hash_s": "000001"
+}]
