@@ -1,12 +1,12 @@
 import logging
 import pysam
-import re
 
 from multiprocessing import Process
 from optparse import make_option
 
 from django.core.management.base import BaseCommand, CommandError
 from django.core.exceptions import ValidationError
+from django.db.utils import IntegrityError
 
 from browser.models import Gene
 
@@ -59,6 +59,9 @@ class Command(BaseCommand):
         except IOError as e:
             raise CommandError("Error opening '{gff_file}': {error}".format(gff_file=self.gff_file, error=e))
 
+        # drop all existing data
+        Gene.objects.all().delete()
+
         if self.num_threads > 1:
             for i in range(self.num_threads):
                 p = Process(target=self.helper, kwargs={'thread': i})
@@ -104,15 +107,22 @@ def load_genes_helper(tabix_reader, features=None):
                 key, value = attr.strip().split('=', 1)
                 attrs[key] = value.strip('"')
 
-        if record.feature == 'gene':
-            # create gene entry
-            feature = Gene(
-                slug=attrs['gene_id'],
-                gene_name_upper=attrs['gene_name'].upper(),
-                gene_name=attrs['gene_name'],
-            )
-        else:
+        # parse dbxref
+        db_xref = {}
+        for xref in attrs['Dbxref'].split(','):
+            db, d_id = xref.split(':')[-2:]
+            db_xref[db] = d_id
+
+        # skip if didn't get our primary database id
+        if 'GeneID' not in db_xref:
             continue
+
+        # create gene entry
+        feature = Gene(
+            slug=db_xref['GeneID'],
+            gene_name_upper=attrs['gene'].upper(),
+            gene_name=attrs['gene'],
+        )
 
         # grab common attributes
         feature.chrom = record.contig
@@ -127,3 +137,5 @@ def load_genes_helper(tabix_reader, features=None):
             logger.warning("Skipping. Failed to import feature. Error: {error}".format(error=e))
             logger.warning("Corrupted record: {record}".format(record=record))
             continue
+        except IntegrityError as e:
+            logger.warning("Skipping import of '{feature}': {error}".format(feature=feature.slug, error=e))
