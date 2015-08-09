@@ -1,4 +1,7 @@
 {% load staticfiles %}
+
+{% load filters %}
+
 <html>
 	<head>
 		<title>Variant results by gene - Variant Interpreter</title>
@@ -8,39 +11,47 @@
 	<body>
 		<h1>Variant results by gene | Variant Interpreter</h1>
 		<p>Genes matching your filter selections: {{ filters }}</p>
+        <p>Solr query: <a href="{{ url }}">{{ url }}</a></p>
 		<table>
 			<thead>
 				<tr>
 				<th>Gene</th>
 				<th>Length</th>
 				<th>View in</th>
-				<th>Pathogenic</th>
-				<th>Benign</th>
-				<th>Missense</th>
-				<th>Synonymous</th>
+				<th>Solr Data</th>
 				</tr>
 			</thead>
 		<tbody>
-		{% for gene in genes %}
-			<tr>
-				<td>{{ gene.symbol }}</td>
-				<td>{{ gene.length }}</td>
-				<td><a href="http://www.ncbi.nlm.nih.gov/gtr/genes/{{ gene.id }}" target="_blank">GTR</a> | <a href="http://www.ncbi.nlm.nih.gov/variation/view/?q={{ gene.symbol }}" target="_blank">Variation Viewer</a></td>
-				<td>{{ gene.pathogenic_variants }}</td>
-				<td>{{ gene.benign_variants }}</td>
-				<td>{{ gene.missense_variants }}</td>
-				<td>{{ gene.synonymous_variants }}</td>
-			</tr>
-		{% endfor %}
+
 		{% for gene in genes_all %}
 			<tr>
 				<td>{{ gene }}</td>
 				<td>{{ gene.length }}</td>
 				<td><a href="http://www.ncbi.nlm.nih.gov/gtr/genes/{{ gene.slug }}" target="_blank">GTR</a> | <a href="http://www.ncbi.nlm.nih.gov/variation/view/?q={{ gene }}" target="_blank">Variation Viewer</a></td>
+                <td>
+                    {% with solr_data|get_or_none:gene.gene_name as gene_data %}
+                    {{ gene_data }}
+                    {% endwith %}
+                </td>
 			</tr>
 		{% endfor %}
                 </tbody>
 	    </table>
+        <div class="pagination">
+            <span class="step-links">
+                {% if genes_all.has_previous %}
+                    <a href="?q={{ request.GET.q }}&page={{ genes_all.previous_page_number }}">previous</a>
+                {% endif %}
+
+                <span class="current">
+                    Page {{ genes_all.number }} of {{ genes_all.paginator.num_pages }}.
+                </span>
+
+                {% if genes_all.has_next %}
+                    <a href="?q={{ request.GET.q }}&page={{ genes_all.next_page_number }}">next</a>
+                {% endif %}
+            </span>
+        </div>
 
 	</body>
 </html>
