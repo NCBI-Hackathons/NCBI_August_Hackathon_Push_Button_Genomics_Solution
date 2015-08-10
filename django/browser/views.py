@@ -92,10 +92,19 @@ class ResultsView(generic.TemplateView):
             annotations = {a['value']: a['count'] for a in g_data['pivot']}
             context['solr_data'][gene] = {'count': count, 'annotations': annotations}
 
+
         for g_data in solr_data['facet_counts']['facet_pivot']['gene_name_hgnc_s,putative_impact_s']:
             gene = g_data['value']
-            impacts = {a['value']: a['count'] for a in g_data['pivot']}
-            context['solr_data'][gene].update({'impacts': impacts})
+            impacts = {'HIGH': 0, 'MODERATE': 0, 'LOW': 0, 'MODIFIER': 0}
+            for impact in g_data["pivot"]:
+                impacts[impact['value']] += impact['count']
+            impact_cols = {
+                'high_impact': impacts['HIGH'],
+                'moderate_impact': impacts['MODERATE'],
+                'low_impact': impacts['LOW'],
+                'modifier_impact': impacts['MODIFIER'],
+            }
+            context['solr_data'][gene].update(impact_cols)
 
         genes_paginator = Paginator(Gene.objects.filter(gene_name__in=context['solr_data'].keys()), 10)
         page = self.request.GET.get('page')

@@ -18,6 +18,10 @@
 				<th>Gene</th>
 				<th>Length</th>
 				<th>View in</th>
+                                <th>High impact</th>
+                                <th>Moderate impact</th>
+                                <th>Low impact</th>
+                                <th>Modifying impact</th>
 				<th>Solr Data</th>
 				</tr>
 			</thead>
@@ -28,11 +32,13 @@
 				<td>{{ gene }}</td>
 				<td>{{ gene.length }}</td>
 				<td><a href="http://www.ncbi.nlm.nih.gov/gtr/genes/{{ gene.slug }}" target="_blank">GTR</a> | <a href="http://www.ncbi.nlm.nih.gov/variation/view/?q={{ gene }}" target="_blank">Variation Viewer</a></td>
-                <td>
                     {% with solr_data|get_or_none:gene.gene_name as gene_data %}
-                    {{ gene_data }}
+                <td>{{ gene_data.high_impact }}</td>
+                <td>{{ gene_data.moderate_impact }}</td>
+                <td>{{ gene_data.low_impact }}</td>
+                <td>{{ gene_data.modifier_impact }}</td>
+                <td>{{ gene_data }}</td>
                     {% endwith %}
-                </td>
 			</tr>
 		{% endfor %}
                 </tbody>
@@ -52,6 +58,8 @@
                 {% endif %}
             </span>
         </div>
-
+        wwww
+        {{ solr_data }}
+        qqqq
 	</body>
 </html>
