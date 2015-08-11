@@ -4,6 +4,7 @@ import requests
 from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 from django.views import generic
 from django.shortcuts import render, redirect
+from django.core.files.storage import default_storage
 from django.views.decorators.csrf import csrf_exempt
 from django.core.files.base import ContentFile
 from django.conf import settings
@@ -14,21 +15,6 @@ from .models import Gene
 class IndexView(generic.TemplateView):
     template_name = 'browser/index.html'
 
-
-    '''
-    def post(self, request):
-        email = request.POST.get("email", "")
-        uploadID = request.POST.get("uploadID", "")
-	fileFormat = request.POST.get("format", "")
-        print "email:"
-        print email
-        print ""
-        print "uploadID:"
-        print uploadID
-        print ""
-        print "format:"
-        print fileFormat
-    '''
 
 class UploadView(generic.TemplateView):
     template_name = "browser/upload.html"
@@ -45,17 +31,11 @@ class UploadFormView(generic.TemplateView):
         fileFormat = request.POST.get("format")
         file = request.FILES['file']
 
-        print "email:"
-        print email
-        print ""
-        print "uploadID:"
-        print uploadID
-        print ""
-        print "format:"
-        print fileFormat
-        print ""
-        print "file:"
-        print file
+        file_path = "browser/userdata/" + uploadID + "/" + file.name
+
+        # TODO: file.read() may not handle files larger than 2.5 MB
+        # Test and develop a more robust solution if needed
+        default_storage.save(file_path, ContentFile(file.read()))
 
         return redirect(reverse('results', args=[uploadID]), foo='bar')
 
