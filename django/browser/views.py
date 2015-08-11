@@ -5,8 +5,9 @@ from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 from django.views import generic
 from django.shortcuts import render, redirect
 from django.views.decorators.csrf import csrf_exempt
+from django.core.files.base import ContentFile
 from django.conf import settings
-
+from django.core.urlresolvers import reverse
 from .models import Gene
 
 
@@ -37,6 +38,27 @@ class UploadView(generic.TemplateView):
 
 
 class UploadFormView(generic.TemplateView):
+
+    def post(self, request):
+        email = request.POST.get("email")
+        uploadID = request.POST.get("uploadID")
+        fileFormat = request.POST.get("format")
+        file = request.FILES['file']
+
+        print "email:"
+        print email
+        print ""
+        print "uploadID:"
+        print uploadID
+        print ""
+        print "format:"
+        print fileFormat
+        print ""
+        print "file:"
+        print file
+
+        return redirect(reverse('results', args=[uploadID]), foo='bar')
+
     def get(self, request): 
         email = request.GET.get("email")
         uploadID = request.GET.get("uploadID")

@@ -9,6 +9,7 @@
 	<body>
 		<h1>Upload and filter variants | Variant Interpreter</h1>
 		<form id="uploadForm" onsubmit="return validateForm();" action="/uploadfile/" method="post" enctype="multipart/form-data"> 
+                {% csrf_token %}
 		<div id="left-col">
 			<fieldset id="email-fieldset">
 				<legend>Email address</legend>
