@@ -4,30 +4,17 @@ import requests
 from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 from django.views import generic
 from django.shortcuts import render, redirect
+from django.core.files.storage import default_storage
 from django.views.decorators.csrf import csrf_exempt
+from django.core.files.base import ContentFile
 from django.conf import settings
-
+from django.core.urlresolvers import reverse
 from .models import Gene
 
 
 class IndexView(generic.TemplateView):
     template_name = 'browser/index.html'
 
-
-    '''
-    def post(self, request):
-        email = request.POST.get("email", "")
-        uploadID = request.POST.get("uploadID", "")
-	fileFormat = request.POST.get("format", "")
-        print "email:"
-        print email
-        print ""
-        print "uploadID:"
-        print uploadID
-        print ""
-        print "format:"
-        print fileFormat
-    '''
 
 class UploadView(generic.TemplateView):
     template_name = "browser/upload.html"
@@ -37,6 +24,21 @@ class UploadView(generic.TemplateView):
 
 
 class UploadFormView(generic.TemplateView):
+
+    def post(self, request):
+        email = request.POST.get("email")
+        uploadID = request.POST.get("uploadID")
+        fileFormat = request.POST.get("format")
+        file = request.FILES['file']
+
+        file_path = "browser/userdata/" + uploadID + "/" + file.name
+
+        # TODO: file.read() may not handle files larger than 2.5 MB
+        # Test and develop a more robust solution if needed
+        default_storage.save(file_path, ContentFile(file.read()))
+
+        return redirect(reverse('results', args=[uploadID]), foo='bar')
+
     def get(self, request): 
         email = request.GET.get("email")
         uploadID = request.GET.get("uploadID")
@@ -63,69 +65,12 @@ class UploadFormView(generic.TemplateView):
         #
         return redirect('ResultsView', uploadID=uploadID)
 
+
 class ResultsView(generic.TemplateView):
     template_name = "browser/results.html"
 
     def get_context_data(self, **kwargs):
         context = super(ResultsView, self).get_context_data()
-
-        context['genes_all'] = Gene.objects.all()[:5]
-
-        context["filters"] = [
-            ["Clinical significance", "Pathogenic"],
-            ["Molecular consequence", "Missense"]
-        ]
-
-        context["genes"] = [
-            {
-                "symbol": "BRCA",
-                "id": "672",
-                "length": "81,189",
-                "pathogenic_variants": "4",
-                "benign_variants": "50",
-                "missense_variants": "3",
-                "synonymous_variants": "130"
-            },
-            {
-                "symbol": "APOE",
-                "id": "348",
-                "length": "3,647",
-                "pathogenic_variants": "0",
-                "benign_variants": "2",
-                "missense_variants": "0",
-                "synonymous_variants": "11"
-            },
-            {
-                "symbol": "MLH1",
-                "id": "4292",
-                "length": "2,662",
-                "pathogenic_variants": "13",
-                "benign_variants": "2",
-                "missense_variants": "10",
-                "synonymous_variants": "0"
-            }
-        ]
-
-        # call to solr
-        url = '{solr_host}/select?' \
-              'q=*%3A*&' \
-              'rows=0&' \
-              'wt=json&' \
-              'indent=true&' \
-              'facet=true&' \
-              'facet.pivot=gene_name_hgnc_s,putative_impact_s&' \
-              'facet.pivot=gene_name_hgnc_s,annotation_s'.format(solr_host=settings.SOLR_HOST)
-        response = requests.request('GET', url)
-
-        solr_data = json.loads(response.content)
-
-        return context
-
-class ResultsPlanBView(generic.TemplateView):
-    template_name = "browser/results_plan_b.html"
-
-    def get_context_data(self, **kwargs):
-        context = super(ResultsPlanBView, self).get_context_data()
 
         # call to solr
         url = '{solr_host}/select?' \
@@ -149,10 +94,19 @@ class ResultsPlanBView(generic.TemplateView):
             annotations = {a['value']: a['count'] for a in g_data['pivot']}
             context['solr_data'][gene] = {'count': count, 'annotations': annotations}
 
+
         for g_data in solr_data['facet_counts']['facet_pivot']['gene_name_hgnc_s,putative_impact_s']:
             gene = g_data['value']
-            impacts = {a['value']: a['count'] for a in g_data['pivot']}
-            context['solr_data'][gene].update({'impacts': impacts})
+            impacts = {'HIGH': 0, 'MODERATE': 0, 'LOW': 0, 'MODIFIER': 0}
+            for impact in g_data["pivot"]:
+                impacts[impact['value']] += impact['count']
+            impact_cols = {
+                'high_impact': impacts['HIGH'],
+                'moderate_impact': impacts['MODERATE'],
+                'low_impact': impacts['LOW'],
+                'modifier_impact': impacts['MODIFIER'],
+            }
+            context['solr_data'][gene].update(impact_cols)
 
         genes_paginator = Paginator(Gene.objects.filter(gene_name__in=context['solr_data'].keys()), 10)
         page = self.request.GET.get('page')

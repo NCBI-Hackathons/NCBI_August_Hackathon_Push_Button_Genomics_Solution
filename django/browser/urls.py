@@ -11,10 +11,8 @@ router.register(r'genes', api_views.GeneViewSet)
 urlpatterns = patterns(
     '',
     url(r'^api/', include(router.urls), name='browser-api'),
-    url(r'^sendform/', html_views.UploadFormView.as_view(), name='uploadform'),
+    url(r'^uploadfile/', html_views.UploadFormView.as_view(), name='uploadform'),
     url(r'^upload/', html_views.UploadView.as_view(), name='upload'),
-    #url(r'^results/', html_views.ResultsView.as_view(), name='results'),
     url(r'^results/(?P<uploadID>[A-Za-z0-9]+)/$', html_views.ResultsView.as_view(), name='results'),
-    url(r'^results_plan_b/(?P<uploadID>[A-Za-z0-9]+)/$', html_views.ResultsPlanBView.as_view(), name='results-plan-b'),
     url('', html_views.IndexView.as_view(), name='index'),
 )
