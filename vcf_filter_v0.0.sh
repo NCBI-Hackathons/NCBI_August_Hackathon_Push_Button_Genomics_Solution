@@ -21,12 +21,11 @@ VARIANTS_TYPES=("SNV" "Insertion" "Deletion" "Indel")
 EFFECT_TYPES=("missense" "nonsense" "synonymous" "frameshift")
 IMPACT_TYPES=("LOW" "MODERATE" "SEVERE")
 
-## Iterate through each argument fed to the script
+## Iterate through each argument fed to the script and classify it in order to deliver it to snpsift
 for (( i=2; i<=$#; i++ )); do
 	eval arg=\$$i
 
 	for each in "${VARIANTS_TYPES[@]}"; do
-
 		if [ "$arg" == "$each" ] ; then
 
 			CMD="VC = '$arg'"
@@ -34,14 +33,9 @@ for (( i=2; i<=$#; i++ )); do
 				VARIANT_CMD="$CMD"
 			else
 				VARIANT_CMD="$VARIANT_CMD $OR_OPERATOR $CMD"
-#				echo java -jar $WRK_DIR/SnpSift.jar filter "VC = '$arg'" $VCF_PATH/$INFILE.$INPUT_SUFFIX > $VCF_PATH/$INFILE.$OUTPUT_SUFFIX
-#				java -jar $WRK_DIR/SnpSift.jar filter "VC = '$arg'" $VCF_PATH/$INFILE.$INPUT_SUFFIX
-#				java -jar $WRK_DIR/SnpSift.jar filter "$FILTER_CMD" $VCF_PATH/$INFILE.$INPUT_SUFFIX
 			fi
 		fi
 	done
-
-
 	for each in "${EFFECT_TYPES[@]}"; do
 
 		if [ "$arg" == "$each" ] ; then
@@ -52,8 +46,6 @@ for (( i=2; i<=$#; i++ )); do
                         else
                                 EFFECT_CMD="$EFFECT_CMD $OR_OPERATOR $CMD"
 			fi
-#			echo java -jar $WRK_DIR/SnpSift.jar filter "$FILTER_CMD" $VCF_PATH/$INFILE.$INPUT_SUFFIX
-#			java -jar $WRK_DIR/SnpSift.jar filter "$FILTER_CMD" $VCF_PATH/$INFILE.$INPUT_SUFFIX > $VCF_PATH/$INFILE.$OUTPUT_SUFFIX
 
 		fi
 	done
@@ -67,17 +59,13 @@ for (( i=2; i<=$#; i++ )); do
                         else
                                 IMPACT_CMD="$EFFECT_CMD $OR_OPERATOR $CMD"
 			fi
-#			echo java -jar $WRK_DIR/SnpSift.jar filter "$FILTER_CMD" $VCF_PATH/$INFILE.$INPUT_SUFFIX
-#			java -jar $WRK_DIR/SnpSift.jar filter "$FILTER_CMD" $VCF_PATH/$INFILE.$INPUT_SUFFIX > $VCF_PATH/$INFILE.$OUTPUT_SUFFIX
-
 		fi
 	done
-
 done
 
+## Consider ((a|b) & (c)) & (d) vs ##(a|b) & (c) & (d)
 
-##(a|b) & (c) & (d)
-##((a|b) & (c)) & (d)
+# Construct the filter command
 for facet in VARIANT_CMD EFFECT_CMD IMPACT_CMD; do
 	eval CMD=\$$facet
 	if [[ -z "$CMD" ]]; then
@@ -87,13 +75,13 @@ for facet in VARIANT_CMD EFFECT_CMD IMPACT_CMD; do
 		if [[ -z "$FILTER_CMD" ]]; then
 			FILTER_CMD="$CMD"
 		else
-#			FILTER_CMD="$OP_OP $FILTER_CMD $CP_OP $AND_OPERATOR $OP_OP $CMD $CP_OP"
 			FILTER_CMD="$FILTER_CMD $AND_OPERATOR $CMD"
 		fi
 	fi
 
 done
 
+# Now call snpsift
 FILTER_CMD="$VARIANT_CMD" " $EFFECT_CMD"
 echo Filter command is "$FILTER_CMD"
 echo java -jar $WRK_DIR/SnpSift.jar filter " $FILTER_CMD " $VCF_PATH/$INFILE.$INPUT_SUFFIX
