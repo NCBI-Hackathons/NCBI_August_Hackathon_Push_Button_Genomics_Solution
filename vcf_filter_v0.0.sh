@@ -86,4 +86,4 @@ FILTER_CMD="$VARIANT_CMD" " $EFFECT_CMD"
 echo Filter command is "$FILTER_CMD"
 echo java -jar $WRK_DIR/SnpSift.jar filter " $FILTER_CMD " $VCF_PATH/$INFILE.$INPUT_SUFFIX
 java -jar $WRK_DIR/SnpSift.jar filter " $FILTER_CMD " $VCF_PATH/$INFILE.$INPUT_SUFFIX  | grep -cv "^#"
-java -jar $WRK_DIR/SnpSift.jar filter " $FILTER_CMD " $VCF_PATH/$INFILE.$INPUT_SUFFIX 
+java -jar $WRK_DIR/SnpSift.jar filter " $FILTER_CMD " $VCF_PATH/$INFILE.$INPUT_SUFFIX > $VCF_PATH/$INFILE.$OUTPUT_SUFFIX
