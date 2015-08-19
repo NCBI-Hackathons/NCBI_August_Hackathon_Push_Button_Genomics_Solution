@@ -57,12 +57,28 @@ for (( i=2; i<=$#; i++ )); do
 
 		fi
 	done
+	for each in "${IMPACT_TYPES[@]}"; do
+
+		if [ "$arg" == "$each" ] ; then
+
+                        CMD="ANN[0].IMPACT has '${arg}'"
+                        if [[ -z "$IMPACT_CMD" ]]; then
+                                IMPACT_CMD="$CMD"
+                        else
+                                IMPACT_CMD="$EFFECT_CMD $OR_OPERATOR $CMD"
+			fi
+#			echo java -jar $WRK_DIR/SnpSift.jar filter "$FILTER_CMD" $VCF_PATH/$INFILE.$INPUT_SUFFIX
+#			java -jar $WRK_DIR/SnpSift.jar filter "$FILTER_CMD" $VCF_PATH/$INFILE.$INPUT_SUFFIX > $VCF_PATH/$INFILE.$OUTPUT_SUFFIX
+
+		fi
+	done
+
 done
 
 
 ##(a|b) & (c) & (d)
 ##((a|b) & (c)) & (d)
-for facet in VARIANT_CMD EFFECT_CMD; do
+for facet in VARIANT_CMD EFFECT_CMD IMPACT_CMD; do
 	eval CMD=\$$facet
 	if [[ -z "$CMD" ]]; then
 		echo "SKIP $facet"
@@ -82,11 +98,4 @@ FILTER_CMD="$VARIANT_CMD" " $EFFECT_CMD"
 echo Filter command is "$FILTER_CMD"
 echo java -jar $WRK_DIR/SnpSift.jar filter " $FILTER_CMD " $VCF_PATH/$INFILE.$INPUT_SUFFIX
 java -jar $WRK_DIR/SnpSift.jar filter " $FILTER_CMD " $VCF_PATH/$INFILE.$INPUT_SUFFIX  | grep -cv "^#"
-#java -jar $WRK_DIR/SnpSift.jar filter " $FILTER_CMD " $VCF_PATH/$INFILE.$INPUT_SUFFIX
-#java -jar $WRK_DIR/SnpSift.jar filter -a $FILTER_CMD $VCF_PATH/$INFILE.$INPUT_SUFFIX > $VCF_PATH/$INFILE.$OUTPUT_SUFFIX
-#java -jar $WRK_DIR/SnpSift.jar filter " \" "  \( $FILTER_CMD \) " \" "  $VCF_PATH/$INFILE.$INPUT_SUFFIX > $VCF_PATH/$INFILE.$OUTPUT_SUFFIX
-#java -jar $WRK_DIR/SnpSift.jar filter  " \" " $FILTER_CMD " \" " $VCF_PATH/$INFILE.$INPUT_SUFFIX > $VCF_PATH/$INFILE.$OUTPUT_SUFFIX
-
-# echo "java -jar $WRK_DIR/SnpSift.jar filter " VC = '$arg' " $VCF_PATH/$INFILE.$INPUT_SUFFIX  > $VCF_PATH/$INFILE.$OUTPUT_SUFFIX"
-# java -jar $WRK_DIR/SnpSift.jar filter "VC = '$arg'" $VCF_PATH/$INFILE.$INPUT_SUFFIX  > $VCF_PATH/$INFILE.$OUTPUT_SUFFIX
-# java -jar  /home/ubuntu/vlaufer/snpeff/snpEff/NCBI_August_Hackathon_Push_Button_Genomics_Solution/SnpSift.jar  filter " CHROM= '22' &  POS > 10000000  " /home/ubuntu/segun/snakemake.testrun/results/dummy_1.annotated.vcf
+java -jar $WRK_DIR/SnpSift.jar filter " $FILTER_CMD " $VCF_PATH/$INFILE.$INPUT_SUFFIX 
